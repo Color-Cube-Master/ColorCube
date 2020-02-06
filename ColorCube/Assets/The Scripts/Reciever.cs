@@ -5,11 +5,12 @@ using UnityEngine;
 public class Reciever : MonoBehaviour
 {
 
-    public float speed = 0.1f;
+    public float speed = 1f;
     Vector3 starpos;
     Vector3 endpos;
     private float startTime;
     private float journeyLength;
+    private float fractionOfJourney;
 
     void Start()
     {
@@ -51,7 +52,10 @@ public class Reciever : MonoBehaviour
         float distCovered = (Time.time - startTime) * speed;
 
         // Fraction of journey completed equals current distance divided by total distance.
-        float fractionOfJourney = distCovered / journeyLength;
+        if(journeyLength!=0)
+        {
+         fractionOfJourney = distCovered / journeyLength;
+        }
 
         // Set our position as a fraction of the distance between the markers.
         transform.position = Vector3.Lerp(starpos, endpos, fractionOfJourney*10);
