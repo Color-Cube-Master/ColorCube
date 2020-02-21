@@ -1,0 +1,1595 @@
+fileFormatVersion: 2
+guid: 269674121b5134e4cb65095bc2256fe8
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid10Mat
+    second: {fileID: 2100000, guid: d04f87d24b8f6954ca2e5f487b4e1c9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid11Mat
+    second: {fileID: 2100000, guid: dec95cd69fb89b34c9372ba13a606308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid12Mat
+    second: {fileID: 2100000, guid: 4673b18dead7efb48835614f7ee2d287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid13Mat
+    second: {fileID: 2100000, guid: ae3b23c6d17b4b54c8400c0b18835d3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid14Mat
+    second: {fileID: 2100000, guid: 9b6ae16b2e0434e40b5406eb8b8950d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid15Mat
+    second: {fileID: 2100000, guid: 4fc767cd3ae91634aaee91792dd5cae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid16Mat
+    second: {fileID: 2100000, guid: 5122ac2371710fa4ab3bd90be30590c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid17Mat
+    second: {fileID: 2100000, guid: 5fe7e9851c3e8dc4aa65185cc04be82c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid18Mat
+    second: {fileID: 2100000, guid: e0aa9db66eecd5449b14a45bdb27af2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid19Mat
+    second: {fileID: 2100000, guid: 293fa45c039f4d647985dd43858a1268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid20Mat
+    second: {fileID: 2100000, guid: 8a40dff82de874b46a297f7db539d5ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid21Mat
+    second: {fileID: 2100000, guid: a6926f346622d7948bf3082f067a8ed5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid22Mat
+    second: {fileID: 2100000, guid: 3d0b31902b167264bb0599dbff631391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid23Mat
+    second: {fileID: 2100000, guid: 27f6ad7f14b717a45aa5b9c9498e7957, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid24Mat
+    second: {fileID: 2100000, guid: 27d06f13911bfa845835c23489267aa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid25Mat
+    second: {fileID: 2100000, guid: 8e9881c640faf344e86483c9694ff3b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid26Mat
+    second: {fileID: 2100000, guid: 91f26b9982db2b2438d1b7c43da9156e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid27Mat
+    second: {fileID: 2100000, guid: 84c1e86cb0f53874c9c4d046d3ae6e07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid28Mat
+    second: {fileID: 2100000, guid: 7b83bbb7eaed74c449dee2125f7e605a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid29Mat
+    second: {fileID: 2100000, guid: 0ce32edaa98bb6d49aaa3686d532757f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid2Mat
+    second: {fileID: 2100000, guid: 2b2f79ff02a4fdc46a1516407b76c60b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid30Mat
+    second: {fileID: 2100000, guid: 861041fb0e921f54cb2552a8d2e215e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid31Mat
+    second: {fileID: 2100000, guid: 71df6d9802ee87742bed4551851f8924, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid32Mat
+    second: {fileID: 2100000, guid: b588b3b0e1654c849842610d9cda736e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid33Mat
+    second: {fileID: 2100000, guid: 39ada8e25e5f2ba43968e8da8f914c23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid34Mat
+    second: {fileID: 2100000, guid: 8c387c23e380faf4bbb078f6f5ed9b8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid35Mat
+    second: {fileID: 2100000, guid: f4fc451fa2fbf6944bec31999702d266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid36Mat
+    second: {fileID: 2100000, guid: 2f72eb347fb7f1e4bacffc2363f18e95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid37Mat
+    second: {fileID: 2100000, guid: ee1fb68d799848a43b882852b7360692, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid38Mat
+    second: {fileID: 2100000, guid: b409068bdfe96444d8c9554ebc96a76c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid39Mat
+    second: {fileID: 2100000, guid: 700eb4713ce747445a510b88041b90f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid3Mat
+    second: {fileID: 2100000, guid: 0a99f932d67209b49a8a0e320c8025e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid40Mat
+    second: {fileID: 2100000, guid: 4210a4cf925b801429f6fe5b87d27ff4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid41Mat
+    second: {fileID: 2100000, guid: 13c8503c08f040341b4b859d8f9cc562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid42Mat
+    second: {fileID: 2100000, guid: 6e1b7c75573d9ab4287471f3a32a6594, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid43Mat
+    second: {fileID: 2100000, guid: 1628663c97b4d7147b07e4ff7041220b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid44Mat
+    second: {fileID: 2100000, guid: f6d92be09f75c14489f26e2136cac1e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid45Mat
+    second: {fileID: 2100000, guid: 5404b9428a711fd40ba5a3444fa95a65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid46Mat
+    second: {fileID: 2100000, guid: 2c5e4aa84adc28d418fe8bd603f4ff79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid47Mat
+    second: {fileID: 2100000, guid: c84e7957fb49b3b4182f8b3844eeb915, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid48Mat
+    second: {fileID: 2100000, guid: e8194962dcb07d746a3bfe544a618b6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid49Mat
+    second: {fileID: 2100000, guid: cbe57997b92a0d244b313dd0bd026af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid4Mat
+    second: {fileID: 2100000, guid: 8c0ea25dfd7d47c459fcaf0765e0350f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid50Mat
+    second: {fileID: 2100000, guid: 5cd1fee5e01a8494abfde9cc965563d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid51Mat
+    second: {fileID: 2100000, guid: b5923893a1e8b884ba3e5ab5302d6158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid52Mat
+    second: {fileID: 2100000, guid: 0a6c1a17cd57e9f4aa3328f0b93655e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid53Mat
+    second: {fileID: 2100000, guid: ddaae8f944b62bc4f858b3b62d8d61e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid54Mat
+    second: {fileID: 2100000, guid: 5b5a61c8a8dab1b428fc6530aa0feaec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid55Mat
+    second: {fileID: 2100000, guid: c0765ef20f61be847bb8c1a9cf562601, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid56Mat
+    second: {fileID: 2100000, guid: dbfa5499b0985434daf26fe053c747fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid57Mat
+    second: {fileID: 2100000, guid: 58578780ecf26e646b3ef6f8170281cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid58Mat
+    second: {fileID: 2100000, guid: 49fe55f5297925149b19ba22e7624dfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid59Mat
+    second: {fileID: 2100000, guid: 3439a6442a485dc4f973a75053971d04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid5Mat
+    second: {fileID: 2100000, guid: 05f60b3f6d52ada48928b4d29a01142e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid60Mat
+    second: {fileID: 2100000, guid: 6e30f158f2273a94399725b8a6debcab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid6Mat
+    second: {fileID: 2100000, guid: 9a33796ec1d0978469ce3d3b3f5681fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid7Mat
+    second: {fileID: 2100000, guid: 7c4ddc05ff0ee924f815ec88cf8688c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid8Mat
+    second: {fileID: 2100000, guid: c9b9579383876a741ba0be5cdd7c30c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atoms_buckyball_pSolid9Mat
+    second: {fileID: 2100000, guid: 8da2dfb4558cba54794409ca0183fa53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly100Mat
+    second: {fileID: 2100000, guid: 8be856bab94bcf647bf06776250c370a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly101Mat
+    second: {fileID: 2100000, guid: 3101e5891185e294789b76e7dc98daaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly102Mat
+    second: {fileID: 2100000, guid: 0b4caf132601fd14881430f1eb8e4a0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly103Mat
+    second: {fileID: 2100000, guid: 362112fcccca3cc4b9b840bc4becf7b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly104Mat
+    second: {fileID: 2100000, guid: 17ca64e6d27a12e4e9f958100012dc46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly105Mat
+    second: {fileID: 2100000, guid: 89929f05a0e87ba4dbf935fc907f47a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly106Mat
+    second: {fileID: 2100000, guid: 32f954525ad0aca408787005c5dbad2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly107Mat
+    second: {fileID: 2100000, guid: 37f38dc5e29abdc458682b6d202ec073, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly108Mat
+    second: {fileID: 2100000, guid: 1603664f12831c348ad315affe550bd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly109Mat
+    second: {fileID: 2100000, guid: 6c10ae89a470e6141973812de8ca6dbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly10Mat
+    second: {fileID: 2100000, guid: 0af15334f184898408d31edb2558b266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly110Mat
+    second: {fileID: 2100000, guid: 0ab192d55097d8b47b4b92bddde20265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly111Mat
+    second: {fileID: 2100000, guid: 8ef5936632b58a14ba5a146fe85b1c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly112Mat
+    second: {fileID: 2100000, guid: 048298d75c821bb4e9bf8de05c331661, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly113Mat
+    second: {fileID: 2100000, guid: 3df2103ef281e834da153ee04418bb65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly114Mat
+    second: {fileID: 2100000, guid: f948e9fe11508c143ad6aab6fc0ff671, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly115Mat
+    second: {fileID: 2100000, guid: df6e1a16801258943b495fb2188649b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly116Mat
+    second: {fileID: 2100000, guid: 1017a8ede526f6742a5c5725cfa11af1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly117Mat
+    second: {fileID: 2100000, guid: 1c78b0fe7856d1b4aa9f8942daf6c007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly118Mat
+    second: {fileID: 2100000, guid: c871de1d980b5f445a8f7c68a49c726c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly119Mat
+    second: {fileID: 2100000, guid: fffa6149bbb9d3540bb52a94a183e2f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly11Mat
+    second: {fileID: 2100000, guid: f55e2844f4e90df4e8427d7869863c4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly120Mat
+    second: {fileID: 2100000, guid: 44fed2e876fd49049854d12e132bc55c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly121Mat
+    second: {fileID: 2100000, guid: 4eb63bb34cb7ed440b12537ecfdf1767, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly122Mat
+    second: {fileID: 2100000, guid: 706dc9178bee6db48b5212e013664256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly123Mat
+    second: {fileID: 2100000, guid: 9941628ccd4159941be5b4208a08deaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly124Mat
+    second: {fileID: 2100000, guid: f73cec4438f55ce4e8b67a81ec573935, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly125Mat
+    second: {fileID: 2100000, guid: 5532716e0d014b94689f8a8d0c3778e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly126Mat
+    second: {fileID: 2100000, guid: c3359daae41b4774a990740b9ba0c5c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly127Mat
+    second: {fileID: 2100000, guid: 0f860f07ba1a73144a4b3d13c9193927, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly128Mat
+    second: {fileID: 2100000, guid: d74463335dfdf15448a165668a2b90f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly129Mat
+    second: {fileID: 2100000, guid: 70f5e1683ea265a4da8c78bc98e6a399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly12Mat
+    second: {fileID: 2100000, guid: 6dba5435110cec741a0ca5ead97cbcf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly130Mat
+    second: {fileID: 2100000, guid: 3f65d22bdef699547a0472967d930925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly131Mat
+    second: {fileID: 2100000, guid: cac2d00d941e2f6469d165c69ea2c4a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly132Mat
+    second: {fileID: 2100000, guid: d8a85023d34d67742810ce05d74672a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly133Mat
+    second: {fileID: 2100000, guid: 790a5c56c8d2fa94898f78ae4a95ea6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly134Mat
+    second: {fileID: 2100000, guid: 2622d60d12da8ba40bf443372eabcc7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly135Mat
+    second: {fileID: 2100000, guid: 8caa861f4cd7b4649a9ce9c7f2b6045b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly136Mat
+    second: {fileID: 2100000, guid: 0a6cb4d5fa9dc22478a0d434aa4f556a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly137Mat
+    second: {fileID: 2100000, guid: 7c15fb5740e2ca84ebf4c4e65a34fe27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly138Mat
+    second: {fileID: 2100000, guid: 6d64bcb652470184a805e55e52b8dee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly139Mat
+    second: {fileID: 2100000, guid: 58a32297fa0625244aa6288699df51ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly13Mat
+    second: {fileID: 2100000, guid: e378ddc48ec6bb443bdcd6495d55afce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly140Mat
+    second: {fileID: 2100000, guid: 9c0fa47b090a5af488b61ffa79fe5c73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly141Mat
+    second: {fileID: 2100000, guid: 084802ad2d7927d4ba6a38cae876a7f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly142Mat
+    second: {fileID: 2100000, guid: 20ca1e166acd3cd42b078ef50751fb98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly143Mat
+    second: {fileID: 2100000, guid: d406e55e2128de84e9958ddcb6d09d65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly144Mat
+    second: {fileID: 2100000, guid: 0087fb8d84c35e14096dcebca96785e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly145Mat
+    second: {fileID: 2100000, guid: 90ee9704ed8cfab439f7653cbdbf1128, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly146Mat
+    second: {fileID: 2100000, guid: 4d501bfc52f406e4b82879eb75168207, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly147Mat
+    second: {fileID: 2100000, guid: f75b6a755e0dd334c8b0bfaf30134ff6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly148Mat
+    second: {fileID: 2100000, guid: 10fa1330b6a29e946b46217399c291f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly149Mat
+    second: {fileID: 2100000, guid: bb3a964bde2d5fb418858f6378561c86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly14Mat
+    second: {fileID: 2100000, guid: 50b823949a769e445ad6ef1e16e620dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly150Mat
+    second: {fileID: 2100000, guid: 22817947042211340aa7711549218b13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly151Mat
+    second: {fileID: 2100000, guid: e574a84f1fe458146ab53410589dee69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly152Mat
+    second: {fileID: 2100000, guid: 54856ad577eff2640854b178d81a998e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly153Mat
+    second: {fileID: 2100000, guid: cb771a624a0f17348982f2f0a59288f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly154Mat
+    second: {fileID: 2100000, guid: deec00638c68c854bb82158c411a329d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly155Mat
+    second: {fileID: 2100000, guid: eb5e8ae3117f5da40b6863f443fa1871, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly156Mat
+    second: {fileID: 2100000, guid: 4b484c4f12ec87b49b9fb9ac62d9c6ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly157Mat
+    second: {fileID: 2100000, guid: 83c3eb43acc1b084089fd6be6f973b58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly158Mat
+    second: {fileID: 2100000, guid: 87db02f604f29d244bbf8fb87849d1d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly159Mat
+    second: {fileID: 2100000, guid: 7882e0332af3bdd4db5e77cb4f3a5a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly15Mat
+    second: {fileID: 2100000, guid: da071be30d5fb0c4193d4cfd6e43946a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly160Mat
+    second: {fileID: 2100000, guid: 5cc02e212ec169e4296a2dbbea244ecd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly161Mat
+    second: {fileID: 2100000, guid: 12683e5227677f04b90db95a924abe64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly162Mat
+    second: {fileID: 2100000, guid: f7686151c4456364586c6407dfac51ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly163Mat
+    second: {fileID: 2100000, guid: 38596fa54cfbb5e4f8e20341b7c990e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly164Mat
+    second: {fileID: 2100000, guid: 037bc0137dcd74e4282c10a05ef8d9dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly165Mat
+    second: {fileID: 2100000, guid: 5dacf5e370648df48be672da4aa9916c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly166Mat
+    second: {fileID: 2100000, guid: 7ca0c131cc1979b489d0c8eafa2fbea0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly167Mat
+    second: {fileID: 2100000, guid: b067c50181380f84f85f55f71598ee7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly168Mat
+    second: {fileID: 2100000, guid: bcd06db47a9e5884b85e7e92600cf4a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly169Mat
+    second: {fileID: 2100000, guid: bd57e398bcc4c5548b57c8a725c4208b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly16Mat
+    second: {fileID: 2100000, guid: 0d99c84780d58454ab1e4b5920944221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly170Mat
+    second: {fileID: 2100000, guid: f4acb4d724b078d44bf7062776b7778b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly171Mat
+    second: {fileID: 2100000, guid: 8010369b51cf3d7438393ee518a94486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly172Mat
+    second: {fileID: 2100000, guid: 0f74a9234c302e4469143914f056d956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly173Mat
+    second: {fileID: 2100000, guid: a25778df132b03c448663fd14dff73a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly174Mat
+    second: {fileID: 2100000, guid: c322bf81bd878c444a7e06b8a14293ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly175Mat
+    second: {fileID: 2100000, guid: 1d2d2824c8576a9429337467f078adfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly176Mat
+    second: {fileID: 2100000, guid: 57c4dbbf3e929ff4a9ac0540baa0f92b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly177Mat
+    second: {fileID: 2100000, guid: 48e7593bc8afb454fb65c94bf263376c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly178Mat
+    second: {fileID: 2100000, guid: 8e46373de8e75ff4b9e5f233e2e1083c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly179Mat
+    second: {fileID: 2100000, guid: 8cd3790bde5b3054295a60e075641427, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly17Mat
+    second: {fileID: 2100000, guid: 3eeeae098387e73409ab58e2badd77cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly180Mat
+    second: {fileID: 2100000, guid: b4fcf48192a0ef1449e75dfec48c8360, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly181Mat
+    second: {fileID: 2100000, guid: 6905488cdf620f443be658ed657253f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly182Mat
+    second: {fileID: 2100000, guid: 62f27b41b5b6a9d4088bd371c92eff6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly183Mat
+    second: {fileID: 2100000, guid: 2a4fdf0fca4054b48b10f8b007f62434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly184Mat
+    second: {fileID: 2100000, guid: c74c609830c392b45b2583855672c034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly185Mat
+    second: {fileID: 2100000, guid: 37e5b334f30e8c5498507da4d2574f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly186Mat
+    second: {fileID: 2100000, guid: f0f0e134f05e5e44f84c29be3f9e63d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly187Mat
+    second: {fileID: 2100000, guid: 29f1bd14a5d30364982c5ce917cd59d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly188Mat
+    second: {fileID: 2100000, guid: 694d209e3ea6361439b393f8d4c5a2f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly189Mat
+    second: {fileID: 2100000, guid: ac8441ecbcdf80940932987253eec735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly18Mat
+    second: {fileID: 2100000, guid: 2aedf8c680a3c914e9b6e41dfb332016, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly190Mat
+    second: {fileID: 2100000, guid: 887c67e563edbcf48997cb8e4ec354b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly191Mat
+    second: {fileID: 2100000, guid: 402fe775315c8494fb9c9b327f7e4f1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly192Mat
+    second: {fileID: 2100000, guid: 5a4997219859dd248b7653b445d5cbf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly193Mat
+    second: {fileID: 2100000, guid: b034dc8bae2827a4ba3e9163976e7a95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly194Mat
+    second: {fileID: 2100000, guid: b72c0592b2164f84981ea965664b9508, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly195Mat
+    second: {fileID: 2100000, guid: 9b9701209ae27fb48a9e229f6348b154, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly196Mat
+    second: {fileID: 2100000, guid: 7f0d607245e43a449be04d7e190ccd34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly197Mat
+    second: {fileID: 2100000, guid: 59de0d0cf05e4c94eaa639bb9b9e70d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly198Mat
+    second: {fileID: 2100000, guid: 5e838f4cc8e2e1040832f44ea2fe7074, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly199Mat
+    second: {fileID: 2100000, guid: 2027ff1a2f3b2da4ea4ad52f2695f910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly19Mat
+    second: {fileID: 2100000, guid: 454849240f32c92418d678f9f6478d5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly200Mat
+    second: {fileID: 2100000, guid: 10c3f509b379ced42bec47055abfb182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly201Mat
+    second: {fileID: 2100000, guid: 96e4eb1d81ffe394b932d0f5705c0e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly202Mat
+    second: {fileID: 2100000, guid: 4ba1f35d15a4e454086389538c3e4073, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly203Mat
+    second: {fileID: 2100000, guid: e50482673bda3e84580ac1e5cc830e0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly204Mat
+    second: {fileID: 2100000, guid: 52e83851cb5613e4ca5d39674255d1f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly205Mat
+    second: {fileID: 2100000, guid: 2df429e04395da44fb0a0aa2e8beac2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly206Mat
+    second: {fileID: 2100000, guid: 040bd42544e322f419b867a58c8d313c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly207Mat
+    second: {fileID: 2100000, guid: ec953d090826fe94d86761b47b99c835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly208Mat
+    second: {fileID: 2100000, guid: 31aa8426977ef5f4f9c916ba6e71f88a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly209Mat
+    second: {fileID: 2100000, guid: 27980fbf0bc801f4a95fef649675f38f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly20Mat
+    second: {fileID: 2100000, guid: 2a7be3741b9c8d54aaf765b473ab15da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly210Mat
+    second: {fileID: 2100000, guid: 21f21323105f9414487f9e12ba535f30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly211Mat
+    second: {fileID: 2100000, guid: db9fdbf8892ece545b1f0e4a807dbbd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly212Mat
+    second: {fileID: 2100000, guid: 9a5caf7502dee7b428c3af5f75afacc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly213Mat
+    second: {fileID: 2100000, guid: 5b9b0e7a6795e0742b5a1ad4c3bf2be9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly214Mat
+    second: {fileID: 2100000, guid: 1d9d62ad949c76346b230c1f08c8a237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly215Mat
+    second: {fileID: 2100000, guid: b45096e91b4910c4b92acedac9a493b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly216Mat
+    second: {fileID: 2100000, guid: 28ec3c8e1e4c7c74faad8d30c3f9a725, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly217Mat
+    second: {fileID: 2100000, guid: c15d496a8ed05ea49a72f659658307a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly218Mat
+    second: {fileID: 2100000, guid: ee77dace90bb1854eb467110f9f40d1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly219Mat
+    second: {fileID: 2100000, guid: a746aea21a990844ebffd844c7802377, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly21Mat
+    second: {fileID: 2100000, guid: 557480bf5eef33442b7ddd54283926dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly220Mat
+    second: {fileID: 2100000, guid: 3e84cb3d94e160240a2ba6b143dea93c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly221Mat
+    second: {fileID: 2100000, guid: 4ba053aa04c4b4b40bc59f0df570a5c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly222Mat
+    second: {fileID: 2100000, guid: 68bf46c82e48a9a4dabe4608d02430ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly223Mat
+    second: {fileID: 2100000, guid: afb9f6cfde3b1ca43911846383cc228b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly224Mat
+    second: {fileID: 2100000, guid: 28a15e33d34a3e74e86e6ed5cf3d2242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly225Mat
+    second: {fileID: 2100000, guid: b158e5e723b28aa49988b035bbad130f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly226Mat
+    second: {fileID: 2100000, guid: 841c6ecd422ccdc4f8144ca9189e20b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly227Mat
+    second: {fileID: 2100000, guid: 89a3635de67a7864c8b6eb964a459cdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly228Mat
+    second: {fileID: 2100000, guid: b7dd4859c7fcd7c4884debe950c3957e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly229Mat
+    second: {fileID: 2100000, guid: 4ed2a99e2517a734db57756520826de6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly22Mat
+    second: {fileID: 2100000, guid: 561c1f84b9547034188102498175d3e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly230Mat
+    second: {fileID: 2100000, guid: b56d8d9464c2c6644bb62e95035251d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly231Mat
+    second: {fileID: 2100000, guid: 5d13f64db7ea01f43ba09559be29583a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly232Mat
+    second: {fileID: 2100000, guid: fbe42551934335f46bfad49f19b2a84b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly233Mat
+    second: {fileID: 2100000, guid: b2cf201902f5ef34f9233377400dd4a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly234Mat
+    second: {fileID: 2100000, guid: 925698f1830a04745b9846dd1b4e884d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly235Mat
+    second: {fileID: 2100000, guid: 992e34159df276f4f83cbb6f29d26f46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly236Mat
+    second: {fileID: 2100000, guid: ae8a287e35ac1ed46922d7ed2bca98ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly237Mat
+    second: {fileID: 2100000, guid: 2f1abd92463fce540b0ddaa73d2c5514, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly238Mat
+    second: {fileID: 2100000, guid: 25c70aa475c2c5b4b8e5a15338d071d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly239Mat
+    second: {fileID: 2100000, guid: fd7e178678bf4d84b941de833fedb598, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly23Mat
+    second: {fileID: 2100000, guid: cd61508b1c56a0b4e911acd41e55ff99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly240Mat
+    second: {fileID: 2100000, guid: a58999d6513583a4a9b62d2328fc332a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly24Mat
+    second: {fileID: 2100000, guid: 3aa8bf694ae7c29478d94a79dfb79796, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly25Mat
+    second: {fileID: 2100000, guid: 1404c64e3ff58104ea5c9b2fe2ba0baf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly26Mat
+    second: {fileID: 2100000, guid: 041b0e147f4620d4396f6d9b986a4989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly27Mat
+    second: {fileID: 2100000, guid: 50824724e9ae45249a286e7270c19fee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly28Mat
+    second: {fileID: 2100000, guid: 114579923cdf28442932958aa90e0c7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly29Mat
+    second: {fileID: 2100000, guid: ddf610f85bc648d439a2b78acb450011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly2Mat
+    second: {fileID: 2100000, guid: 9eb6681255c2fda469eb7eefa235fb2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly30Mat
+    second: {fileID: 2100000, guid: 5bafa14cf01a5fb4cb3d2f83a19689de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly31Mat
+    second: {fileID: 2100000, guid: c52751a661691a744b213218a60dce63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly32Mat
+    second: {fileID: 2100000, guid: d0e667965d941b3449daf5ceb6b40dd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly33Mat
+    second: {fileID: 2100000, guid: 35eb99180a256744bafce28451a3399b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly34Mat
+    second: {fileID: 2100000, guid: 40026ba07e9e3d34e9c1407892d9368e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly35Mat
+    second: {fileID: 2100000, guid: 0067198306b37684f97da5b08577ee37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly36Mat
+    second: {fileID: 2100000, guid: bef032b923ca97842b95829d52b95b95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly37Mat
+    second: {fileID: 2100000, guid: 2dfe714b14d763c49a4c173dea2840d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly38Mat
+    second: {fileID: 2100000, guid: 55d806c068cb23c498bdd3095826286b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly39Mat
+    second: {fileID: 2100000, guid: 2bd57f0c8d7ad094ea2b08456ce358cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly3Mat
+    second: {fileID: 2100000, guid: 3040cd6c7ae5d1c4891406b55a42c97f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly40Mat
+    second: {fileID: 2100000, guid: 2408d7d932ac6ad4daa4fed6524dc2e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly41Mat
+    second: {fileID: 2100000, guid: 2bd67169107be9b408fe5f8f719a367b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly42Mat
+    second: {fileID: 2100000, guid: 227779eb5cfbe7f4b8e51fb92f0f274c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly43Mat
+    second: {fileID: 2100000, guid: 257fe035327f6f8458a6eedefead3282, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly44Mat
+    second: {fileID: 2100000, guid: 3977d6adf22a2094797944ac9a96b210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly45Mat
+    second: {fileID: 2100000, guid: f6e5af3516315874192bc312d09234be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly46Mat
+    second: {fileID: 2100000, guid: 4029a817988451149a6a234cac2debf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly47Mat
+    second: {fileID: 2100000, guid: 4ba1577c3a560854d9cbee24fa01da14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly48Mat
+    second: {fileID: 2100000, guid: 3964b0a2cb523384db3b917cf88c9eee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly49Mat
+    second: {fileID: 2100000, guid: f931ce11e34d6474397c314683eab0e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly4Mat
+    second: {fileID: 2100000, guid: d04355e37c5d1ec4a81d3f0db8242d82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly50Mat
+    second: {fileID: 2100000, guid: 76c87d5ffa7efab489bca5ec0fd2d6f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly51Mat
+    second: {fileID: 2100000, guid: ab60889c4a6fa8d47be2348a4d0a77a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly52Mat
+    second: {fileID: 2100000, guid: 964530ff565ed62489b3612620232319, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly53Mat
+    second: {fileID: 2100000, guid: 0d1b86392b9c7c4489075b08db9d48f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly54Mat
+    second: {fileID: 2100000, guid: 9d3037568871e034aa207d58dc04bfe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly55Mat
+    second: {fileID: 2100000, guid: b792e1a79c21c9b4abec755b027c315b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly56Mat
+    second: {fileID: 2100000, guid: 672e3d2079a422a4c8d29c1ec2731cb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly57Mat
+    second: {fileID: 2100000, guid: f76baedb8c9d2494587ed759eadf0378, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly58Mat
+    second: {fileID: 2100000, guid: 9a799eafa9abbe845b0d41a1feb379e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly59Mat
+    second: {fileID: 2100000, guid: 71aa47f5509091e429ae2b955c179512, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly5Mat
+    second: {fileID: 2100000, guid: a43fa2a41b31b634cb8daa2fe9151f4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly60Mat
+    second: {fileID: 2100000, guid: 308e2c2afb561c54a811c41d14518f6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly61Mat
+    second: {fileID: 2100000, guid: f758dca9d7d410e40b8700e72812a0e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly62Mat
+    second: {fileID: 2100000, guid: eca0f2d3311d18f4abec5ec63f3faab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly63Mat
+    second: {fileID: 2100000, guid: e81effb799a53664488919abb0b17dd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly64Mat
+    second: {fileID: 2100000, guid: 119ef41c766b67e4f90175971c5d9083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly65Mat
+    second: {fileID: 2100000, guid: 4c39ff91b25af9d4bb34d7e249ca066c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly66Mat
+    second: {fileID: 2100000, guid: 5a63497768d518f4690a16e575810062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly67Mat
+    second: {fileID: 2100000, guid: 95a5f6c54ece0d0468a50f2a4b8e99d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly68Mat
+    second: {fileID: 2100000, guid: 48f0e3ed2f9d1d24db1b70fb8b40e079, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly69Mat
+    second: {fileID: 2100000, guid: 45eb77464eecb0648becc452ca8af890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly6Mat
+    second: {fileID: 2100000, guid: ddf6c6a20a1a4ed48a46219f8a9e588b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly70Mat
+    second: {fileID: 2100000, guid: 2cb5e507010966547bd9341d0ae2b4ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly71Mat
+    second: {fileID: 2100000, guid: 0e390b9dd8a0afc45a494dd24302c35a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly72Mat
+    second: {fileID: 2100000, guid: 8e04ad9c70423e4409f396a35f0c6e56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly73Mat
+    second: {fileID: 2100000, guid: 32590128c35d586429f194f53034a0bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly74Mat
+    second: {fileID: 2100000, guid: 5ddae750cc251304988696848dfab3e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly75Mat
+    second: {fileID: 2100000, guid: 9388789b1e793a64489944b7eeb79e5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly76Mat
+    second: {fileID: 2100000, guid: e1519df5253e0914fa05c3e52dee4287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly77Mat
+    second: {fileID: 2100000, guid: 3aaf83423eb30a84286d5904ce15bb7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly78Mat
+    second: {fileID: 2100000, guid: 94cfa06b68001e6428ea632efeb902d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly79Mat
+    second: {fileID: 2100000, guid: c884b7a09bf73b74fb5cb32fe3d29a63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly7Mat
+    second: {fileID: 2100000, guid: b8250c452029e4540a774490aa7517ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly80Mat
+    second: {fileID: 2100000, guid: 4319ffef7a573bc48abc525d9db72624, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly81Mat
+    second: {fileID: 2100000, guid: b260e9c8540666d48a8a89ee916e3a24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly82Mat
+    second: {fileID: 2100000, guid: b59c1a0e81aeb6f4e9ef05f9bcfea555, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly83Mat
+    second: {fileID: 2100000, guid: ce2052bdb9da24c4d85deb8929bb87c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly84Mat
+    second: {fileID: 2100000, guid: dca1b17bcfc67a24b8a4f31de119f027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly85Mat
+    second: {fileID: 2100000, guid: a79c8cf6e757a7c4989460760c4fb63d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly86Mat
+    second: {fileID: 2100000, guid: 1310e8856367f8341b2662880a797ddc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly87Mat
+    second: {fileID: 2100000, guid: 55cf3f81e09bfb444804cef383f6f9e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly88Mat
+    second: {fileID: 2100000, guid: d8600b7ba6cd1294097fb25e8cf1f80f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly89Mat
+    second: {fileID: 2100000, guid: b50de8cdf327f894e9fa15582519c73b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly8Mat
+    second: {fileID: 2100000, guid: 999dcf5ad7f6202479312ed7df23c504, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly90Mat
+    second: {fileID: 2100000, guid: e30449d47bacaf1408d679683e9e46a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly91Mat
+    second: {fileID: 2100000, guid: c91c2c1eac4a8d64a8ef97235dd3bba6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly92Mat
+    second: {fileID: 2100000, guid: c01720556117bd74c9fb8c309e0aead3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly93Mat
+    second: {fileID: 2100000, guid: 4bea8d36ff7bfee4292e5ad678d3a6f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly94Mat
+    second: {fileID: 2100000, guid: 0cd9ced61bd49584db3d6869252c7aed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly95Mat
+    second: {fileID: 2100000, guid: 394ae19a0b2ef514abbc4b732d81ac18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly96Mat
+    second: {fileID: 2100000, guid: ff074fa36cce14b419f90b3df5323c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly97Mat
+    second: {fileID: 2100000, guid: e872de1c11f00964e9bb2694d50edaf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly98Mat
+    second: {fileID: 2100000, guid: ef0ab6344e41e9845ae627f0971f399d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly99Mat
+    second: {fileID: 2100000, guid: 00cc8d861df670a46b1de0be067ae16c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_bonds_nurbsToPoly9Mat
+    second: {fileID: 2100000, guid: 8fadbe23a48819041883806aa79559ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckyball_nurbsToPoly1_bondsMat
+    second: {fileID: 2100000, guid: 4131d0ee5ad952b4bb847ed6ce5ede30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pSolid1_atoms_buckyballMat
+    second: {fileID: 2100000, guid: a665a49342a9e2649a451a89875bd054, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
