@@ -9,12 +9,14 @@ public class LevelSpawner : MonoBehaviour
     public Map[] level;
     public float spawnSpeed = 0;
     public static int k;
+    public static int r;
+    //public static int eh;
 
     void Start()
     {
         
         StartCoroutine(SpawnLevel());
-
+        
     }
     void Update()
     {
@@ -39,10 +41,11 @@ public class LevelSpawner : MonoBehaviour
         Map grid = level[k];
 
 
-        int cordx = grid.xprefabs[0].cordx;
-        int cordY = grid.xprefabs[0].cordY;
-        int cordx1 = grid.xprefabs[1].cordx;
-        int cordY1 = grid.xprefabs[1].cordY;
+        int cordx = grid.xprefabs[r].cordx;
+        int cordY = grid.xprefabs[r].cordY;
+        int xlength= grid.xprefabs.Length;
+       /* int cordx1 = grid.xprefabs[1].cordx;
+        int cordY1 = grid.xprefabs[1].cordY;*/
 
 
 
@@ -56,20 +59,24 @@ public class LevelSpawner : MonoBehaviour
             {
                 yield return new WaitForSeconds(spawnSpeed);
                 /*Instantiate(Resources.Load("Cube", typeof(GameObject))) as GameObject;*/
-                GameObject sandouk = Instantiate(grid.prefab) as GameObject;
+                 GameObject sandouk = Instantiate(grid.prefab) as GameObject;
                 sandouk.transform.position = new Vector3(j * 1f, i * -1f, 0);
 
                 {
-                    if (sandouk.transform.position.x == cordx & sandouk.transform.position.y == cordY)
+                   /* if (sandouk.transform.position.x == cordx & sandouk.transform.position.y == cordY)
                     {
                         Debug.Log("this is from matrice number  " + k + " sandouk with the cord x =  " + cordx + " et cord y = " + cordY);
                         Destroy(sandouk);
-                    }
-                    if (sandouk.transform.position.x == cordx1 & sandouk.transform.position.y == cordY1)
+                        
+                    }*/
+                    
+                    DespawnSandouk(sandouk , cordx , cordY, r, xlength, k);
+
+                    /*if (sandouk.transform.position.x == cordx1 & sandouk.transform.position.y == cordY1)
                     {
                         Debug.Log("this is from matrice number  " + k + " sandouk with the cord x =  " + cordx1 + " et cord y = " + cordY1);
                         Destroy(sandouk);
-                    }
+                    }*/
 
                 }
             }
@@ -79,7 +86,26 @@ public class LevelSpawner : MonoBehaviour
             k++;
         else
         { k = 0; }
+       /* if (eh < xlength)
+            r++;
+        else
+        { eh = 0; }*/
+       
+       
+        
     }
+     void DespawnSandouk(GameObject sndk ,int crdx , int crdy ,int counter , int l, int elk)
+        {
+            while ((sndk.transform.position.x == crdx & sndk.transform.position.y == crdy) & (counter<l))
+                    {
+                        Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + crdx + " et cord y = " + crdy);
+                        Destroy(sndk);
+
+                        counter++;
+                        
+                        
+                    }
+        }  
    
 }
                 

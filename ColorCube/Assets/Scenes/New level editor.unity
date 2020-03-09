@@ -243,20 +243,18 @@ MonoBehaviour:
   level:
   - x: 5
     Y: 5
-    prefab: {fileID: 100006, guid: 8dbc6a47cc6ff6d41afdcb73e6c70e2c, type: 3}
+    prefab: {fileID: 1687779245630262, guid: 174fa5bcb7ab0eb4a9478d28ee22658a, type: 3}
     xprefabs:
     - cordx: 1
       cordY: -1
-    - cordx: 3
+    - cordx: 2
       cordY: -3
-  - x: 6
-    Y: 6
-    prefab: {fileID: 100006, guid: 8dbc6a47cc6ff6d41afdcb73e6c70e2c, type: 3}
+  - x: 5
+    Y: 5
+    prefab: {fileID: 1625326536964604, guid: eaa736260efc73e4fb60bb40da05c9cc, type: 3}
     xprefabs:
     - cordx: 1
       cordY: -1
-    - cordx: 3
-      cordY: -3
   spawnSpeed: 0.01
 --- !u!4 &1742204090
 Transform:
@@ -349,7 +347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044325301}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.19, z: -10}
+  m_LocalPosition: {x: -1.44, y: -2.07, z: -9.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
