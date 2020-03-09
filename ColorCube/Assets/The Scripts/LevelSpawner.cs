@@ -41,8 +41,9 @@ public class LevelSpawner : MonoBehaviour
         Map grid = level[k];
 
 
-        int cordx = grid.xprefabs[r].cordx;
-        int cordY = grid.xprefabs[r].cordY;
+        //int cordx = grid.xprefabs[r].cordx;
+        //int cordY = grid.xprefabs[r].cordY;
+        
         int xlength= grid.xprefabs.Length;
        /* int cordx1 = grid.xprefabs[1].cordx;
         int cordY1 = grid.xprefabs[1].cordY;*/
@@ -70,7 +71,8 @@ public class LevelSpawner : MonoBehaviour
                         
                     }*/
                     
-                    DespawnSandouk(sandouk , cordx , cordY, r, xlength, k);
+                    DespawnSandouk(sandouk , grid, ref r, xlength, k);
+                    
 
                     /*if (sandouk.transform.position.x == cordx1 & sandouk.transform.position.y == cordY1)
                     {
@@ -93,20 +95,24 @@ public class LevelSpawner : MonoBehaviour
        
        
         
+   
     }
-     void DespawnSandouk(GameObject sndk ,int crdx , int crdy ,int counter , int l, int elk)
+     void DespawnSandouk(GameObject sndk , Map grd , ref int counter , int l, int elk)
         {
-            while ((sndk.transform.position.x == crdx & sndk.transform.position.y == crdy) & (counter<l))
+            while ((sndk.transform.position.x == grd.xprefabs[counter].cordx & 
+            sndk.transform.position.y ==grd.xprefabs[counter].cordY) 
+            & (counter<l+1))
                     {
-                        Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + crdx + " et cord y = " + crdy);
+                        Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + grd.xprefabs[counter].cordx + " et cord y = " + grd.xprefabs[counter].cordY);
                         Destroy(sndk);
+                        Debug.Log("Counter=" +counter);
+                        Debug.Log("r=" +r);
 
                         counter++;
                         
                         
                     }
         }  
-   
 }
                 
             

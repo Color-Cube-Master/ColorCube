@@ -243,18 +243,20 @@ MonoBehaviour:
   level:
   - x: 5
     Y: 5
-    prefab: {fileID: 1687779245630262, guid: 174fa5bcb7ab0eb4a9478d28ee22658a, type: 3}
+    prefab: {fileID: 100006, guid: 8dbc6a47cc6ff6d41afdcb73e6c70e2c, type: 3}
     xprefabs:
     - cordx: 1
       cordY: -1
     - cordx: 2
       cordY: -3
-  - x: 5
-    Y: 5
-    prefab: {fileID: 1625326536964604, guid: eaa736260efc73e4fb60bb40da05c9cc, type: 3}
+  - x: 6
+    Y: 6
+    prefab: {fileID: 100006, guid: 8dbc6a47cc6ff6d41afdcb73e6c70e2c, type: 3}
     xprefabs:
     - cordx: 1
-      cordY: -1
+      cordY: -3
+    - cordx: 2
+      cordY: -3
   spawnSpeed: 0.01
 --- !u!4 &1742204090
 Transform:
