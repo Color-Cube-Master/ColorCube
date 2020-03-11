@@ -99,20 +99,26 @@ public class LevelSpawner : MonoBehaviour
     }
      void DespawnSandouk(GameObject sndk , Map grd , ref int counter , int l, int elk)
         {
-            while ((sndk.transform.position.x == grd.xprefabs[counter].cordx & 
-            sndk.transform.position.y ==grd.xprefabs[counter].cordY) 
-            & (counter<l+1))
-                    {
-                        Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + grd.xprefabs[counter].cordx + " et cord y = " + grd.xprefabs[counter].cordY);
-                        Destroy(sndk);
-                        Debug.Log("Counter=" +counter);
-                        Debug.Log("r=" +r);
+        
+            while ((sndk.transform.position.x == grd.xprefabs[counter].cordx &
+            sndk.transform.position.y == grd.xprefabs[counter].cordY))
 
-                        counter++;
-                        
-                        
-                    }
-        }  
+            {
+                Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + grd.xprefabs[counter].cordx + " et cord y = " + grd.xprefabs[counter].cordY);
+                Destroy(sndk);
+                Debug.Log("Counter=" + counter);
+                Debug.Log("r=" + r);
+                // <l-1 caus counter starts from 0 and l starts from 1 
+                if (counter < l-1)
+                counter++;
+                else
+                    counter = 0;
+
+
+
+            }
+        
+    }  
 }
                 
             

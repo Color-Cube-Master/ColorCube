@@ -246,8 +246,10 @@ MonoBehaviour:
     prefab: {fileID: 100006, guid: 8dbc6a47cc6ff6d41afdcb73e6c70e2c, type: 3}
     xprefabs:
     - cordx: 1
-      cordY: -1
+      cordY: -2
     - cordx: 2
+      cordY: -3
+    - cordx: 4
       cordY: -3
   - x: 6
     Y: 6
