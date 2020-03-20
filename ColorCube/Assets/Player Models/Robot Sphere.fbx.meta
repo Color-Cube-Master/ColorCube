@@ -9,7 +9,12 @@ ModelImporter:
   - first:
       74: 2364150395994968604
     second: Circle.002|Alle.001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere_Bot
+    second: {fileID: 2100000, guid: deaacdda1edb566488f2186ef1ab6e41, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

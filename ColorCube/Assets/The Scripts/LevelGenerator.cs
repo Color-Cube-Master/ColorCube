@@ -53,7 +53,7 @@ public void Restart()
 	{
 
 
-		SceneManager.LoadScene("SampleScene");
+		SceneManager.LoadScene("Old level editor");
 		if (i < map.Length-1 && i >= 0)
 		{
 			

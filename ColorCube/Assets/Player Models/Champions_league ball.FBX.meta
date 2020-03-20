@@ -3,7 +3,17 @@ guid: e49f06042cdcf0a49b09e30899800b7a
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 7473558b0fce30d4cbd6631d347aa6d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather besh
+    second: {fileID: 2100000, guid: f089a3bbb94e6544887dc2a70857769a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

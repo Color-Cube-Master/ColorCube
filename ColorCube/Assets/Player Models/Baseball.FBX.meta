@@ -6,7 +6,22 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gap
+    second: {fileID: 2100000, guid: b12cc78234dc6644d8b37d60e3590b62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather
+    second: {fileID: 2100000, guid: 7e9478bd034555e43b95738329f46951, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stitching
+    second: {fileID: 2100000, guid: 4584b9692a68cef41bdd6ab5ea22bed5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
