@@ -13,8 +13,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 229669e530c11114688c2f3ddff26d17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Sphere_Bot
     second: {fileID: 2100000, guid: deaacdda1edb566488f2186ef1ab6e41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: 101084ec063fb46419d9c02a633c7138, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

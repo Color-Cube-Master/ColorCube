@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1559,6 +1559,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5295422
       objectReference: {fileID: 0}
+    - target: {fileID: -5081846474768852974, guid: 1fa07db23bb9f724f810b2d97be94fcf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 101084ec063fb46419d9c02a633c7138, type: 2}
+    - target: {fileID: -5081846474768852974, guid: 1fa07db23bb9f724f810b2d97be94fcf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 229669e530c11114688c2f3ddff26d17, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fa07db23bb9f724f810b2d97be94fcf, type: 3}
 --- !u!1001 &1134110613
@@ -2955,6 +2965,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowBall
       objectReference: {fileID: 0}
+    - target: {fileID: 4797721544897309555, guid: 7855c737f5f12744188c6076a771d2b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7f7784eff6bb7c24db113f04b04ce289, type: 2}
     - target: {fileID: 5315338836271436384, guid: 7855c737f5f12744188c6076a771d2b7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3025,11 +3040,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.4027318
       objectReference: {fileID: 0}
-    - target: {fileID: 4797721544897309555, guid: 7855c737f5f12744188c6076a771d2b7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7f7784eff6bb7c24db113f04b04ce289, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7855c737f5f12744188c6076a771d2b7, type: 3}
 --- !u!1001 &1178642063528051496
