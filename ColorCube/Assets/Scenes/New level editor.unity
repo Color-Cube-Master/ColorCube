@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -242,33 +242,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level:
   - x: 5
-    Y: 5
+    Z: 5
     prefab: {fileID: 100006, guid: 8dbc6a47cc6ff6d41afdcb73e6c70e2c, type: 3}
     xprefabs:
     - cordx: 1
-      cordY: -1
+      cordZ: -1
     - cordx: 3
-      cordY: -1
+      cordZ: -1
     - cordx: 1
-      cordY: -3
+      cordZ: -3
     - cordx: 2
-      cordY: -3
+      cordZ: -3
     - cordx: 3
-      cordY: -3
+      cordZ: -3
   - x: 6
-    Y: 6
+    Z: 6
     prefab: {fileID: 100006, guid: 8dbc6a47cc6ff6d41afdcb73e6c70e2c, type: 3}
     xprefabs:
     - cordx: 1
-      cordY: -3
+      cordZ: -3
     - cordx: 2
-      cordY: -3
+      cordZ: -3
     - cordx: 3
-      cordY: -3
+      cordZ: -3
     - cordx: 4
-      cordY: -3
-    - cordx: 5
-      cordY: -3
+      cordZ: -4
 --- !u!4 &1742204090
 Transform:
   m_ObjectHideFlags: 0
@@ -359,10 +357,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044325301}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: -2, z: -10}
+  m_LocalRotation: {x: 0.29893658, y: -0, z: -0, w: 0.954273}
+  m_LocalPosition: {x: 2, y: 8.53, z: -11.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 34.787003, y: 0, z: 0}

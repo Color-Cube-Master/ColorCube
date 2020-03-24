@@ -4,7 +4,7 @@
 public class Map {
 
     public int x;
-    public int Y;
+    public int Z;
 	public GameObject prefab;
     public xprefab[] xprefabs;
 

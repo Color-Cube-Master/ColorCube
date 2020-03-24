@@ -41,12 +41,12 @@ public class LevelSpawner : MonoBehaviour
         for (int i = 0; i < grid.x; i++)
         {
             
-            for (int j = 0; j < grid.Y; j++)
+            for (int j = 0; j < grid.Z; j++)
             {
                
                 /*Instantiate(Resources.Load("Cube", typeof(GameObject))) as GameObject;*/
                  GameObject sandouk = Instantiate(grid.prefab) as GameObject;
-                sandouk.transform.position = new Vector3(j * 1f, i * -1f, 0);
+                sandouk.transform.position = new Vector3(j * 1f,  0 , i * -1f);
 
                 {
                  
@@ -68,10 +68,10 @@ public class LevelSpawner : MonoBehaviour
         {
         
             while ((sndk.transform.position.x == grd.xprefabs[counter].cordx &
-            sndk.transform.position.y == grd.xprefabs[counter].cordY))
+            sndk.transform.position.z == grd.xprefabs[counter].cordZ))
 
             {
-                Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + grd.xprefabs[counter].cordx + " et cord y = " + grd.xprefabs[counter].cordY);
+                Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + grd.xprefabs[counter].cordx + " et cord Z = " + grd.xprefabs[counter].cordZ);
                 Destroy(sndk);
                 Debug.Log("Counter=" + counter);
                 Debug.Log("r=" + r);
