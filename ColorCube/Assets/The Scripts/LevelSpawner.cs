@@ -9,10 +9,12 @@ public class LevelSpawner : MonoBehaviour
     public Map[] level;
     public static int k;
     public static int r;
+    public GameObject Sphere;
 
     void Start()
     {
-        
+        Sphere = GameObject.Find("SphereParent");
+
         SpawnLevel();
         
     }
@@ -30,13 +32,14 @@ public class LevelSpawner : MonoBehaviour
     void SpawnLevel()
     {
 
-
+        
 
         Map grid = level[k];
         
         int xlength= grid.xprefabs.Length;
-
-
+       
+        
+        
 
         for (int i = 0; i < grid.x; i++)
         {
