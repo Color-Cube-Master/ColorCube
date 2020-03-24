@@ -9,6 +9,7 @@ public class ColTester : MonoBehaviour
     public Material Red;
     int Counter;
     int HitsMAX;
+    int RG=5;
 
 
     Renderer rend;
@@ -27,25 +28,27 @@ public class ColTester : MonoBehaviour
     }
     // this function is for the collision and the color changing 
     void OnCollisionEnter(Collision col)
-    {
+    {   
         if ((col.gameObject.tag == "Player") && (Counter % 2 == 0))
         {
 
-            Destroy();
+            //Destroy();
 
 
 
             rend.material = Red;
             Counter++;
+            RG--;
 
         }
         else
         {
-            Destroy();
+            //Destroy();
 
             {
                 rend.material = Green;
                 Counter++;
+                RG++;
             }
 
 
