@@ -75,10 +75,10 @@ public class LevelSpawner : MonoBehaviour
             sndk.transform.position.z == grd.xprefabs[counter].cordZ))
 
             {
-                Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + grd.xprefabs[counter].cordx + " et cord Z = " + grd.xprefabs[counter].cordZ);
+                //Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + grd.xprefabs[counter].cordx + " et cord Z = " + grd.xprefabs[counter].cordZ);
                 Destroy(sndk);
-                Debug.Log("Counter=" + counter);
-                Debug.Log("r=" + r);
+               // Debug.Log("Counter=" + counter);
+               // Debug.Log("r=" + r);
                 
                 // <l-1 because counter starts from 0 and l starts from 1 
                 if (counter < l-1)

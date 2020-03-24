@@ -167,7 +167,6 @@ GameObject:
   - component: {fileID: 4890428161756792}
   - component: {fileID: 95829103375769990}
   - component: {fileID: 205386186903810330}
-  - component: {fileID: 1521548846667831944}
   m_Layer: 0
   m_Name: block_brick_brown_4
   m_TagString: Untagged
@@ -238,20 +237,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 23388956235869078}
   m_Enabled: 1
---- !u!114 &1521548846667831944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687779245630262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5afb46dd6fe83364ba89cacc822d469b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Green: {fileID: 2100000, guid: 5ddbd6ffa155646469b5198bb5051d48, type: 2}
-  Red: {fileID: 2100000, guid: 213e5ac7ed684994cb7e2cae6a6cc91d, type: 2}
 --- !u!1 &1771790788157932
 GameObject:
   m_ObjectHideFlags: 0
