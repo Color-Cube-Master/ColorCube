@@ -13,7 +13,7 @@ public class LevelSpawner : MonoBehaviour
 
     void Start()
     {
-        Sphere = GameObject.Find("SphereParent2.0");
+       
             
         
         SpawnLevel();
@@ -21,11 +21,11 @@ public class LevelSpawner : MonoBehaviour
     }
     void Update()
     {
-        /*if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             SceneManager.LoadScene("New level editor");
         }
-        */
+        
     }
 
 
@@ -39,7 +39,7 @@ public class LevelSpawner : MonoBehaviour
         
         int xlength= grid.xprefabs.Length;
 
-        Sphere.transform.position = new Vector3(0.5f, 2.2f, 0);
+
 
 
         for (int i = 0; i < grid.x; i++)
