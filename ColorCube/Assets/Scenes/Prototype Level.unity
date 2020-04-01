@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 278491583}
   - component: {fileID: 278491582}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: InvisibleWall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 775458625}
   - component: {fileID: 775458624}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: InvisibleWall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 1013785791}
   - component: {fileID: 1013785790}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: InvisibleWall6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -637,7 +637,7 @@ GameObject:
   - component: {fileID: 1026968603}
   - component: {fileID: 1026968602}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: InvisibleWall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -729,7 +729,7 @@ GameObject:
   - component: {fileID: 1170259878}
   - component: {fileID: 1170259877}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: InvisibleWall7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 1231151856}
   - component: {fileID: 1231151855}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: InvisibleWall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1031,7 +1031,7 @@ PrefabInstance:
         type: 3}
       propertyPath: level.Array.data[0].prefab
       value: 
-      objectReference: {fileID: 4995450769879296214, guid: 22103d8b02e3da1479d04f52a02f1052,
+      objectReference: {fileID: 4126387699391080490, guid: 4631888ab7c692841b6743120bb68e56,
         type: 3}
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
@@ -1271,7 +1271,7 @@ GameObject:
   - component: {fileID: 1888424563}
   - component: {fileID: 1888424562}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: InvisibleWall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

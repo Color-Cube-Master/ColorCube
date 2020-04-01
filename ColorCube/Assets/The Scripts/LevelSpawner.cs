@@ -21,7 +21,7 @@ public class LevelSpawner : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.Return))
         {
             SceneManager.LoadScene("New level editor");
         }

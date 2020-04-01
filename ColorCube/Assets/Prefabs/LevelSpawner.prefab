@@ -46,7 +46,8 @@ MonoBehaviour:
   level:
   - x: 5
     Z: 5
-    prefab: {fileID: 100006, guid: 8dbc6a47cc6ff6d41afdcb73e6c70e2c, type: 3}
+    prefab: {fileID: 4229455642870403918, guid: a0e1504d957609d4081eb4f588628a63,
+      type: 3}
     xprefabs:
     - cordx: 1
       cordZ: -1
