@@ -58,7 +58,7 @@ public class ColTester : MonoBehaviour
                 Counter++;
                 GameOver++;
                 Debug.Log(GameOver);
-                if(GameOver==5)
+                if(GameOver==LevelSpawner.h)
             {Debug.Log("YOU WIN");
             UnityEditor.EditorApplication.isPlaying = false;}
  
