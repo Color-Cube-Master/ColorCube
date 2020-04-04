@@ -54,7 +54,7 @@ public class ColTester : MonoBehaviour
             //Destroy();
 
             {
-                rend.material = Green;
+                
                 Counter++;
                 GameOver++;
                 Debug.Log(GameOver);
