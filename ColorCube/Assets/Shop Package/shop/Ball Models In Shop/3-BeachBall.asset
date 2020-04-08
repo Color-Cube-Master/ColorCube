@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e9bc37eae85b644be7fe616bcbe692, type: 3}
   m_Name: 3-BeachBall
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: bb0078a6ba4483f47a975c77993d5217, type: 3}
+  icon: {fileID: 21300000, guid: 731c65aaa4214ff47b8c9bb8aecf7d02, type: 3}
   Price: 200
   state: 0

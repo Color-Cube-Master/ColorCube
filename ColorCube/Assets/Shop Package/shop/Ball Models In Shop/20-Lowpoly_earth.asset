@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e9bc37eae85b644be7fe616bcbe692, type: 3}
   m_Name: 20-Lowpoly_earth
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 71c34e984ed56934f8fd4d5329d9d3e0, type: 3}
+  icon: {fileID: 21300000, guid: 3011ee006d4bda447897d676d3e017bd, type: 3}
   Price: 3500
   state: 0

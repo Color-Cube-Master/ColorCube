@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e9bc37eae85b644be7fe616bcbe692, type: 3}
   m_Name: 14-DiscoBall
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 71c34e984ed56934f8fd4d5329d9d3e0, type: 3}
+  icon: {fileID: 21300000, guid: f335805ffc60835459cab5f85bfc27ad, type: 3}
   Price: 1200
   state: 0

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e9bc37eae85b644be7fe616bcbe692, type: 3}
   m_Name: 10-TooBlueBall
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: fb4aba74445cc4c4bbeba49f5b54968f, type: 3}
+  icon: {fileID: 21300000, guid: 3059b9e92da49a849b7a84de3e2779b6, type: 3}
   Price: 600
   state: 0

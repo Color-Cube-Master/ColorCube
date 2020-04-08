@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02e9bc37eae85b644be7fe616bcbe692, type: 3}
-  m_Name: 18-BuckyBall
+  m_Name: 18-AtomesBall
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 71c34e984ed56934f8fd4d5329d9d3e0, type: 3}
+  icon: {fileID: 21300000, guid: fa619ead0f0cf9b47b322163679b3172, type: 3}
   Price: 2500
   state: 0

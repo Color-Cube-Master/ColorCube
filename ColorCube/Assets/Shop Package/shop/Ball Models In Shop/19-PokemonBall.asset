@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e9bc37eae85b644be7fe616bcbe692, type: 3}
   m_Name: 19-PokemonBall
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 71c34e984ed56934f8fd4d5329d9d3e0, type: 3}
+  icon: {fileID: 21300000, guid: 0f11e61696fbe9c418d7b3864e22bddd, type: 3}
   Price: 3000
-  state: 1
+  state: 0
