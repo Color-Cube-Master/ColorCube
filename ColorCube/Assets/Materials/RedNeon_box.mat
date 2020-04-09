@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RedNeon_box
-  m_Shader: {fileID: -6465566751694194690, guid: 10832fdbc34d98c44916673fd9df2bfa,
+  m_Shader: {fileID: -6465566751694194690, guid: d3b23fb8e22bb40489bbee066fa68458,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -42,6 +42,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_60123FAD_Texture_1:
+        m_Texture: {fileID: 2800000, guid: cbd8b368b91ddb842ba0eaac457bb0e5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
