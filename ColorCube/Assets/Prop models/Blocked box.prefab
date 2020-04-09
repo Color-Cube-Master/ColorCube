@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5536027743617593591}
   - component: {fileID: 8721810259591641378}
   m_Layer: 0
-  m_Name: RedCube
+  m_Name: Blocked box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0707cb2d91cfc1d49adcf4a02b281000, type: 2}
+  - {fileID: 2100000, guid: 6ad9b7141b170884b8033bff1bdfa9f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
