@@ -7,5 +7,6 @@ public class Map {
     public int Z;
 	public GameObject prefab;
     public xprefab[] xprefabs;
+    public Props  Props;
 
 }
