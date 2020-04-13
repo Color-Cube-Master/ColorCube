@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class NewCountdown : MonoBehaviour
 {
     Image fillImg;
-    float timeAmt = 10;
+    public float timeAmt = 10;
     float time;
     public Text timeText;
 

@@ -9,6 +9,7 @@ public class ColTester : MonoBehaviour
     int Counter;
     int HitsMAX;
     public static int GameOver=0;
+    public static bool P;
 
 
     Renderer rend;
@@ -43,6 +44,7 @@ public class ColTester : MonoBehaviour
             rend.material = Red;
             Counter++;
             GameOver--;
+            P = false ;
             Debug.Log(GameOver);
            
         }
@@ -57,6 +59,7 @@ public class ColTester : MonoBehaviour
                 rend.material = Green;
                 Counter++;
                 GameOver++;
+                P = true ;
                 Debug.Log(GameOver);
                 if(GameOver==LevelSpawner.h)
             {Debug.Log("YOU WIN");
