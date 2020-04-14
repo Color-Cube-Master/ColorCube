@@ -11,7 +11,7 @@ public class Reciever : MonoBehaviour
     private float startTime;
     private float journeyLength;
     private float fractionOfJourney;
-
+    public float time;
     void Start()
     {
         
@@ -25,27 +25,40 @@ public class Reciever : MonoBehaviour
     }
     void ButtonPressedListener()
     {
-        Vector3 move = new Vector3();
-        
-        if (Input.GetKey(KeyCode.UpArrow))
-            move.z += speed;
-        if (Input.GetKey(KeyCode.DownArrow))
-            move.z -= speed;
-        if (Input.GetKey(KeyCode.RightArrow))
-            move.x += speed;
-        if (Input.GetKey(KeyCode.LeftArrow))
-            move.x -= speed;
-        startTime = Time.time;
+        if (canmoved==true)
+        {
+            Vector3 move = new Vector3();
 
-        // Calculate the journey length.
+            if (Input.GetKey(KeyCode.UpArrow))
+                move.z += speed;
+            if (Input.GetKey(KeyCode.DownArrow))
+                move.z -= speed;
+            if (Input.GetKey(KeyCode.RightArrow))
+                move.x += speed;
+            if (Input.GetKey(KeyCode.LeftArrow))
+                move.x -= speed;
+            startTime = Time.time;
+
+            // Calculate the journey length.
+
+            starpos = transform.position;
+            endpos = transform.position + move;
+            journeyLength = Vector3.Distance(starpos, endpos);
+            
+            StartCoroutine(WaitJump());
+        }
        
-        starpos = transform.position;
-        endpos = transform.position + move;
-        journeyLength = Vector3.Distance(starpos, endpos);
 
         //transform.position += move;
 
 
+    }
+  public  bool canmoved ;
+    public IEnumerator WaitJump()
+    {
+        canmoved = false;
+        yield return new WaitForSeconds(time);
+        canmoved = true;
     }
     private void Update()
     {

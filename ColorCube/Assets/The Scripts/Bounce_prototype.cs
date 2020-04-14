@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bounce_prototype : MonoBehaviour
 {
     float y;
+    public Reciever reciever;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +22,17 @@ public class Bounce_prototype : MonoBehaviour
     {
       y = transform.position.y;
         if (y <= 0.801f)
-            LeanTween.moveY(gameObject, 2.2f, 0.45f);
+        {
+         
+            LeanTween.moveY(gameObject, 2.2f, 0.2f);
+            
+        }
+            
         if (y == 2.2f)
-            LeanTween.moveY(gameObject, 0.800f, 0.45f);
+        {
+           
+            LeanTween.moveY(gameObject, 0.800f, 0.3f);
+        }
+            
     }
 }
