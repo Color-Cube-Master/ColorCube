@@ -16,10 +16,10 @@ public class ProgressBar : MonoBehaviour
 
     void Update()
     {
-      if ( ColTester.P == true ){
-         image.fillAmount += 0.2575f * Time.deltaTime;
+      if ( ColTester2.P == true ){
+         image.fillAmount += (1.1f / LevelSpawner.h) * Time.deltaTime ;
       }
-      else if ( ColTester.P == false ) {
-      image.fillAmount -= 0.2575f * Time.deltaTime;}   
+      else if ( ColTester2.P == false ) {
+      image.fillAmount -= (1.1f / LevelSpawner.h) * Time.deltaTime ;}   
     }
 }

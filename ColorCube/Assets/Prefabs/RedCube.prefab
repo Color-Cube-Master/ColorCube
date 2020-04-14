@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 952047661275852432}
   - component: {fileID: 5536027743617593591}
   - component: {fileID: 8721810259591641378}
+  - component: {fileID: 478197485529236111}
   m_Layer: 0
   m_Name: RedCube
   m_TagString: Untagged
@@ -92,3 +93,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &478197485529236111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7819513242186516550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36fe2fb3f3ca658409c0b9bd0747758e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Green: {fileID: 2100000, guid: 4d9d1695eba76c1458a9e1b52679c41c, type: 2}
+  Red: {fileID: 2100000, guid: 0707cb2d91cfc1d49adcf4a02b281000, type: 2}
