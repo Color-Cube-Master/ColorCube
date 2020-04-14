@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ColTester : MonoBehaviour
 {
@@ -39,7 +40,7 @@ public class ColTester : MonoBehaviour
 
             //Destroy();
 
-
+            FindObjectOfType<AudioManager>().Play("Bounce");
 
             rend.material = Red;
             Counter++;
@@ -56,14 +57,19 @@ public class ColTester : MonoBehaviour
             //Destroy();
 
             {
+                FindObjectOfType<AudioManager>().Play("Bounce");
                 rend.material = Green;
                 Counter++;
                 GameOver++;
                 P = true ;
                 Debug.Log(GameOver);
                 if(GameOver==LevelSpawner.h)
-            {Debug.Log("YOU WIN");
-            UnityEditor.EditorApplication.isPlaying = false;}
+            {
+                    
+                        SceneManager.LoadScene("You Win");
+                    
+
+                    UnityEditor.EditorApplication.isPlaying = false;}
  
             }
 

@@ -45,7 +45,7 @@ public class GameManagerS : MonoBehaviour
         }
         if (CountDownState == 4 )
         {
-            SceneManager.LoadScene("Prototype level");
+            SceneManager.LoadScene("Prototype Level Complicated");
         }
     }
 }

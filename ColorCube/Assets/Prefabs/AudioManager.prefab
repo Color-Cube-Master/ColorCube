@@ -64,3 +64,18 @@ MonoBehaviour:
     volume: 1
     loop: 0
     source: {fileID: 0}
+  - name: Tada
+    clip: {fileID: 8300000, guid: ead3020a58bd7a4448122f70b27bc5d8, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lost
+    clip: {fileID: 8300000, guid: 97741018945b8534c92e96cb87a5f094, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bounce
+    clip: {fileID: 8300000, guid: d066d9aa834c162459462a79e37a8083, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}

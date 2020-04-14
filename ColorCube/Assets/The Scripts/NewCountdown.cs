@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class NewCountdown : MonoBehaviour
 {
     Image fillImg;
-    public float timeAmt = 10;
+    float timeAmt=50;
     float time;
     public Text timeText;
 
@@ -25,5 +26,8 @@ public class NewCountdown : MonoBehaviour
             fillImg.fillAmount = time / timeAmt;
             timeText.text =  time.ToString("0");
         }
+       else
+            SceneManager.LoadScene("You Lose");
+        
     }
 }
