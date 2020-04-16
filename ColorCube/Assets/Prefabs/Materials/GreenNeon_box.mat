@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GrenNeon_box
+  m_Name: GreenNeon_box
   m_Shader: {fileID: -6465566751694194690, guid: 7ba7e47cfe23ef842a1e26f367d66d4a,
     type: 3}
   m_ShaderKeywords: 
