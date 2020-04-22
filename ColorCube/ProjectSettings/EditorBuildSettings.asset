@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: b0fa2b372b5cbb24f92a322c4c5192da
   - enabled: 1
-    path: Assets/Scenes/Prototype Level.unity
+    path: Assets/Scenes/Prototypes/Prototype Level.unity
     guid: 05e1ffc99a4092642b68d301a388cd6d
   - enabled: 1
-    path: Assets/Scenes/Prototype Level Complex.unity
+    path: Assets/Scenes/Prototypes/Prototype Level Complex.unity
     guid: 6949b5d97bc795646bfa1f8f2dd6d749
   - enabled: 1
     path: Assets/Scenes/You Lose.unity
