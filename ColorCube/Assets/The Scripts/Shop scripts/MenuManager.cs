@@ -27,17 +27,20 @@ public class MenuManager : MonoBehaviour
 
     public Text ScoreText;
     public int coincount;
-
+//the second coincount we'll be using in the menu
+public static int coincount2;
     public delegate void ItemUseIt(ShopItem shopItem);
     public event ItemUseIt itemusit;
     private void Awake()
-    {
+    {   
+
         _instance = this;
         InitAllItems();
 
     }
     private void Start()
     {
+        
         ScoreText.text = coincount.ToString();
         CreateShop();
     }
@@ -67,6 +70,7 @@ public class MenuManager : MonoBehaviour
             yield return new WaitForSeconds(0.02f);
             coincount -= 10;
             ScoreText.text = coincount.ToString();
+            coincount2=coincount;
         }
         
 
@@ -90,4 +94,5 @@ public class MenuManager : MonoBehaviour
             itemusit(_shopitem);
         }
     }
+    
 }
