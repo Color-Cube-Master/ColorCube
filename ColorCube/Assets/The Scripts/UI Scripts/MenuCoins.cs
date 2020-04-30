@@ -9,7 +9,7 @@ public class MenuCoins : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      CoinsText.text = MenuManager.coincount2.ToString();  
+      CoinsText.text = MenuManager.coincount2.ToString();
     }
 
   

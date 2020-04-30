@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8855819591625877888}
   - component: {fileID: 8855819591625877895}
   - component: {fileID: 8855819591625877894}
+  - component: {fileID: 636030239003157815}
   m_Layer: 0
   m_Name: GreenCube (Type3)
   m_TagString: Untagged
@@ -92,3 +93,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &636030239003157815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855819591625877893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36fe2fb3f3ca658409c0b9bd0747758e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Green: {fileID: 2100000, guid: d1c1bd5c09544e645b12ff6227611b67, type: 2}
+  Red: {fileID: 2100000, guid: 4724a4f3b179ade45af811821ab7a6a2, type: 2}

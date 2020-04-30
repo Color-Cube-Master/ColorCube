@@ -50,7 +50,7 @@ public class Reciever : MonoBehaviour
        
 
         //transform.position += move;
-
+      
 
     }
   public  bool canmoved ;

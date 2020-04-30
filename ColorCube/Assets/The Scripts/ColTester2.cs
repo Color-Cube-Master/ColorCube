@@ -40,7 +40,7 @@ public class ColTester2 : MonoBehaviour
 
             //Destroy();
 
-            FindObjectOfType<AudioManager>().Play("Bounce");
+           // FindObjectOfType<AudioManager>().Play("Bounce");
 
             rend.material = Red;
             Counter++;
@@ -57,7 +57,7 @@ public class ColTester2 : MonoBehaviour
             //Destroy();
 
             {
-                FindObjectOfType<AudioManager>().Play("Bounce");
+                // FindObjectOfType<AudioManager>().Play("Bounce");
                 rend.material = Green;
                 Counter++;
                 GameOver++;
@@ -74,8 +74,8 @@ public class ColTester2 : MonoBehaviour
             }
 
 
+            }
         }
     }
-}
 }
 /*update*/

@@ -53,7 +53,7 @@ public class LevelSpawner : MonoBehaviour
                
                 /*Instantiate(Resources.Load("Cube", typeof(GameObject))) as GameObject;*/
                  GameObject sandouk = Instantiate(grid.prefab) as GameObject;
-                sandouk.transform.position = new Vector3(j * 1f,  0 , i * -1f);
+                sandouk.transform.position = new Vector3(i * 1f,  0 , j * -1f);
                 h++;
 
                 {

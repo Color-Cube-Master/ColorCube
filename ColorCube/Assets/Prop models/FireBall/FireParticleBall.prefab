@@ -4828,12 +4828,12 @@ GameObject:
   - component: {fileID: 7655350937783871954}
   - component: {fileID: 6626311778738426659}
   m_Layer: 0
-  m_Name: FireParticleBall 1
+  m_Name: FireParticleBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7655350937783871951
 Transform:
   m_ObjectHideFlags: 0
