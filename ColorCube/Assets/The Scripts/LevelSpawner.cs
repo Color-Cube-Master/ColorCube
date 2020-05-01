@@ -11,6 +11,7 @@ public class LevelSpawner : MonoBehaviour
     public static int r;
     GameObject Sphere;
     public static int h;
+    public GameObject Boarder2 ;
 
     void Start()
     {
@@ -118,6 +119,7 @@ public class LevelSpawner : MonoBehaviour
             {
                 //Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + grd.xprefabs[counter].cordx + " et cord Z = " + grd.xprefabs[counter].cordZ);
                 Destroy(sndk);
+                Instantiate(Boarder2,new Vector3(sndk.transform.position.x, 0, sndk.transform.position.z), transform.rotation);
             h--;
                // Debug.Log("Counter=" + counter);
                // Debug.Log("r=" + r);

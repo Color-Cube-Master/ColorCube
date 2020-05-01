@@ -544,6 +544,12 @@ PrefabInstance:
       propertyPath: Sphere
       value: 
       objectReference: {fileID: 2055606154}
+    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: Boarder2
+      value: 
+      objectReference: {fileID: 7971869620982441325, guid: 612140ae37d03ad4bb74e19508cdd797,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd55bd92c2d98f944a6372983dce8f95, type: 3}
 --- !u!1 &1092266963
@@ -746,6 +752,11 @@ PrefabInstance:
       propertyPath: animation
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7191804094853387408, guid: 0fd2c2231cb615d4d8f83d3fbd1a6c82,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e17e2f6090a8a3c46a7071a2827c4b17, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fd2c2231cb615d4d8f83d3fbd1a6c82, type: 3}
 --- !u!1 &1932669516
