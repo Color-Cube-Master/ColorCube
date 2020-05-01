@@ -5,12 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ColTester2 : MonoBehaviour
 {
-     public Material Green;
+    
+    public Material Green;
     public Material Red;
     int Counter;
     int HitsMAX;
     public static int GameOver=0;
     public static bool P;
+    
+    
 
 
     Renderer rend;
@@ -32,6 +35,8 @@ public class ColTester2 : MonoBehaviour
    
     // this function is for the collision and the color changing 
     
+            
+
     void OnCollisionEnter(Collision col )
     {   
         if ((col.gameObject.tag == "Player") && (Counter % 2 != 0))
@@ -62,11 +67,12 @@ public class ColTester2 : MonoBehaviour
                 Counter++;
                 GameOver++;
                 P = true ;
+                
                 Debug.Log(GameOver);
                 if(GameOver==LevelSpawner.h)
             {
                     
-                        SceneManager.LoadScene("You Win");
+                    SceneManager.LoadScene("You Win");
                     
 
                     //UnityEditor.EditorApplication.isPlaying = false;}
@@ -76,6 +82,8 @@ public class ColTester2 : MonoBehaviour
 
             }
         }
+     
+        
     }
 }
 /*update*/

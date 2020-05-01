@@ -33,6 +33,6 @@ public class Bounce_prototype : MonoBehaviour
            
             LeanTween.moveY(gameObject, 0.800f, 0.3f);
         }
-            
+           
     }
 }
