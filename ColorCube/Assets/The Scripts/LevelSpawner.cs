@@ -12,6 +12,7 @@ public class LevelSpawner : MonoBehaviour
     GameObject Sphere;
     public static int h;
     public GameObject Boarder2 ;
+    public GameObject Boarder1 ;
 
     void Start()
     {
@@ -55,18 +56,22 @@ public class LevelSpawner : MonoBehaviour
                 /*Instantiate(Resources.Load("Cube", typeof(GameObject))) as GameObject;*/
                  GameObject sandouk = Instantiate(grid.prefab) as GameObject;
                 sandouk.transform.position = new Vector3(i * 1f,  0 , j * -1f);
+                
                 h++;
 
-                {
-                 
+                
+                    SpawnBoarder_Up(grid,i,j);
+                    SpawnBoarder_Left(grid,i,j);
+                    SpawnBoarder_Right(grid,i,j);
+                    SpawnBoarder_Down(grid,i,j);
                     DespawnSandouk(sandouk , grid, ref r, xlength, k);
                     
+                    
+                    
                    
                     
-                   
                     
-                    
-                }
+                
             }
 
         } 
@@ -109,7 +114,7 @@ public class LevelSpawner : MonoBehaviour
    
     }
 
-
+     //Take boxes off
      void DespawnSandouk(GameObject sndk , Map grd , ref int counter , int l, int elk)
         {
         
@@ -134,6 +139,58 @@ public class LevelSpawner : MonoBehaviour
         
         }  
 
+        //Spawn up boarder
+        void SpawnBoarder_Up(Map grd, int x , int z )
+        {
+            if ( x < grd.x  &  z == 0)
+            {
+            Instantiate(Boarder1,new Vector3(x, 0, z+1), transform.rotation);
+            }
+
+        }
+        //Spawn left boarder
+        void SpawnBoarder_Left(Map grd, int x , int z )
+        {
+            if ( z < grd.Z  &  x == 0)
+            {
+            Instantiate(Boarder1,new Vector3(x-1, 0, -z), transform.rotation);
+            }
+
+        }
+
+        //Spawn right boarder
+
+        void SpawnBoarder_Right(Map grd, int x , int z )
+        {
+            if ( z < grd.Z  &  x == grd.x-1)
+            {
+            Instantiate(Boarder1,new Vector3(x+1, 0, -z), transform.rotation);
+
+            }
+
+        }
+        //Spawn down boarder
+        void SpawnBoarder_Down(Map grd, int x , int z )
+        {
+            if (  x < grd.x  & z == grd.Z-1 )
+            {
+            Instantiate(Boarder1,new Vector3(x, 0, -z-1), transform.rotation);
+            
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+        //Prefabs Toggle
         void DisableBlockedBox_OR_ActivateBlockedBox(Map grd)
            {
 
