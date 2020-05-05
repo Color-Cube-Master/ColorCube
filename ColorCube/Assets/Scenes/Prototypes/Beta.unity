@@ -200,7 +200,7 @@ PrefabInstance:
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
       propertyPath: level.Array.data[0].xprefabs.Array.size
-      value: 12
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
@@ -260,13 +260,13 @@ PrefabInstance:
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
       propertyPath: level.Array.data[0].Z
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
       propertyPath: level.Array.data[0].prefab
       value: 
-      objectReference: {fileID: 8855819591625877893, guid: f3bcc3012395e3e4e989c46bd856bb78,
+      objectReference: {fileID: 3221488576190769180, guid: aeca565b6b65e43428a66b34841bd4d7,
         type: 3}
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
@@ -341,32 +341,32 @@ PrefabInstance:
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
       propertyPath: level.Array.data[0].xprefabs.Array.data[0].cordx
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
-        type: 3}
-      propertyPath: level.Array.data[0].xprefabs.Array.data[1].cordx
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
-        type: 3}
-      propertyPath: level.Array.data[0].xprefabs.Array.data[2].cordx
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
-        type: 3}
-      propertyPath: level.Array.data[0].xprefabs.Array.data[2].cordZ
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
-        type: 3}
-      propertyPath: level.Array.data[0].xprefabs.Array.data[3].cordx
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
-      propertyPath: level.Array.data[0].xprefabs.Array.data[3].cordZ
+      propertyPath: level.Array.data[0].xprefabs.Array.data[1].cordx
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: level.Array.data[0].xprefabs.Array.data[2].cordx
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: level.Array.data[0].xprefabs.Array.data[2].cordZ
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: level.Array.data[0].xprefabs.Array.data[3].cordx
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: level.Array.data[0].xprefabs.Array.data[3].cordZ
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
@@ -411,17 +411,17 @@ PrefabInstance:
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
       propertyPath: level.Array.data[0].x
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
       propertyPath: level.Array.data[0].xprefabs.Array.data[0].cordZ
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
       propertyPath: level.Array.data[0].xprefabs.Array.data[1].cordZ
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}

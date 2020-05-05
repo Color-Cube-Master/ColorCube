@@ -124,7 +124,7 @@ public class LevelSpawner : MonoBehaviour
             {
                 //Debug.Log("this is from matrice number  " + elk + " sandouk with the cord x =  " + grd.xprefabs[counter].cordx + " et cord Z = " + grd.xprefabs[counter].cordZ);
                 Destroy(sndk);
-                Instantiate(Boarder2,new Vector3(sndk.transform.position.x, 0, sndk.transform.position.z), transform.rotation);
+                Instantiate(Boarder2,new Vector3(sndk.transform.position.x, 0, sndk.transform.position.z),  Quaternion.identity);
             h--;
                // Debug.Log("Counter=" + counter);
                // Debug.Log("r=" + r);
@@ -144,7 +144,7 @@ public class LevelSpawner : MonoBehaviour
         {
             if ( x < grd.x  &  z == 0)
             {
-            Instantiate(Boarder1,new Vector3(x, 0, z+1), transform.rotation);
+            Instantiate(Boarder1,new Vector3(x, 0, z+1),  Quaternion.identity);
             }
 
         }
@@ -153,7 +153,7 @@ public class LevelSpawner : MonoBehaviour
         {
             if ( z < grd.Z  &  x == 0)
             {
-            Instantiate(Boarder1,new Vector3(x-1, 0, -z), transform.rotation);
+            Instantiate(Boarder1,new Vector3(x-1, 0, -z),  Quaternion.identity);
             }
 
         }
@@ -164,7 +164,7 @@ public class LevelSpawner : MonoBehaviour
         {
             if ( z < grd.Z  &  x == grd.x-1)
             {
-            Instantiate(Boarder1,new Vector3(x+1, 0, -z), transform.rotation);
+            Instantiate(Boarder1,new Vector3(x+1, 0, -z),  Quaternion.identity);
 
             }
 
@@ -174,7 +174,7 @@ public class LevelSpawner : MonoBehaviour
         {
             if (  x < grd.x  & z == grd.Z-1 )
             {
-            Instantiate(Boarder1,new Vector3(x, 0, -z-1), transform.rotation);
+            Instantiate(Boarder1,new Vector3(x, 0, -z-1),  Quaternion.identity);
             
             }
 

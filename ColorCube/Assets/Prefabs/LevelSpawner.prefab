@@ -43,31 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e966e86c91a8c42b559804b9b92887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level:
-  - x: 5
-    Z: 5
-    prefab: {fileID: 4229455642870403918, guid: a0e1504d957609d4081eb4f588628a63,
-      type: 3}
-    xprefabs:
-    - cordx: 1
-      cordZ: -1
-    - cordx: 3
-      cordZ: -1
-    - cordx: 1
-      cordZ: -3
-    - cordx: 2
-      cordZ: -3
-    - cordx: 3
-      cordZ: -3
-  - x: 6
-    Z: 6
-    prefab: {fileID: 100006, guid: 8dbc6a47cc6ff6d41afdcb73e6c70e2c, type: 3}
-    xprefabs:
-    - cordx: 1
-      cordZ: -3
-    - cordx: 2
-      cordZ: -3
-    - cordx: 3
-      cordZ: -3
-    - cordx: 4
-      cordZ: -4
+  level: []
+  Boarder2: {fileID: 7971869620982441325, guid: 612140ae37d03ad4bb74e19508cdd797,
+    type: 3}
+  Boarder1: {fileID: 7971869620982441325, guid: a6ae003495e2a58489ef29a6874ca273,
+    type: 3}
