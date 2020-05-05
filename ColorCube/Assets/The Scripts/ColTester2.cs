@@ -72,7 +72,9 @@ public class ColTester2 : MonoBehaviour
                 if(GameOver==LevelSpawner.h)
             {
                     
-                    SceneManager.LoadScene("You Win");
+                   // SceneManager.LoadScene("You Win");
+                    SceneManager.LoadScene("Beta");
+                    
                     
 
                     //UnityEditor.EditorApplication.isPlaying = false;}

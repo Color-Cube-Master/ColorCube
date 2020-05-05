@@ -13,22 +13,28 @@ public class LevelSpawner : MonoBehaviour
     public static int h;
     public GameObject Boarder2 ;
     public GameObject Boarder1 ;
+    public GameObject Player;
+    public Transform SpawnPosition;
+
 
     void Start()
     {
        
-            
-        
+            SpawnPlayer();
+       //DontDestroyOnLoad(Player);
         SpawnLevel();
         
     }
 
+     void SpawnPlayer() {
+     Instantiate(Player,new Vector3(SpawnPosition.position.x, SpawnPosition.position.y, SpawnPosition.position.z) ,Quaternion.identity /*SpawnPosition.position*/);
+     }
     void Update()
     {
         //Press enter to move to the next level
         if (Input.GetKey(KeyCode.Return))
         {
-            SceneManager.LoadScene("New level editor");
+            //SceneManager.LoadScene("Beta");
         }
         
     }
