@@ -51,7 +51,7 @@ public class ColTester2 : MonoBehaviour
             Counter++;
             GameOver--;
             P = false ;
-            Debug.Log(GameOver);
+            //Debug.Log(GameOver);
            
         }
 
@@ -68,7 +68,7 @@ public class ColTester2 : MonoBehaviour
                 GameOver++;
                 P = true ;
                 
-                Debug.Log(GameOver);
+                //Debug.Log(GameOver);
                 if(GameOver==LevelSpawner.h)
             {
                     
