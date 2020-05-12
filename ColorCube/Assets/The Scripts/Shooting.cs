@@ -10,6 +10,7 @@ public class Shooting : MonoBehaviour
     public GameObject Lazer3;
     public GameObject Lazer4;
     
+    
 
     public GameObject ShootPoint;
 
@@ -50,12 +51,23 @@ public class Shooting : MonoBehaviour
 
 
         Beam = GetComponent<AudioSource>();
+        
+        //Repeating the laser beam
+       InvokeRepeating("ON",1.0f, 4.0f);  //in one second, start calling this function, every 4secs
+       InvokeRepeating("OFF",4.0f, 4.0f);
+   
+        
     }
-
+   
+ 
+   
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        
+         
+     
+        /*if (Input.GetKeyDown(KeyCode.Z))
         {
             EnableLazer1();
         }
@@ -170,8 +182,23 @@ public class Shooting : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             Beam.Stop();
-        }
+        }*/
+    } 
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    void ON() {
+        UpdateLazer1();
+        EnableLazer1();
+        Beam.Play();
+        
+        
     }
+
+    void OFF() {
+        Beam.Stop();
+        DisableLazer1();;
+        
+    }
+
     void EnableLazer()
     {
         SpawnedLazer.SetActive (true);

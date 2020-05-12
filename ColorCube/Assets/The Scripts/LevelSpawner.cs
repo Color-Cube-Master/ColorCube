@@ -102,7 +102,7 @@ public class LevelSpawner : MonoBehaviour
 
                     //Spawn Laser
                     GameObject TheLaser = Instantiate(grid.Props.Laser.Laser_) as GameObject;
-                    TheLaser.transform.position = new Vector3(grid.Props.Laser.posX ,  1f , grid.Props.Laser.posZ );
+                    TheLaser.transform.position = new Vector3(grid.Props.Laser.posX ,  grid.Props.Laser.posY , grid.Props.Laser.posZ );
                      
                     //Spawn FireBall
                      GameObject TheFireBall = Instantiate(grid.Props.FireBall0.FireBall_) as GameObject;

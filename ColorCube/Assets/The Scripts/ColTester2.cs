@@ -86,7 +86,11 @@ public class ColTester2 : MonoBehaviour
                           {
                             SceneManager.LoadScene("You Win");
                           }
-                   // SceneManager.LoadScene("You Win");
+                          else if((SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Laser")))
+                          {
+                            SceneManager.LoadScene("You Win");
+                          }
+                 
                     //SceneManager.LoadScene("Beta");
                     
                     
