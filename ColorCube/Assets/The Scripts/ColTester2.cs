@@ -16,9 +16,15 @@ public class ColTester2 : MonoBehaviour
     
 
 
+    
+    
+
+
     Renderer rend;
     void Start ()
     {
+        Scene currentScene = SceneManager.GetActiveScene ();
+        string sceneName = currentScene.name;
         rend = GetComponent<Renderer>();
         HitsMAX = UnityEngine.Random.Range(1,9);
         rend.material = Red;
@@ -72,8 +78,16 @@ public class ColTester2 : MonoBehaviour
                 if(GameOver==LevelSpawner.h)
             {
                     
+                     if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Beta"))
+                       {
+                         SceneManager.LoadScene("Beta");
+                        }
+                    else if((SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Prototype Level Complex")))
+                          {
+                            SceneManager.LoadScene("You Win");
+                          }
                    // SceneManager.LoadScene("You Win");
-                    SceneManager.LoadScene("Beta");
+                    //SceneManager.LoadScene("Beta");
                     
                     
 
