@@ -29,14 +29,14 @@ public class Bounce_prototype : MonoBehaviour
         if (y <= 0.801f)
         {
          
-            LeanTween.moveY(gameObject, 2.2f, 0.7f);
+            LeanTween.moveY(gameObject, 2.2f, 0.5f);
             
         }
             
         if (y == 2.2f)
         {
            
-            LeanTween.moveY(gameObject, 0.800f, 0.8f);
+            LeanTween.moveY(gameObject, 0.800f, 0.75f);
         }
       }  
       else 

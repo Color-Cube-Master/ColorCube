@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Reciever : MonoBehaviour
 {
@@ -12,9 +13,12 @@ public class Reciever : MonoBehaviour
     private float journeyLength;
     private float fractionOfJourney;
     public float time;
+     Scene m_Scene;
+  string sceneName;
     void Start()
     {
-        
+        m_Scene = SceneManager.GetActiveScene();
+         sceneName = m_Scene.name;
     }
 
     void OnEnable() {
@@ -57,7 +61,11 @@ public class Reciever : MonoBehaviour
     public IEnumerator WaitJump()
     {
         canmoved = false;
-        yield return new WaitForSeconds(time);
+        if (sceneName == "SlowMode"){
+            yield return new WaitForSeconds(1.1f);
+        }
+        else{
+        yield return new WaitForSeconds(time);}
         canmoved = true;
     }
     private void Update()
