@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 7971869620982441324}
   - component: {fileID: 3611512587965219292}
   m_Layer: 0
-  m_Name: Boarder 2
-  m_TagString: Untagged
+  m_Name: Boarder 1
+  m_TagString: Boundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

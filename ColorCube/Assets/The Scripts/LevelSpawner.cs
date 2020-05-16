@@ -106,7 +106,7 @@ public class LevelSpawner : MonoBehaviour
                      
                     //Spawn FireBall
                      GameObject TheFireBall = Instantiate(grid.Props.FireBall0.FireBall_) as GameObject;
-                    TheFireBall.transform.position = new Vector3(grid.Props.FireBall0.posX , 10f , grid.Props.FireBall0.posZ );
+                    TheFireBall.transform.position = new Vector3(grid.Props.FireBall0.posX , 1.1f , grid.Props.FireBall0.posZ );
 
 
 

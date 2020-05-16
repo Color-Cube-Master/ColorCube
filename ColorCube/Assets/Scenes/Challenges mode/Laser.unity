@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 467174747}
   - component: {fileID: 467174746}
   - component: {fileID: 467174745}
+  - component: {fileID: 467174748}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -209,6 +210,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 35.9, y: -34, z: 0}
+--- !u!45 &467174748
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467174744}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 7aa23426f194a3246888b9067304ad93, type: 2}
 --- !u!1001 &568873767
 PrefabInstance:
   m_ObjectHideFlags: 0

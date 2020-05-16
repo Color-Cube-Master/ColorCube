@@ -43,6 +43,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser_copter
       objectReference: {fileID: 0}
+    - target: {fileID: 2022487921849642914, guid: e24aaadc9b3700549ad29683ff5e3462,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3047261104369262001, guid: e24aaadc9b3700549ad29683ff5e3462,
         type: 3}
       propertyPath: m_LocalPosition.x

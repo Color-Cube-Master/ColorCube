@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class NewCountdown : MonoBehaviour
 {
     Image fillImg;
-    float timeAmt=50;
+    public float timeAmt=50;
     float time;
     public Text timeText;
 

@@ -8,6 +8,8 @@ TagManager:
   - AudioManager
   - Coin
   - RedL
+  - FireBall
+  - Boundary
   layers:
   - Default
   - TransparentFX
