@@ -93,7 +93,7 @@ public class ColTester2 : MonoBehaviour
                           
                           
                  
-                    //SceneManager.LoadScene("Beta");
+                    
                     
                     
 
