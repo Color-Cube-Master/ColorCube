@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8099fdca67a4c1e488cd68fd9ea93248
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BlueSky: {fileID: 2100000, guid: b9c26138270ab2d419971176337b6ebc, type: 2}
+  - Crhistmas: {fileID: 2100000, guid: ee2982eff69dc7e47bdf2a3d77b25e98, type: 2}
+  - DarkSky: {fileID: 2100000, guid: 28a64317e7974234d9a036a0fdd0af53, type: 2}
+  - Gradient: {fileID: 2100000, guid: 7aa23426f194a3246888b9067304ad93, type: 2}
+  - Halloween: {fileID: 2100000, guid: 8c0d930a51faf794d819b876a698ac82, type: 2}
+  - Magical: {fileID: 2100000, guid: 6ef38507ea67cf9478bd9a8931124669, type: 2}
+  - Moon: {instanceID: 0}
+  - Planets: {fileID: 2100000, guid: 358fd17e567ae144b8e9ae194ba86e34, type: 2}
+  - Rainbow: {fileID: 2100000, guid: 8a2dc1c6edced6849b84409710ac29b4, type: 2}
+  - Water: {fileID: 2100000, guid: d00154496b2e5ed438f1b9bd0cb01792, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

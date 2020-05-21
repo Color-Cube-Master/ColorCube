@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class Model : MonoBehaviour
-{
+{       
+    public static string Name;
     public Image Icon;
     public Image[] ImageState;
     public Text priceText;
@@ -58,6 +59,8 @@ public class Model : MonoBehaviour
             case State.Unlock:
                 shopItem.state = State.UseIt;
                 MenuManager.Instance.ItemUseitChange(shopItem);
+                Name = shopItem.name;
+                
                 Setup();
 
 
