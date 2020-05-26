@@ -15,10 +15,14 @@ public class LevelSpawner : MonoBehaviour
     public GameObject Boarder1 ;
     public GameObject Player;
     public Transform SpawnPosition;
+ Scene m_Scene;
+  string sceneName;
 
 
     void Start()
-    {
+    {         m_Scene = SceneManager.GetActiveScene();
+
+         sceneName = m_Scene.name;
        
             SpawnPlayer();
        //DontDestroyOnLoad(Player);
@@ -33,8 +37,16 @@ public class LevelSpawner : MonoBehaviour
     {
         //Press enter to move to the next level
         if (Input.GetKey(KeyCode.Return))
-        {
-            //SceneManager.LoadScene("Beta");
+        { if (sceneName == "Beta")if (sceneName == "Beta")
+            SceneManager.LoadScene("Beta");
+            if (sceneName == "FireBall")
+            SceneManager.LoadScene("FireBall");
+            if (sceneName == "Laser")
+            SceneManager.LoadScene("Laser");
+            if (sceneName == "SlowMode")
+            SceneManager.LoadScene("SlowMode");
+             if (sceneName == "Timer")
+             SceneManager.LoadScene("Timer");
         }
         
     }
