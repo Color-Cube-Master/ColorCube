@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/You Win.unity
     guid: a7c6a95af74066642adc198ffc02f119
   - enabled: 1
+    path: Assets/Scenes/Challenges mode/Timer.unity
+    guid: 1ea6b1354bfc50b47a018de1f127aa99
+  - enabled: 1
     path: Assets/Scenes/Shop scenes/Menu.unity
     guid: 39f5a82fd19d86741a87b67d481a12a6
   - enabled: 0
