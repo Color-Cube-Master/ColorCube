@@ -12,7 +12,7 @@ public class ColTester2 : MonoBehaviour
     int HitsMAX;
     public static int GameOver=0;
     public static bool P;
-    
+    public static int sceneIndex;
     
 
 
@@ -77,7 +77,9 @@ public class ColTester2 : MonoBehaviour
                 //Debug.Log(GameOver);
                 if(GameOver==LevelSpawner.h)
             {
-                    
+        
+                     
+
                      if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Beta"))
                        {
                          SceneManager.LoadScene("Beta");
@@ -88,7 +90,10 @@ public class ColTester2 : MonoBehaviour
                     || SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("SlowMode")
                     || SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Timer") )
                           {
+                              
                             SceneManager.LoadScene("You Win");
+
+                            
                           }
                           
                           

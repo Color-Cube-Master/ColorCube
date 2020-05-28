@@ -6,46 +6,68 @@ using UnityEngine.SceneManagement;
 
 public class ScenesManager : MonoBehaviour
 {
- 
- public Button Back;
+ public Button Retry;
+ public Button Next;
  public Sprite NotPressed;
  public Sprite Pressed ;
- static int sceneIndex;
  
+ //Old method
+ /*Application.LoadLevel(ColTester2.sceneIndex);
+        public static int sceneIndex;  
+        sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(DestroyByBoundary.sceneIndex); */
  
-    /*void Awake() {
+    void Awake() {
 
     			DontDestroyOnLoad(gameObject);
-                
 
+                 }
 
+    
+
+    public void ChangeButtonNext(){
+
+     if (Next.image.sprite == NotPressed)
+
+         Next.image.sprite = Pressed;
+
+     else 
+
+         Next.image.sprite = NotPressed;
+     
     }
 
-     void Start () {
-     sceneIndex = SceneManager.GetActiveScene().buildIndex;	
-	}*/
+    public void ChangeButtonRetry(){
 
-    public void ChangeButton(){
+     if (Retry.image.sprite == NotPressed)
 
-     if (Back.image.sprite == NotPressed)
-
-         Back.image.sprite = Pressed;
+         Retry.image.sprite = Pressed;
 
      else
 
-         Back.image.sprite = NotPressed;
+         Retry.image.sprite = NotPressed;
      
     }
 
 
-    public void GoBack () {
-        //Time svale controls the speed of the game
-        if (Back.image.sprite = Pressed)
+    public void GoNext (string sceneName) {
+       
+        if (Next.image.sprite = Pressed)
         {
-         SceneManager.LoadScene("Timer");
+        //SceneManager.LoadScene("Timer");
         //SceneManager.LoadScene (sceneIndex - 1);
+        SceneManager.LoadScene(sceneName);
+        
         }
     }
 
+
+    public void GoBack (string sceneName) {
        
+        if (Retry.image.sprite = Pressed)
+        
+             SceneManager.LoadScene(sceneName);        
+    }
+
+      
 }

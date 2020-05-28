@@ -15,6 +15,7 @@ public class NewCountdown : MonoBehaviour
     {
         fillImg = this.GetComponent<Image>();
         time = timeAmt;
+        
     }
 
     // Update is called once per frame
@@ -27,6 +28,7 @@ public class NewCountdown : MonoBehaviour
             timeText.text =  time.ToString("0");
         }
        else
+
             SceneManager.LoadScene("You Lose");
         
     }

@@ -4,9 +4,12 @@ using UnityEngine.SceneManagement;
 
 
 public class DestroyByBoundary : MonoBehaviour
-{
+{    
+
+
    void OnTriggerExit(Collider other) {
-       Destroy(other.gameObject);
+       
+   Destroy(other.gameObject);
    SceneManager.LoadScene("You Lose");
 
     }
