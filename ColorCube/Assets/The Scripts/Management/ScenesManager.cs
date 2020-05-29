@@ -56,6 +56,10 @@ public class ScenesManager : MonoBehaviour
         {
         //SceneManager.LoadScene("Timer");
         //SceneManager.LoadScene (sceneIndex - 1);
+        if (LevelSpawner.k + 1 <  LevelSpawner.f)
+        LevelSpawner.k ++;
+        else
+        LevelSpawner.k =0;
         SceneManager.LoadScene(sceneName);
         
         }
@@ -65,7 +69,7 @@ public class ScenesManager : MonoBehaviour
     public void GoBack (string sceneName) {
        
         if (Retry.image.sprite = Pressed)
-        
+            
              SceneManager.LoadScene(sceneName);        
     }
 

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class NewCountdown : MonoBehaviour
 {
     Image fillImg;
-    public float timeAmt=50;
+    public float timeAmt;
     float time;
     public Text timeText;
 
@@ -14,7 +14,7 @@ public class NewCountdown : MonoBehaviour
     void Start()
     {
         fillImg = this.GetComponent<Image>();
-        time = timeAmt;
+        time = timeAmt = Map.timer;
         
     }
 

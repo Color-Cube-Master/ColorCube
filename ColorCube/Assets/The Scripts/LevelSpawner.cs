@@ -7,8 +7,10 @@ public class LevelSpawner : MonoBehaviour
 {
     //Table of Maps(Matrixs)
     public Map[] level;
+   
     public static int k;
     public static int r;
+    public static int f;
     GameObject Sphere;
     public static int h;
     public GameObject Boarder2 ;
@@ -62,6 +64,7 @@ public class LevelSpawner : MonoBehaviour
         Map grid = level[k];
         
         int xlength= grid.xprefabs.Length;
+        f = level.Length;
 
 //BlockedBox BB = grid.Props.Blocked_box;
 
@@ -126,10 +129,10 @@ public class LevelSpawner : MonoBehaviour
 
 
 
-        if (k+1 < level.Length )
-            k++;
-        else if (sceneName == "You Lose")
-        { k = 0; }    
+        //if (k+1 < level.Length )
+           // k++;
+        //else if (sceneName == "You Lose")
+        //{ k = 0; }    
    
     }
 
