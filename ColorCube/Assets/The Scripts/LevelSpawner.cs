@@ -17,8 +17,8 @@ public class LevelSpawner : MonoBehaviour
     public GameObject Boarder1 ;
     public GameObject Player;
     public Transform SpawnPosition;
- Scene m_Scene;
-  public static string sceneName;
+    Scene m_Scene;
+    public static string sceneName;
 
   private void Awake()
 {
@@ -40,7 +40,7 @@ public class LevelSpawner : MonoBehaviour
      }
     void Update()
     {
-        //Press enter to move to the next level
+        //Press enter to move to the next level //Obselete for now.
         if (Input.GetKey(KeyCode.Return))
         { if (sceneName == "Beta")
         //if (sceneName == "Beta")

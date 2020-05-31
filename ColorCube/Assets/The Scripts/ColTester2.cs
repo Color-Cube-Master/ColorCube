@@ -82,7 +82,7 @@ public class ColTester2 : MonoBehaviour
 
                      if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Beta"))
                        {
-                         SceneManager.LoadScene("Beta");
+                         SceneManager.LoadScene("You Win");
                         }
                     else if( SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Prototype Level Complex")
                     || SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Laser")
