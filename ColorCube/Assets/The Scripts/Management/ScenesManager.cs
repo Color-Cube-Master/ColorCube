@@ -60,7 +60,7 @@ public class ScenesManager : MonoBehaviour
         LevelSpawner.k ++;
         else
         LevelSpawner.k =0;
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(LevelSpawner.sceneName);
         
         }
     }
@@ -70,7 +70,7 @@ public class ScenesManager : MonoBehaviour
        
         if (Retry.image.sprite = Pressed)
             
-             SceneManager.LoadScene(sceneName);        
+             SceneManager.LoadScene(LevelSpawner.sceneName);        
     }
 
       

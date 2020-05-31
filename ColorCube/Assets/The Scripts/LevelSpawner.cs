@@ -18,7 +18,7 @@ public class LevelSpawner : MonoBehaviour
     public GameObject Player;
     public Transform SpawnPosition;
  Scene m_Scene;
-  string sceneName;
+  public static string sceneName;
 
   private void Awake()
 {
@@ -28,14 +28,13 @@ public class LevelSpawner : MonoBehaviour
     void Start()
     {         m_Scene = SceneManager.GetActiveScene();
 
-         sceneName = m_Scene.name;
+          sceneName = m_Scene.name;
        
             SpawnPlayer();
        //DontDestroyOnLoad(Player);
         SpawnLevel();
         
     }
-
      void SpawnPlayer() {
      Instantiate(Player,new Vector3(SpawnPosition.position.x, SpawnPosition.position.y, SpawnPosition.position.z) ,Quaternion.identity /*SpawnPosition.position*/);
      }
