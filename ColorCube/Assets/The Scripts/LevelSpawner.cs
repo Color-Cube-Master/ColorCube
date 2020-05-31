@@ -20,6 +20,10 @@ public class LevelSpawner : MonoBehaviour
  Scene m_Scene;
   string sceneName;
 
+  private void Awake()
+{
+    Map.timer = level[k].MyStaticTimeVariableForInspector;
+}
 
     void Start()
     {         m_Scene = SceneManager.GetActiveScene();

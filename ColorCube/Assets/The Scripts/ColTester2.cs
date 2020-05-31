@@ -12,7 +12,6 @@ public class ColTester2 : MonoBehaviour
     int HitsMAX;
     public static int GameOver=0;
     public static bool P;
-    public static int sceneIndex;
     
 
 

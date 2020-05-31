@@ -853,6 +853,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 7642830067504710165, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7642830067504710167, guid: fd55bd92c2d98f944a6372983dce8f95,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1605,6 +1610,16 @@ PrefabInstance:
         type: 3}
       propertyPath: level.Array.data[1].xprefabs.Array.data[50].cordZ
       value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: level.Array.data[0].MyStaticTimeVariableForInspector
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: level.Array.data[1].MyStaticTimeVariableForInspector
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd55bd92c2d98f944a6372983dce8f95, type: 3}
