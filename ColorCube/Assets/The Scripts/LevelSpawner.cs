@@ -60,7 +60,7 @@ public class LevelSpawner : MonoBehaviour
     {
 
         
-
+h=0;
         Map grid = level[k];
         
         int xlength= grid.xprefabs.Length;

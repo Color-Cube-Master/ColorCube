@@ -28,6 +28,7 @@ public class ColTester2 : MonoBehaviour
         rend = GetComponent<Renderer>();
         HitsMAX = UnityEngine.Random.Range(1,9);
         rend.material = Red;
+        GameOver=0;
         
         //show the number of hits needed for the cube to get destroyed
         //Debug.Log(HitsMAX);
