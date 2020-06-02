@@ -27,14 +27,35 @@ EditorBuildSettings:
     path: Assets/Scenes/You Lose.unity
     guid: abeddc263dc9a5340ba8a71db6edf550
   - enabled: 1
+    path: Assets/Scenes/Normal mode/Beta.unity
+    guid: 7e3df2b928e914e47af5a670a3b9f764
+  - enabled: 1
     path: Assets/Scenes/You Win.unity
     guid: a7c6a95af74066642adc198ffc02f119
-  - enabled: 0
-    path: Assets/Scenes/Shop scenes/Menu.unity
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Menu.unity
     guid: 39f5a82fd19d86741a87b67d481a12a6
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Challenges.unity
+    guid: 2981b0a7309db414d99bb248fd210f3d
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Leaderboards.unity
+    guid: f2d70462c6fa0f84a91e0d19710903c5
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/ModelShopScene.unity
+    guid: d81236ef822bc58478e665c8788e3413
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Settings.unity
+    guid: 1b8de34e523c3a842bbc43532a2ce778
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Shop.unity
+    guid: 36379f7ca37994944881834404cc8909
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/ThemeShopScene.unity
+    guid: b46cecdd08e53194e809f4ab9ab1a033
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
