@@ -56,7 +56,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI scenes/ThemeShopScene.unity
     guid: b46cecdd08e53194e809f4ab9ab1a033
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Challenges 2.0.unity
+    guid: 7089535bd91e0994cac481bed5e5ad78
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Challenges selection/FireBallChallenge.unity
+    guid: ef8083c970cbfc7408c01a9c76d6f009
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Challenges selection/LaserChallenge.unity
+    guid: 5a30c941b345717438b2ab8079f36a54
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Challenges selection/SlowMoChallenge.unity
+    guid: b17bfcf1a9722f34b890a315079f04c8
+  - enabled: 1
+    path: Assets/Scenes/UI scenes/Challenges selection/TimerChallenge.unity
+    guid: 5bc83090b3e3f6d4a92e8d23b867b7d5
   m_configObjects: {}

@@ -19,6 +19,11 @@ TagManager:
   - BackTh
   - BackChar
   - Menu
+  - BackInCh
+  - TimerM
+  - LaserM
+  - FireBallM
+  - SlowM
   layers:
   - Default
   - TransparentFX

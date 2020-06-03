@@ -1676,6 +1676,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a18ce33a71628fa408775c87036ae698,
         type: 3}
+    - target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+        type: 3}
+      propertyPath: NotPressed1
+      value: 
+      objectReference: {fileID: 21300000, guid: 1f22a7266882c974795af36f0498d095,
+        type: 3}
+    - target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+        type: 3}
+      propertyPath: Pressed1
+      value: 
+      objectReference: {fileID: 21300000, guid: 50413d01c2dc90b4e9b69ed92fb99011,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b258864b3ce8c1c49b135f2e6e0c1c79, type: 3}
 --- !u!1 &1609499745

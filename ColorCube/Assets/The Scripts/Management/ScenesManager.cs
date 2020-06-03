@@ -27,7 +27,8 @@ public class ScenesManager : MonoBehaviour
  public Sprite PressedLeaderboard_Ch;
  public Sprite NotPressedMenu;
  public Sprite PressedMenu;
-
+ public Sprite NotPressed1;
+ public Sprite Pressed1 ;
 
 
 
@@ -119,7 +120,7 @@ public void ChangeButtonSettings(){
      if (Challenges.image.sprite == NotPressedLeaderboard_Ch)
 {
          Challenges.image.sprite = PressedLeaderboard_Ch;
-         SceneManager.LoadScene("Challenges");
+         SceneManager.LoadScene("Challenges 2.0");
 
 } 
      else
@@ -144,6 +145,45 @@ public void ChangeButtonSettings(){
 
          Menu.image.sprite = NotPressedMenu;*/
      
+    }
+
+     public void ChangeButtonTimer(){
+
+       GameObject ChallengesBack2 = GameObject.FindWithTag("TimerM");
+       Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
+
+     /*if (ChallengesBack.image.sprite == NotPressed1)
+{
+         ChallengesBack.image.sprite = Pressed1; */
+         SceneManager.LoadScene("TimerChallenge");
+       
+
+/*} 
+     else
+
+         ChallengesBack.image.sprite = NotPressed1;*/
+     
+    }
+
+    public void ChangeButtonLaser(){
+
+       GameObject ChallengesBack2 = GameObject.FindWithTag("LaserM");
+       Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
+         SceneManager.LoadScene("LaserChallenge");
+    }
+
+     public void ChangeButtonFireBall(){
+
+       GameObject ChallengesBack2 = GameObject.FindWithTag("FireBallM");
+       Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
+         SceneManager.LoadScene("FireBallChallenge");
+    }
+
+     public void ChangeButtonSlow(){
+
+       GameObject ChallengesBack2 = GameObject.FindWithTag("SlowM");
+       Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
+         SceneManager.LoadScene("SlowMoChallenge");
     }
 
 //Backs---------------------------------------------------------------------------------------------------------------------------------------
@@ -252,6 +292,24 @@ public void ChangeButtonSettingsBack(){
      else
 
          CharactersBack.image.sprite = NotPressed;
+     
+    }
+
+     public void ChangeButtonBackInChallenges(){
+
+       GameObject ChallengesBack2 = GameObject.FindWithTag("BackInCh");
+       Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
+
+     if (ChallengesBack.image.sprite == NotPressed)
+{
+         ChallengesBack.image.sprite = Pressed;
+         SceneManager.LoadScene("Challenges 2.0");
+         
+
+} 
+     else
+
+         ChallengesBack.image.sprite = NotPressed;
      
     }
 
