@@ -15,6 +15,7 @@ public class LevelSpawner : MonoBehaviour
     public static int h;
     public GameObject Boarder2 ;
     public GameObject Boarder1 ;
+    public static GameObject Playername;
     public GameObject Player;
     public Transform SpawnPosition;
     Scene m_Scene;
@@ -29,35 +30,33 @@ public class LevelSpawner : MonoBehaviour
     {         m_Scene = SceneManager.GetActiveScene();
 
           sceneName = m_Scene.name;
-       
+       Player = Playername;
+
             SpawnPlayer();
        //DontDestroyOnLoad(Player);
         SpawnLevel();
-        
         
     }
      void SpawnPlayer() {
      Instantiate(Player,new Vector3(SpawnPosition.position.x, SpawnPosition.position.y, SpawnPosition.position.z) ,Quaternion.identity /*SpawnPosition.position*/);
      }
     void Update()
-
     {
-        
+
         //Press enter to move to the next level //Obselete for now.
-        if (Input.GetKey(KeyCode.Return)){
-            if (sceneName == "Beta")
+        if (Input.GetKey(KeyCode.Return))
+        { if (sceneName == "Beta")
+        //if (sceneName == "Beta")
             SceneManager.LoadScene("Beta");
             if (sceneName == "FireBall")
             SceneManager.LoadScene("FireBall");
-            if (sceneName == "Laser")       
-            SceneManager.LoadScene("Laser");   
+            if (sceneName == "Laser")
+            SceneManager.LoadScene("Laser");
             if (sceneName == "SlowMode")
             SceneManager.LoadScene("SlowMode");
              if (sceneName == "Timer")
              SceneManager.LoadScene("Timer");
-
         }
-          
         
     }
 
@@ -135,12 +134,11 @@ h=0;
 
 
 
-        //Actv to hover between levels
-        if (k+1 < level.Length )
-            k++;
-        else if (sceneName == "You Lose")
-        { k = 0; }  
-        
+
+        //if (k+1 < level.Length )
+           // k++;
+        //else if (sceneName == "You Lose")
+        //{ k = 0; }    
    
     }
 

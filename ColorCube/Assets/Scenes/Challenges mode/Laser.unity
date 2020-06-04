@@ -3079,6 +3079,16 @@ PrefabInstance:
       propertyPath: level.Array.data[4].xprefabs.Array.data[49].cordZ
       value: -2
       objectReference: {fileID: 0}
+    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: level.Array.data[4].Props.Blocked_box.Enable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642830067504710164, guid: fd55bd92c2d98f944a6372983dce8f95,
+        type: 3}
+      propertyPath: level.Array.data[4].Props.Blocked_box.posX
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd55bd92c2d98f944a6372983dce8f95, type: 3}
 --- !u!1 &1692998778

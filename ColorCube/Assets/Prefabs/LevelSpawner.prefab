@@ -48,3 +48,5 @@ MonoBehaviour:
     type: 3}
   Boarder1: {fileID: 7971869620982441325, guid: a6ae003495e2a58489ef29a6874ca273,
     type: 3}
+  Player: {fileID: 7191804093653128433, guid: 0fd2c2231cb615d4d8f83d3fbd1a6c82, type: 3}
+  SpawnPosition: {fileID: 0}
