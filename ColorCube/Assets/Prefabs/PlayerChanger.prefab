@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1368635957182769621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1368635957182769622}
+  - component: {fileID: 1368635957182769623}
+  m_Layer: 0
+  m_Name: PlayerChanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1368635957182769622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368635957182769621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.43867242, y: 1.0896813, z: 0.19500491}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1368635957182769623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368635957182769621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1403f866ed925b47a3ebfaafa5f76a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eightball: {fileID: 5495454472316830713, guid: 9a5e746decaf6ec418f25bc56de99a45,
+    type: 3}
+  Droid: {fileID: 4039537067615221764, guid: 0bf4866e95c891c4485acd54647d0dbe, type: 3}
+  Baseball: {fileID: 4536473366142693482, guid: cae6d15bf4951264f8938f8adf324ca0,
+    type: 3}
+  Basketball: {fileID: 2350883910303872118, guid: 34b332ca585ec3b4993f90aefda76133,
+    type: 3}
+  Beachball: {fileID: 1584321722533635128, guid: 9c3ea6ecfd326714d96c66f11768ab26,
+    type: 3}
+  Buckyball: {fileID: 816392910770957890, guid: b2e0253ac8121944eaab6fdaf8dce0aa,
+    type: 3}
+  CLBall: {fileID: 1577795439747816925, guid: 536f72ed3d111dd42a82bae1f4e61b8d, type: 3}
+  chaosball: {fileID: 2981385825600899802, guid: 0aee6fec67e9cb4439ff9c45449b9042,
+    type: 3}
+  Cricketball: {fileID: 2870005507685830314, guid: aecee2e834a932b46ac057653f7e84a0,
+    type: 3}
+  discoball: {fileID: 7147669802406595242, guid: ff6fba2ee3af04045a58c8abf30bb5ef,
+    type: 3}
+  dustyball: {fileID: 2433909433319021627, guid: 710494d8affe99d4cb73bea9cddc4860,
+    type: 3}
+  eye: {fileID: 3487763338729543246, guid: de046fc6b214dc44cb44d17c228d9b64, type: 3}
+  golfball: {fileID: 3796440698098160409, guid: ae904bb1fa7ee174988e2d156341fddf,
+    type: 3}
+  loveEmo: {fileID: 7117135033263547676, guid: 0eced773edc483d408451c430c53ab75, type: 3}
+  earth: {fileID: 2058593343307201967, guid: dafbf7357aaf2c64facf616251cdf307, type: 3}
+  ornament: {fileID: 8309770643205651833, guid: 3f4791986ee1e2f46b20209c2a2d3b56,
+    type: 3}
+  pokemonball: {fileID: 4190272642715616373, guid: 83910a4406f47f6458cfa2f5f9069f6d,
+    type: 3}
+  robot: {fileID: 7634480595862598324, guid: 0c572f3b9e821594fbf080a565a68ad8, type: 3}
+  soccerball: {fileID: 2144120882142564754, guid: ea00d3b451b9e514980940b648bdad1d,
+    type: 3}
+  spikeball: {fileID: 1665604771669155174, guid: 48cdf9af0a2882440a3334f6ca1f1d74,
+    type: 3}
+  tennisball: {fileID: 5875195187921909060, guid: 51f6d97f4ca33ee45990f37e7daf5ab2,
+    type: 3}
+  FirstBall: {fileID: 7191804093653128433, guid: 0fd2c2231cb615d4d8f83d3fbd1a6c82,
+    type: 3}
+  tooblueball: {fileID: 7744374307680101162, guid: 72df40fc63c1550458755565f2dc8bf2,
+    type: 3}
+  YellowBall: {fileID: 2585685206365756888, guid: c03b5f2d0b0d95b43b2dabfae673e8a2,
+    type: 3}

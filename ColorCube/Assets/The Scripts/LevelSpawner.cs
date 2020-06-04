@@ -15,6 +15,7 @@ public class LevelSpawner : MonoBehaviour
     public static int h;
     public GameObject Boarder2 ;
     public GameObject Boarder1 ;
+    public static GameObject Playername;
     public GameObject Player;
     public Transform SpawnPosition;
     Scene m_Scene;
@@ -29,7 +30,8 @@ public class LevelSpawner : MonoBehaviour
     {         m_Scene = SceneManager.GetActiveScene();
 
           sceneName = m_Scene.name;
-       
+       Player = Playername;
+
             SpawnPlayer();
        //DontDestroyOnLoad(Player);
         SpawnLevel();
@@ -40,6 +42,7 @@ public class LevelSpawner : MonoBehaviour
      }
     void Update()
     {
+
         //Press enter to move to the next level //Obselete for now.
         if (Input.GetKey(KeyCode.Return))
         { if (sceneName == "Beta")
