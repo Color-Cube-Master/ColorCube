@@ -293,6 +293,11 @@ PrefabInstance:
       propertyPath: sounds.Array.data[5].clip
       value: 
       objectReference: {fileID: 8300000, guid: a45612ceaeeed3f4ebabe6356740f639, type: 3}
+    - target: {fileID: 6383030050044032290, guid: 462fd3548871ecc4189757da9745ce66,
+        type: 3}
+      propertyPath: sounds.Array.data[4].name
+      value: Win
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 462fd3548871ecc4189757da9745ce66, type: 3}
 --- !u!1 &419776529

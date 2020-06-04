@@ -26,7 +26,7 @@ public class WinSound : MonoBehaviour
         isCoroutineExecuting = true;
 
         yield return new WaitForSeconds(time);
-         FindObjectOfType<AudioManager>().Play("Tada");
+         FindObjectOfType<AudioManager>().Play("Win");
 
        
         
