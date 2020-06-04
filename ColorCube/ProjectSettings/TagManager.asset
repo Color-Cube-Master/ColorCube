@@ -44,6 +44,10 @@ TagManager:
   - T3
   - T4
   - T5
+  - ReturnCh
+  - ReturnCh_L
+  - ReturnCh_S
+  - ReturnCh_T
   layers:
   - Default
   - TransparentFX

@@ -476,6 +476,38 @@ public void ChangeButtonSettingsBack(){
      
     }
 
+     public void ReturnCh(){
+
+       GameObject ReturnCh2 = GameObject.FindWithTag("ReturnCh");
+       Button ReturnCh = ReturnCh2.GetComponent<Button>();
+       
+         SceneManager.LoadScene("FireBallChallenge");
+    }
+
+    public void ReturnCh_L(){
+
+       GameObject ReturnCh2 = GameObject.FindWithTag("ReturnCh_L");
+       Button ReturnCh = ReturnCh2.GetComponent<Button>();
+       
+         SceneManager.LoadScene("LaserChallenge");
+    }
+
+    public void ReturnCh_S(){
+
+       GameObject ReturnCh2 = GameObject.FindWithTag("ReturnCh_S");
+       Button ReturnCh = ReturnCh2.GetComponent<Button>();
+       
+         SceneManager.LoadScene("SlowMoChallenge");
+    }
+
+    public void ReturnCh_T(){
+
+       GameObject ReturnCh2 = GameObject.FindWithTag("ReturnCh_T");
+       Button ReturnCh = ReturnCh2.GetComponent<Button>();
+       
+         SceneManager.LoadScene("TimerChallenge");
+    }
+
     //2shops--------------------------------------------------------------------------------------------------------------------------------
  public void ChangeButtonThemes(){
 
