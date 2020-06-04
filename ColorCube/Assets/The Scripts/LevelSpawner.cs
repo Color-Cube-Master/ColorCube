@@ -46,7 +46,6 @@ public class LevelSpawner : MonoBehaviour
         //Press enter to move to the next level //Obselete for now.
         if (Input.GetKey(KeyCode.Return))
         { if (sceneName == "Beta")
-        //if (sceneName == "Beta")
             SceneManager.LoadScene("Beta");
             if (sceneName == "FireBall")
             SceneManager.LoadScene("FireBall");

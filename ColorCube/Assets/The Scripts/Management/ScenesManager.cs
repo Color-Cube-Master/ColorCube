@@ -30,6 +30,7 @@ public class ScenesManager : MonoBehaviour
  public Sprite NotPressed1;
  public Sprite Pressed1 ;
 
+ public AudioClip MenuMusic ;
 
 
    
@@ -554,6 +555,10 @@ public void ChangeButtonSettingsBack(){
 //Plays--------------------------------------------------------------------------------------------------------------------------------------
 public void StartGame() {
     SceneManager.LoadScene("Beta");
+
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = MenuMusic;
+                audio.Play();
 }
       
 }
