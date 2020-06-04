@@ -185,6 +185,169 @@ public void ChangeButtonSettings(){
        Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
          SceneManager.LoadScene("SlowMoChallenge");
     }
+ //FireBall level selection
+    public void SelectF1(){
+
+       GameObject SelectF1 = GameObject.FindWithTag("F1");
+       Button Selected = SelectF1.GetComponent<Button>();
+       LevelSpawner.k=0;
+         SceneManager.LoadScene("FireBall");
+    }
+
+public void SelectF2(){
+
+       GameObject SelectF2 = GameObject.FindWithTag("F2");
+       Button Selected = SelectF2.GetComponent<Button>();
+       LevelSpawner.k=1;
+         SceneManager.LoadScene("FireBall");
+    }
+
+    public void SelectF3(){
+
+       GameObject SelectF3 = GameObject.FindWithTag("F3");
+       Button Selected = SelectF3.GetComponent<Button>();
+       LevelSpawner.k=2;
+         SceneManager.LoadScene("FireBall");
+    }
+
+    public void SelectF4(){
+
+       GameObject SelectF4 = GameObject.FindWithTag("F4");
+       Button Selected = SelectF4.GetComponent<Button>();
+       LevelSpawner.k=3;
+         SceneManager.LoadScene("FireBall");
+    }
+
+     public void SelectF5(){
+
+       GameObject SelectF5 = GameObject.FindWithTag("F5");
+       Button Selected = SelectF5.GetComponent<Button>();
+       LevelSpawner.k=4;
+         SceneManager.LoadScene("FireBall");
+    }
+     //Laser level selection
+
+      public void SelectL1(){
+
+       GameObject SelectL1 = GameObject.FindWithTag("L1");
+       Button Selected = SelectL1.GetComponent<Button>();
+       LevelSpawner.k=0;
+         SceneManager.LoadScene("Laser");
+    }
+
+public void SelectL2(){
+
+       GameObject SelectL2 = GameObject.FindWithTag("L2");
+       Button Selected = SelectL2.GetComponent<Button>();
+       LevelSpawner.k=1;
+         SceneManager.LoadScene("Laser");
+    }
+
+    public void SelectL3(){
+
+       GameObject SelectL3 = GameObject.FindWithTag("L3");
+       Button Selected = SelectL3.GetComponent<Button>();
+       LevelSpawner.k=2;
+         SceneManager.LoadScene("Laser");
+    }
+
+    public void SelectL4(){
+
+       GameObject SelectL4 = GameObject.FindWithTag("L4");
+       Button Selected = SelectL4.GetComponent<Button>();
+       LevelSpawner.k=3;
+         SceneManager.LoadScene("Laser");
+    }
+
+     public void SelectL5(){
+
+       GameObject SelectL5 = GameObject.FindWithTag("L5");
+       Button Selected = SelectL5.GetComponent<Button>();
+       LevelSpawner.k=4;
+         SceneManager.LoadScene("Laser");
+    }
+    //Slow levels selection
+
+    public void SelectS1(){
+
+       GameObject SelectS1 = GameObject.FindWithTag("S1");
+       Button Selected = SelectS1.GetComponent<Button>();
+       LevelSpawner.k=0;
+         SceneManager.LoadScene("SlowMode");
+    }
+
+public void SelectS2(){
+
+       GameObject SelectS2 = GameObject.FindWithTag("S2");
+       Button Selected = SelectS2.GetComponent<Button>();
+       LevelSpawner.k=1;
+         SceneManager.LoadScene("SlowMode");
+    }
+
+    public void SelectS3(){
+
+       GameObject SelectS3 = GameObject.FindWithTag("S3");
+       Button Selected = SelectS3.GetComponent<Button>();
+       LevelSpawner.k=2;
+         SceneManager.LoadScene("SlowMode");
+    }
+
+    public void SelectS4(){
+
+       GameObject SelectS4 = GameObject.FindWithTag("S4");
+       Button Selected = SelectS4.GetComponent<Button>();
+       LevelSpawner.k=3;
+         SceneManager.LoadScene("SlowMode");
+    }
+
+     public void SelectS5(){
+
+       GameObject SelectS5 = GameObject.FindWithTag("S5");
+       Button Selected = SelectS5.GetComponent<Button>();
+       LevelSpawner.k=4;
+         SceneManager.LoadScene("SlowMode");
+    }
+    //Timer levels selection
+
+    public void SelectT1(){
+
+       GameObject SelectT1 = GameObject.FindWithTag("T1");
+       Button Selected = SelectT1.GetComponent<Button>();
+       LevelSpawner.k=0;
+         SceneManager.LoadScene("Timer");
+    }
+
+public void SelectT2(){
+
+       GameObject SelecTS2 = GameObject.FindWithTag("T2");
+       Button Selected = SelecTS2.GetComponent<Button>();
+       LevelSpawner.k=1;
+         SceneManager.LoadScene("Timer");
+    }
+
+    public void SelectT3(){
+
+       GameObject SelectT3 = GameObject.FindWithTag("T3");
+       Button Selected = SelectT3.GetComponent<Button>();
+       LevelSpawner.k=2;
+         SceneManager.LoadScene("Timer");
+    }
+
+    public void SelectT4(){
+
+       GameObject SelectT4 = GameObject.FindWithTag("T4");
+       Button Selected = SelectT4.GetComponent<Button>();
+       LevelSpawner.k=3;
+         SceneManager.LoadScene("Timer");
+    }
+
+     public void SelectT5(){
+
+       GameObject SelectT5 = GameObject.FindWithTag("T5");
+       Button Selected = SelectT5.GetComponent<Button>();
+       LevelSpawner.k=4;
+         SceneManager.LoadScene("Timer");
+    }
 
 //Backs---------------------------------------------------------------------------------------------------------------------------------------
     public void ChangeButtonChallengesBack(){

@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 684542254}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: F3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -312,7 +312,7 @@ RectTransform:
   m_Children:
   - {fileID: 714983584}
   m_Father: {fileID: 1827609411}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -398,13 +398,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectF3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 878354292}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: F1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -755,13 +755,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectF1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 1002565539}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: F2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -876,11 +876,11 @@ RectTransform:
   m_Children:
   - {fileID: 751817812}
   m_Father: {fileID: 1827609411}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -100.60002, y: 0.0000019073486}
+  m_AnchoredPosition: {x: -100.60004, y: 0}
   m_SizeDelta: {x: -700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1002565537
@@ -962,13 +962,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectF2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -988,7 +988,7 @@ GameObject:
   - component: {fileID: 1245996637}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: F4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1006,7 +1006,7 @@ RectTransform:
   m_Children:
   - {fileID: 1490208930}
   m_Father: {fileID: 1827609411}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1092,13 +1092,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectF4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1640,7 +1640,7 @@ GameObject:
   - component: {fileID: 1727189027}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: F5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1658,11 +1658,11 @@ RectTransform:
   m_Children:
   - {fileID: 273810500}
   m_Father: {fileID: 1827609411}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 222.1, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 222.1, y: 0}
   m_SizeDelta: {x: -699.8, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1727189025
@@ -1744,13 +1744,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectF5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1953,10 +1953,10 @@ RectTransform:
   - {fileID: 1397377662}
   - {fileID: 1441998284}
   - {fileID: 878354289}
-  - {fileID: 1727189024}
   - {fileID: 1002565536}
   - {fileID: 684542251}
   - {fileID: 1245996634}
+  - {fileID: 1727189024}
   - {fileID: 687274665}
   - {fileID: 1342781995}
   m_Father: {fileID: 0}

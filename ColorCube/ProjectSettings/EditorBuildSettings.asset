@@ -74,4 +74,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI scenes/Challenges selection/TimerChallenge.unity
     guid: 5bc83090b3e3f6d4a92e8d23b867b7d5
+  - enabled: 1
+    path: Assets/Scenes/Challenges mode/FireBall.unity
+    guid: 2b10aa965aae08b4fa04fc608169a126
+  - enabled: 1
+    path: Assets/Scenes/Challenges mode/Laser.unity
+    guid: 56cfa66a6b96b4942910392bbc899a52
+  - enabled: 1
+    path: Assets/Scenes/Challenges mode/SlowMode.unity
+    guid: 34234afa31c172646b625d750089fb72
   m_configObjects: {}

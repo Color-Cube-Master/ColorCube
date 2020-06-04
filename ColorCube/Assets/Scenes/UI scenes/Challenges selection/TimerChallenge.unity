@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 189599118}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: T1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -412,13 +412,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectT1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 322824500}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: T3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,7 +456,7 @@ RectTransform:
   m_Children:
   - {fileID: 476735368}
   m_Father: {fileID: 1869009602}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -542,13 +542,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectT3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -722,7 +722,7 @@ GameObject:
   - component: {fileID: 508421866}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: T5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -740,11 +740,11 @@ RectTransform:
   m_Children:
   - {fileID: 583723076}
   m_Father: {fileID: 1869009602}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 222, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 222, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508421864
@@ -826,13 +826,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectT5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1006,7 +1006,7 @@ GameObject:
   - component: {fileID: 628121590}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: T2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1024,7 +1024,7 @@ RectTransform:
   m_Children:
   - {fileID: 626157467}
   m_Father: {fileID: 1869009602}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1110,13 +1110,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectT2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1136,7 +1136,7 @@ GameObject:
   - component: {fileID: 667758939}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: T4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1154,7 +1154,7 @@ RectTransform:
   m_Children:
   - {fileID: 1902367457}
   m_Father: {fileID: 1869009602}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1240,13 +1240,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8516478471837031686, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+      - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: 
+        m_MethodName: SelectT4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1901,10 +1901,10 @@ RectTransform:
   - {fileID: 871803492}
   - {fileID: 961343956}
   - {fileID: 189599115}
-  - {fileID: 508421863}
   - {fileID: 628121587}
   - {fileID: 322824497}
   - {fileID: 667758936}
+  - {fileID: 508421863}
   - {fileID: 1376622020}
   - {fileID: 1605879646}
   m_Father: {fileID: 0}
