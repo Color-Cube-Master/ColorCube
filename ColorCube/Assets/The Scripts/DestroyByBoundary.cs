@@ -8,8 +8,9 @@ public class DestroyByBoundary : MonoBehaviour
 
 
    void OnTriggerExit(Collider other) {
-       
-   Destroy(other.gameObject);
+    FindObjectOfType<AudioManager>().Play("Out");
+    Destroy(other.gameObject);
+    FindObjectOfType<AudioManager>().Stop("Playing");
    SceneManager.LoadScene("You Lose");
 
     }

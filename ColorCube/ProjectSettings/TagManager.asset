@@ -48,6 +48,7 @@ TagManager:
   - ReturnCh_L
   - ReturnCh_S
   - ReturnCh_T
+  - Pause
   layers:
   - Default
   - TransparentFX

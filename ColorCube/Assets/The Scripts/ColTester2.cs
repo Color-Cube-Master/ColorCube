@@ -51,8 +51,7 @@ public class ColTester2 : MonoBehaviour
 
             //Destroy();
 
-           // FindObjectOfType<AudioManager>().Play("Bounce");
-
+            FindObjectOfType<AudioManager>().Play("BounceNew");
             rend.material = Red;
             Counter++;
             GameOver--;
@@ -68,7 +67,7 @@ public class ColTester2 : MonoBehaviour
             //Destroy();
 
             {
-                // FindObjectOfType<AudioManager>().Play("Bounce");
+                FindObjectOfType<AudioManager>().Play("BounceNew");
                 rend.material = Green;
                 Counter++;
                 GameOver++;
@@ -82,6 +81,7 @@ public class ColTester2 : MonoBehaviour
 
                      if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Beta"))
                        {
+                            FindObjectOfType<AudioManager>().Stop("Playing");
                          SceneManager.LoadScene("You Win");
                         }
                     else if( SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Prototype Level Complex")
@@ -90,7 +90,7 @@ public class ColTester2 : MonoBehaviour
                     || SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("SlowMode")
                     || SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Timer") )
                           {
-                              
+                               FindObjectOfType<AudioManager>().Stop("Playing");
                             SceneManager.LoadScene("You Win");
 
                             
@@ -98,12 +98,6 @@ public class ColTester2 : MonoBehaviour
                           
                           
                  
-                    
-                    
-                    
-
-                    //UnityEditor.EditorApplication.isPlaying = false;}
- 
             }
 
 

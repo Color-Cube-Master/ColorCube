@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4967,6 +4967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause button
       objectReference: {fileID: 0}
+    - target: {fileID: 4747848333930005095, guid: cf6fa5a8f6120bf49b23c2a196897841,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pause
+      objectReference: {fileID: 0}
     - target: {fileID: 4747848333930005096, guid: cf6fa5a8f6120bf49b23c2a196897841,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5071,6 +5076,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747848333930005099, guid: cf6fa5a8f6120bf49b23c2a196897841,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747848333930005099, guid: cf6fa5a8f6120bf49b23c2a196897841,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747848333930005099, guid: cf6fa5a8f6120bf49b23c2a196897841,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747848333930005099, guid: cf6fa5a8f6120bf49b23c2a196897841,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+        type: 3}
+    - target: {fileID: 4747848333930005099, guid: cf6fa5a8f6120bf49b23c2a196897841,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: ClickPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747848333930005099, guid: cf6fa5a8f6120bf49b23c2a196897841,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6fa5a8f6120bf49b23c2a196897841, type: 3}

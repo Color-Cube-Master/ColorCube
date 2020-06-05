@@ -9,7 +9,9 @@ public class FireBallCollision : MonoBehaviour
     void OnCollisionEnter(Collision col) {
      if (col.gameObject.tag == "FireBall")
      {
-     Destroy(gameObject);
+      FindObjectOfType<AudioManager>().Play("Out");
+      Destroy(gameObject);
+      FindObjectOfType<AudioManager>().Stop("Playing");
      SceneManager.LoadScene("You Lose");
      }
 }

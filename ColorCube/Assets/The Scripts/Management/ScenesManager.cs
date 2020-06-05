@@ -27,10 +27,7 @@ public class ScenesManager : MonoBehaviour
  public Sprite PressedLeaderboard_Ch;
  public Sprite NotPressedMenu;
  public Sprite PressedMenu;
- public Sprite NotPressed1;
- public Sprite Pressed1 ;
-
-
+ 
 
    
  
@@ -40,19 +37,27 @@ public class ScenesManager : MonoBehaviour
         public static int sceneIndex;  
         sceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(DestroyByBoundary.sceneIndex); */
- 
+       
+
     void Awake() {
 
     			DontDestroyOnLoad(gameObject);
 
                  }
+
+
+     void Start() {
+     FindObjectOfType<AudioManager>().Play("MainMenu");                       
+     }
    
-//Changing the buttons sprites on press-------------------------------------------------------------------------------------------------------
+//Changing the buttons sprites on press---------------------------------------------------------------------------------------------------------
     public void ChangeButtonNext(){
 
      if (Next.image.sprite == NotPressed )
-
-         Next.image.sprite = Pressed;
+     {
+         FindObjectOfType<AudioManager>().Play("RectClick");
+         FindObjectOfType<AudioManager>().Play("Playing");
+         Next.image.sprite = Pressed;}
 
      else 
 
@@ -63,8 +68,9 @@ public class ScenesManager : MonoBehaviour
     public void ChangeButtonRetry(){
 
      if (Retry.image.sprite == NotPressed)
-
-         Retry.image.sprite = Pressed;
+       {  FindObjectOfType<AudioManager>().Play("RectClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+         Retry.image.sprite = Pressed;}
 
      else
 
@@ -72,11 +78,11 @@ public class ScenesManager : MonoBehaviour
      
     }
 
-    //_Switching scenes on press-----------------------------------------------------------------------------------------------------------
+    //_Switching scenes on press----------------------------------------------------------------------------------------------------------------
 public void ChangeButtonSettings(){
 
      if (Settings.image.sprite == NotPressedSettings)
-{
+{        FindObjectOfType<AudioManager>().Play("RoundClick");
          Settings.image.sprite = PressedSettings;
          SceneManager.LoadScene("Settings");
 }
@@ -90,7 +96,7 @@ public void ChangeButtonSettings(){
     public void ChangeButtonShop(){
 
      if (Shop.image.sprite == NotPressedShop)
-{
+{        FindObjectOfType<AudioManager>().Play("RoundClick");
          Shop.image.sprite = PressedShop;
          SceneManager.LoadScene("Shop");
 }
@@ -104,7 +110,7 @@ public void ChangeButtonSettings(){
     public void ChangeButtonLeaderboard(){
 
      if (Leaderboard.image.sprite == NotPressedLeaderboard_Ch)
-{
+{        FindObjectOfType<AudioManager>().Play("RoundClick");
          Leaderboard.image.sprite = PressedLeaderboard_Ch;
          SceneManager.LoadScene("Leaderboards");
 }
@@ -118,7 +124,7 @@ public void ChangeButtonSettings(){
     public void ChangeButtonChallenges(){
 
      if (Challenges.image.sprite == NotPressedLeaderboard_Ch)
-{
+{        FindObjectOfType<AudioManager>().Play("RoundClick");
          Challenges.image.sprite = PressedLeaderboard_Ch;
          SceneManager.LoadScene("Challenges 2.0");
 
@@ -132,18 +138,10 @@ public void ChangeButtonSettings(){
     public void ChangeButtonMenu(){
 
        GameObject Menu2 = GameObject.FindWithTag("Menu");
-       Button Menu = Menu2.GetComponent<Button>();
-
-     /*if (Menu.image.sprite == NotPressedMenu)
-    {
-         Menu.image.sprite = PressedMenu;*/
+       Button Menu = Menu2.GetComponent<Button>(); 
+         FindObjectOfType<AudioManager>().Play("RoundClick");
+         FindObjectOfType<AudioManager>().Stop("Playing");                       
          SceneManager.LoadScene("Menu");
-         
-
-/*} 
-     else
-
-         Menu.image.sprite = NotPressedMenu;*/
      
     }
 
@@ -151,17 +149,8 @@ public void ChangeButtonSettings(){
 
        GameObject ChallengesBack2 = GameObject.FindWithTag("TimerM");
        Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
-
-     /*if (ChallengesBack.image.sprite == NotPressed1)
-{
-         ChallengesBack.image.sprite = Pressed1; */
+       FindObjectOfType<AudioManager>().Play("RoundClick");
          SceneManager.LoadScene("TimerChallenge");
-       
-
-/*} 
-     else
-
-         ChallengesBack.image.sprite = NotPressed1;*/
      
     }
 
@@ -169,6 +158,7 @@ public void ChangeButtonSettings(){
 
        GameObject ChallengesBack2 = GameObject.FindWithTag("LaserM");
        Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
+         FindObjectOfType<AudioManager>().Play("RoundClick");
          SceneManager.LoadScene("LaserChallenge");
     }
 
@@ -176,6 +166,8 @@ public void ChangeButtonSettings(){
 
        GameObject ChallengesBack2 = GameObject.FindWithTag("FireBallM");
        Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
+         
+         FindObjectOfType<AudioManager>().Play("RoundClick");
          SceneManager.LoadScene("FireBallChallenge");
     }
 
@@ -183,13 +175,17 @@ public void ChangeButtonSettings(){
 
        GameObject ChallengesBack2 = GameObject.FindWithTag("SlowM");
        Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
+         FindObjectOfType<AudioManager>().Play("RoundClick");
          SceneManager.LoadScene("SlowMoChallenge");
     }
- //FireBall level selection
+ //FireBall level selection---------------------------------------------------------------------------------------------------------------------
     public void SelectF1(){
 
        GameObject SelectF1 = GameObject.FindWithTag("F1");
        Button Selected = SelectF1.GetComponent<Button>();
+     FindObjectOfType<AudioManager>().Play("RoundClick");
+     FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=0;
          SceneManager.LoadScene("FireBall");
     }
@@ -198,6 +194,9 @@ public void SelectF2(){
 
        GameObject SelectF2 = GameObject.FindWithTag("F2");
        Button Selected = SelectF2.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=1;
          SceneManager.LoadScene("FireBall");
     }
@@ -206,6 +205,9 @@ public void SelectF2(){
 
        GameObject SelectF3 = GameObject.FindWithTag("F3");
        Button Selected = SelectF3.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=2;
          SceneManager.LoadScene("FireBall");
     }
@@ -214,6 +216,9 @@ public void SelectF2(){
 
        GameObject SelectF4 = GameObject.FindWithTag("F4");
        Button Selected = SelectF4.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=3;
          SceneManager.LoadScene("FireBall");
     }
@@ -222,15 +227,21 @@ public void SelectF2(){
 
        GameObject SelectF5 = GameObject.FindWithTag("F5");
        Button Selected = SelectF5.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=4;
          SceneManager.LoadScene("FireBall");
     }
-     //Laser level selection
+     //Laser level selection--------------------------------------------------------------------------------------------------------------------
 
       public void SelectL1(){
 
        GameObject SelectL1 = GameObject.FindWithTag("L1");
        Button Selected = SelectL1.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=0;
          SceneManager.LoadScene("Laser");
     }
@@ -239,6 +250,9 @@ public void SelectL2(){
 
        GameObject SelectL2 = GameObject.FindWithTag("L2");
        Button Selected = SelectL2.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=1;
          SceneManager.LoadScene("Laser");
     }
@@ -247,6 +261,9 @@ public void SelectL2(){
 
        GameObject SelectL3 = GameObject.FindWithTag("L3");
        Button Selected = SelectL3.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=2;
          SceneManager.LoadScene("Laser");
     }
@@ -255,6 +272,9 @@ public void SelectL2(){
 
        GameObject SelectL4 = GameObject.FindWithTag("L4");
        Button Selected = SelectL4.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=3;
          SceneManager.LoadScene("Laser");
     }
@@ -263,15 +283,21 @@ public void SelectL2(){
 
        GameObject SelectL5 = GameObject.FindWithTag("L5");
        Button Selected = SelectL5.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=4;
          SceneManager.LoadScene("Laser");
     }
-    //Slow levels selection
+    //Slow levels selection------------------------------------------------------------------------------------------------------------------
 
     public void SelectS1(){
 
        GameObject SelectS1 = GameObject.FindWithTag("S1");
        Button Selected = SelectS1.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=0;
          SceneManager.LoadScene("SlowMode");
     }
@@ -280,6 +306,9 @@ public void SelectS2(){
 
        GameObject SelectS2 = GameObject.FindWithTag("S2");
        Button Selected = SelectS2.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=1;
          SceneManager.LoadScene("SlowMode");
     }
@@ -288,6 +317,9 @@ public void SelectS2(){
 
        GameObject SelectS3 = GameObject.FindWithTag("S3");
        Button Selected = SelectS3.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=2;
          SceneManager.LoadScene("SlowMode");
     }
@@ -296,6 +328,9 @@ public void SelectS2(){
 
        GameObject SelectS4 = GameObject.FindWithTag("S4");
        Button Selected = SelectS4.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=3;
          SceneManager.LoadScene("SlowMode");
     }
@@ -304,15 +339,21 @@ public void SelectS2(){
 
        GameObject SelectS5 = GameObject.FindWithTag("S5");
        Button Selected = SelectS5.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=4;
          SceneManager.LoadScene("SlowMode");
     }
-    //Timer levels selection
+    //Timer levels selection---------------------------------------------------------------------------------------------------------------
 
     public void SelectT1(){
 
        GameObject SelectT1 = GameObject.FindWithTag("T1");
        Button Selected = SelectT1.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=0;
          SceneManager.LoadScene("Timer");
     }
@@ -321,6 +362,9 @@ public void SelectT2(){
 
        GameObject SelecTS2 = GameObject.FindWithTag("T2");
        Button Selected = SelecTS2.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=1;
          SceneManager.LoadScene("Timer");
     }
@@ -329,6 +373,9 @@ public void SelectT2(){
 
        GameObject SelectT3 = GameObject.FindWithTag("T3");
        Button Selected = SelectT3.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=2;
          SceneManager.LoadScene("Timer");
     }
@@ -337,6 +384,9 @@ public void SelectT2(){
 
        GameObject SelectT4 = GameObject.FindWithTag("T4");
        Button Selected = SelectT4.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=3;
          SceneManager.LoadScene("Timer");
     }
@@ -345,6 +395,9 @@ public void SelectT2(){
 
        GameObject SelectT5 = GameObject.FindWithTag("T5");
        Button Selected = SelectT5.GetComponent<Button>();
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+       FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.k=4;
          SceneManager.LoadScene("Timer");
     }
@@ -356,7 +409,7 @@ public void SelectT2(){
        Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
 
      if (ChallengesBack.image.sprite == NotPressed)
-{
+{        FindObjectOfType<AudioManager>().Play("RectClick");
          ChallengesBack.image.sprite = Pressed;
          SceneManager.LoadScene("Menu");
          
@@ -374,7 +427,7 @@ public void ChangeButtonSettingsBack(){
        Button SettingsBack = SettingsBack2.GetComponent<Button>();
 
      if (SettingsBack.image.sprite == NotPressed)
-{
+{        FindObjectOfType<AudioManager>().Play("RectClick");
          SettingsBack.image.sprite = Pressed;
          SceneManager.LoadScene("Menu");
          
@@ -392,7 +445,7 @@ public void ChangeButtonSettingsBack(){
        Button ShopBack = ShopBack2.GetComponent<Button>();
 
      if (ShopBack.image.sprite == NotPressed)
-{
+{        FindObjectOfType<AudioManager>().Play("RectClick");
          ShopBack.image.sprite = Pressed;
          SceneManager.LoadScene("Menu");
          
@@ -410,7 +463,7 @@ public void ChangeButtonSettingsBack(){
        Button LeaderBoardBack = LeaderBoardBack2.GetComponent<Button>();
 
      if (LeaderBoardBack.image.sprite == NotPressed)
-{
+{        FindObjectOfType<AudioManager>().Play("RectClick");
          LeaderBoardBack.image.sprite = Pressed;
          SceneManager.LoadScene("Menu");
          
@@ -428,7 +481,7 @@ public void ChangeButtonSettingsBack(){
        Button ThemeBack = ThemeBack2.GetComponent<Button>();
 
      if (ThemeBack.image.sprite == NotPressed)
-{
+{        FindObjectOfType<AudioManager>().Play("RectClick");
          ThemeBack.image.sprite = Pressed;
          SceneManager.LoadScene("Shop");
          
@@ -446,7 +499,7 @@ public void ChangeButtonSettingsBack(){
        Button CharactersBack = CharactersBack2.GetComponent<Button>();
 
      if (CharactersBack.image.sprite == NotPressed)
-{
+{        FindObjectOfType<AudioManager>().Play("RectClick");
          CharactersBack.image.sprite = Pressed;
          SceneManager.LoadScene("Shop");
          
@@ -464,7 +517,7 @@ public void ChangeButtonSettingsBack(){
        Button ChallengesBack = ChallengesBack2.GetComponent<Button>();
 
      if (ChallengesBack.image.sprite == NotPressed)
-{
+{        FindObjectOfType<AudioManager>().Play("RectClick");
          ChallengesBack.image.sprite = Pressed;
          SceneManager.LoadScene("Challenges 2.0");
          
@@ -480,7 +533,9 @@ public void ChangeButtonSettingsBack(){
 
        GameObject ReturnCh2 = GameObject.FindWithTag("ReturnCh");
        Button ReturnCh = ReturnCh2.GetComponent<Button>();
-       
+         FindObjectOfType<AudioManager>().Play("RectClick");
+         FindObjectOfType<AudioManager>().Stop("Playing");
+       FindObjectOfType<AudioManager>().Play("MainMenu");
          SceneManager.LoadScene("FireBallChallenge");
     }
 
@@ -488,7 +543,9 @@ public void ChangeButtonSettingsBack(){
 
        GameObject ReturnCh2 = GameObject.FindWithTag("ReturnCh_L");
        Button ReturnCh = ReturnCh2.GetComponent<Button>();
-       
+         FindObjectOfType<AudioManager>().Play("RectClick");
+         FindObjectOfType<AudioManager>().Stop("Playing");
+       FindObjectOfType<AudioManager>().Play("MainMenu");
          SceneManager.LoadScene("LaserChallenge");
     }
 
@@ -496,7 +553,9 @@ public void ChangeButtonSettingsBack(){
 
        GameObject ReturnCh2 = GameObject.FindWithTag("ReturnCh_S");
        Button ReturnCh = ReturnCh2.GetComponent<Button>();
-       
+         FindObjectOfType<AudioManager>().Play("RectClick");
+         FindObjectOfType<AudioManager>().Stop("Playing");
+       FindObjectOfType<AudioManager>().Play("MainMenu");
          SceneManager.LoadScene("SlowMoChallenge");
     }
 
@@ -504,7 +563,9 @@ public void ChangeButtonSettingsBack(){
 
        GameObject ReturnCh2 = GameObject.FindWithTag("ReturnCh_T");
        Button ReturnCh = ReturnCh2.GetComponent<Button>();
-       
+         FindObjectOfType<AudioManager>().Play("RectClick");
+        FindObjectOfType<AudioManager>().Stop("Playing");
+       FindObjectOfType<AudioManager>().Play("MainMenu");
          SceneManager.LoadScene("TimerChallenge");
     }
 
@@ -513,7 +574,7 @@ public void ChangeButtonSettingsBack(){
 
        GameObject Themes2 = GameObject.FindWithTag("Themes");
        Button Themes = Themes2.GetComponent<Button>();
-
+         FindObjectOfType<AudioManager>().Play("RectClick");
          SceneManager.LoadScene("ThemeShopScene");
         
     }
@@ -522,7 +583,7 @@ public void ChangeButtonSettingsBack(){
 
        GameObject Characters2 = GameObject.FindWithTag("Characters");
        Button Characters = Characters2.GetComponent<Button>();
-
+         FindObjectOfType<AudioManager>().Play("RectClick");
          SceneManager.LoadScene("ModelShopScene");
         
     }
@@ -532,6 +593,7 @@ public void ChangeButtonSettingsBack(){
        
         if (Next.image.sprite = Pressed)
         {
+        FindObjectOfType<AudioManager>().Play("RectClick");
         //SceneManager.LoadScene("Timer");
         //SceneManager.LoadScene (sceneIndex - 1);
         if (LevelSpawner.k + 1 <  LevelSpawner.f)
@@ -546,15 +608,40 @@ public void ChangeButtonSettingsBack(){
 
     public void GoBack (string sceneName) {
        
-        if (Retry.image.sprite = Pressed)
-            
-             SceneManager.LoadScene(LevelSpawner.sceneName);        
+       // if (Retry.image.sprite = Pressed)
+        
+             SceneManager.LoadScene(LevelSpawner.sceneName);     
+    }
+
+ public void ClickPause(){
+
+       FindObjectOfType<AudioManager>().Play("RoundClick");
     }
 
 //Plays--------------------------------------------------------------------------------------------------------------------------------------
 public void StartGame() {
+    FindObjectOfType<AudioManager>().Play("RectClick");
+    FindObjectOfType<AudioManager>().Stop("MainMenu");       
+    FindObjectOfType<AudioManager>().Play("Playing");                       
+                
+
     SceneManager.LoadScene("Beta");
-             
 }
-      
+
+//Toggles-------------------------------------------------------------------------------------------------------------------------------------
+  /*bool Toggle = true;
+  void OnGUI() {
+     Toggle =!Toggle;
+     if (Toggle)
+     {FindObjectOfType<AudioManager>().UnMute("MainMenu");       
+     FindObjectOfType<AudioManager>().UnMute("Playing"); }
+  else
+  {
+     FindObjectOfType<AudioManager>().Mute("MainMenu");       
+     FindObjectOfType<AudioManager>().Mute("Playing"); 
+  }
+  }*/
+
+
+
 }

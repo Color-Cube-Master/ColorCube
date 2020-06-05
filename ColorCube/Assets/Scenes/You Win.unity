@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -222,6 +222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219518726124632275, guid: 462fd3548871ecc4189757da9745ce66,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1186494985051608101, guid: 462fd3548871ecc4189757da9745ce66,
         type: 3}
@@ -517,6 +522,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
+        type: 3}
+      propertyPath: Next
+      value: 
+      objectReference: {fileID: 6073458242864779197}
     - target: {fileID: 8516478471837031687, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -572,11 +582,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
-        type: 3}
-      propertyPath: Next
-      value: 
-      objectReference: {fileID: 6073458242864779197}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b258864b3ce8c1c49b135f2e6e0c1c79, type: 3}
 --- !u!114 &607401869 stripped
