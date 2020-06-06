@@ -2,16 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; 
 public class Model : MonoBehaviour
 {       
     public static string Name;
+    public static string Name2;
     public Image Icon;
     public Image[] ImageState;
     public Text priceText;
     private int price;
     private ShopItem shopItem;
+    Scene m_Scene;
+  string sceneName;
     void Start()
     {
+         m_Scene = SceneManager.GetActiveScene();
+         sceneName = m_Scene.name;
         
     }
     private void OnEnable()
@@ -59,7 +65,10 @@ public class Model : MonoBehaviour
             case State.Unlock:
                 shopItem.state = State.UseIt;
                 MenuManager.Instance.ItemUseitChange(shopItem);
+            if (sceneName == "ThemeShopScene")
                 Name = shopItem.name;
+                if (sceneName == "ModelShopScene")
+                Name2 = shopItem.name;
                 
                 Setup();
 

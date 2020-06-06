@@ -65,7 +65,7 @@ public class Reciever : MonoBehaviour
             yield return new WaitForSeconds(1.1f);
         }
         else{
-        yield return new WaitForSeconds(time+0.1f);}
+        yield return new WaitForSeconds(time);}
         canmoved = true;
     }
     private void Update()

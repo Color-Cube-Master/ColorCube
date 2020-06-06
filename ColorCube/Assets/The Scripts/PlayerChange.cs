@@ -37,51 +37,51 @@ public class PlayerChange : MonoBehaviour
     void Start()
     {
       //For instant start
-    if (Model.Name=="1-Yellow ball") 
+    if (Model.Name2=="1-Yellow ball") 
       LevelSpawner.Playername= YellowBall;
-       else if (Model.Name=="2-DustyBall") 
+       else if (Model.Name2=="2-DustyBall") 
       LevelSpawner.Playername= dustyball;
-       else if (Model.Name=="3-BeachBall") 
+       else if (Model.Name2=="3-BeachBall") 
       LevelSpawner.Playername= Beachball;
-       else if (Model.Name=="4-BasketBall") 
+       else if (Model.Name2=="4-BasketBall") 
       LevelSpawner.Playername=  Basketball;
-       else if (Model.Name=="5-Golf_ball") 
+       else if (Model.Name2=="5-Golf_ball") 
       LevelSpawner.Playername= golfball;
-       else if (Model.Name=="6-TennisBall") 
+       else if (Model.Name2=="6-TennisBall") 
       LevelSpawner.Playername= tennisball;
-       else if (Model.Name=="7-Ornament") 
+       else if (Model.Name2=="7-Ornament") 
       LevelSpawner.Playername= ornament;
-       else if (Model.Name=="8-Baseball") 
+       else if (Model.Name2=="8-Baseball") 
       LevelSpawner.Playername= Baseball;
-       else if (Model.Name=="9-Soccer_ball") 
+       else if (Model.Name2=="9-Soccer_ball") 
       LevelSpawner.Playername= soccerball;
-       else if (Model.Name=="10-TooBlueBall") 
+       else if (Model.Name2=="10-TooBlueBall") 
       LevelSpawner.Playername= tooblueball;
-       else if (Model.Name=="11-ChaosBall") 
+       else if (Model.Name2=="11-ChaosBall") 
       LevelSpawner.Playername= chaosball;
-       else if (Model.Name=="12-CricketBall") 
+       else if (Model.Name2=="12-CricketBall") 
       LevelSpawner.Playername= Cricketball;
-      else if (Model.Name=="13-LoveEmoji") 
+      else if (Model.Name2=="13-LoveEmoji") 
       LevelSpawner.Playername= loveEmo;
-       else if (Model.Name=="14-DiscoBall") 
+       else if (Model.Name2=="14-DiscoBall") 
       LevelSpawner.Playername= discoball;
-      else if (Model.Name=="15-Ball droid") 
+      else if (Model.Name2=="15-Ball droid") 
       LevelSpawner.Playername= Droid;
-       else if (Model.Name=="16-8Ball") 
+       else if (Model.Name2=="16-8Ball") 
       LevelSpawner.Playername= eightball;
-       else if (Model.Name=="17-Eyeball") 
+       else if (Model.Name2=="17-Eyeball") 
       LevelSpawner.Playername= eye; // Eye is bugged
-       else if (Model.Name=="18-AtomesBall") 
+       else if (Model.Name2=="18-AtomesBall") 
       LevelSpawner.Playername= Buckyball;
-       else if (Model.Name=="19-PokemonBall") 
+       else if (Model.Name2=="19-PokemonBall") 
       LevelSpawner.Playername=pokemonball;
-      else  if (Model.Name=="20-Lowpoly_earth") 
+      else  if (Model.Name2=="20-Lowpoly_earth") 
       LevelSpawner.Playername= earth;
-       else if (Model.Name=="21-SpikedBall") 
+       else if (Model.Name2=="21-SpikedBall") 
       LevelSpawner.Playername= spikeball;
-       else if (Model.Name=="22-Champions_league ball") 
+       else if (Model.Name2=="22-Champions_league ball") 
       LevelSpawner.Playername= CLBall;
-       else if (Model.Name=="23-Robot sphere") 
+       else if (Model.Name2=="23-Robot sphere") 
       LevelSpawner.Playername= robot;
       else
       LevelSpawner.Playername= FirstBall; 

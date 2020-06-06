@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MenuCoins : MonoBehaviour
 {
     public Text CoinsText;
-    public static int coincount2=3000;
+    public static int coincount2=5000;
     // Start is called before the first frame update
     void Start()
     {

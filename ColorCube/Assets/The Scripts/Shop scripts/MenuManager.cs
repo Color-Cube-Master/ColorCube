@@ -41,7 +41,7 @@ public static int coincount2;
     }
     private void Start()
     {
-        
+        coincount=MenuCoins.coincount2;
         ScoreText.text = coincount.ToString();
         CreateShop();
     }
