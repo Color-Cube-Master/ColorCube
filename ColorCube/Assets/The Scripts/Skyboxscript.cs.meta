@@ -10,7 +10,7 @@ MonoImporter:
   - Gradient: {fileID: 2100000, guid: 7aa23426f194a3246888b9067304ad93, type: 2}
   - Halloween: {fileID: 2100000, guid: 8c0d930a51faf794d819b876a698ac82, type: 2}
   - Magical: {fileID: 2100000, guid: 6ef38507ea67cf9478bd9a8931124669, type: 2}
-  - Moon: {instanceID: 0}
+  - Moon: {fileID: 2100000, guid: 27bed396f9e3607439c8aa4e57239163, type: 2}
   - Planets: {fileID: 2100000, guid: 358fd17e567ae144b8e9ae194ba86e34, type: 2}
   - Rainbow: {fileID: 2100000, guid: 8a2dc1c6edced6849b84409710ac29b4, type: 2}
   - Water: {fileID: 2100000, guid: d00154496b2e5ed438f1b9bd0cb01792, type: 2}

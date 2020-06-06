@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e9bc37eae85b644be7fe616bcbe692, type: 3}
   m_Name: 4- Dark sky with the stars
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 6922f68cde8e74544bada0120b345a8c, type: 3}
+  icon: {fileID: 21300000, guid: e2280f43d38c119439f4d1fd99ce9ca5, type: 3}
   Price: 4000
   state: 0

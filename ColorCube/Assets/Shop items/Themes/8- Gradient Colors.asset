@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e9bc37eae85b644be7fe616bcbe692, type: 3}
   m_Name: 8- Gradient Colors
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: ab004427f3fe71d4292459f6c31ac666, type: 3}
+  icon: {fileID: 21300000, guid: 3ef1b93e507e0d64b9d5e0deea419c62, type: 3}
   Price: 8000
   state: 0

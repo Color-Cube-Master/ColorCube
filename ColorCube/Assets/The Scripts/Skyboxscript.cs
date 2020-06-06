@@ -17,6 +17,8 @@ public class Skyboxscript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       if (Model.Name == "1-Moon")
+      RenderSettings.skybox = Moon;
       if (Model.Name == "2- Water")
       RenderSettings.skybox = Water;
       if (Model.Name == "3- Blue sky")
