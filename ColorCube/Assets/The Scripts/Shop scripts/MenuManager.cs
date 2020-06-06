@@ -75,10 +75,10 @@ public static int coincount2;
 
     IEnumerator CoinAnimation(int c)
     {
-        for (int i = 0; i < c/10; i++)
+        for (int i = 0; i < c/100; i++)
         {
-            yield return new WaitForSeconds(0.02f);
-            coincount -= 10;
+            yield return new WaitForSeconds(0.0000001f);
+            coincount -= 100;
             MenuCoins.coincount2=coincount ;
             ScoreText.text = coincount.ToString();
             
