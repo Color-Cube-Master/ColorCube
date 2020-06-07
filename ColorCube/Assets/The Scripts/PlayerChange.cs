@@ -70,7 +70,7 @@ public class PlayerChange : MonoBehaviour
        else if (Model.Name2=="16-8Ball") 
       LevelSpawner.Playername= eightball;
        else if (Model.Name2=="17-Eyeball") 
-      LevelSpawner.Playername= eye; // Eye is bugged
+      LevelSpawner.Playername= eye; 
        else if (Model.Name2=="18-AtomesBall") 
       LevelSpawner.Playername= Buckyball;
        else if (Model.Name2=="19-PokemonBall") 
@@ -84,7 +84,7 @@ public class PlayerChange : MonoBehaviour
        else if (Model.Name2=="23-Robot sphere") 
       LevelSpawner.Playername= robot;
       else
-      LevelSpawner.Playername= FirstBall; 
+      LevelSpawner.Playername= eye; //LevelSpawner.Playername= FirstBall; 
         }
 
     // Update is called once per frame

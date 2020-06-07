@@ -74,6 +74,45 @@ public void Stop(string sound)
 		s.source.volume = 0;
 	}
 
+	public void UnMuteMusic(string sound)
+	{
+		Sound s = Array.Find(sounds, item => item.name == sound);
+		if (s == null)
+		{
+			Debug.LogWarning("Sound: " + name + " not found!");
+			return;
+		}
+		
+
+		s.source.volume = 0.3f;
+	}
+
+	public void UnMuteGameplay(string sound)
+	{
+		Sound s = Array.Find(sounds, item => item.name == sound);
+		if (s == null)
+		{
+			Debug.LogWarning("Sound: " + name + " not found!");
+			return;
+		}
+		
+
+		s.source.volume = 0.5f;
+	}
+
+    public void UnMuteSfx(string sound)
+	{
+		Sound s = Array.Find(sounds, item => item.name == sound);
+		if (s == null)
+		{
+			Debug.LogWarning("Sound: " + name + " not found!");
+			return;
+		}
+		
+
+		s.source.volume = 1f;
+	}
+
 	
 
 

@@ -151,10 +151,10 @@ h=0;
 
 
 
-        //if (k+1 < level.Length )
-           // k++;
-        //else if (sceneName == "You Lose")
-        //{ k = 0; }    
+        /*if (k+1 < level.Length )
+            k++;
+        else if (sceneName == "You Lose")
+        { k = 0; }    */
    
     }
 

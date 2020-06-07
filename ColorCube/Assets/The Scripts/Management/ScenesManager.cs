@@ -626,18 +626,51 @@ public void StartGame() {
 }
 
 //Toggles-------------------------------------------------------------------------------------------------------------------------------------
-  /*bool Toggle = true;
-  void OnGUI() {
-     Toggle =!Toggle;
-     if (Toggle)
-     {FindObjectOfType<AudioManager>().UnMute("MainMenu");       
-     FindObjectOfType<AudioManager>().UnMute("Playing"); }
-  else
-  {
-     FindObjectOfType<AudioManager>().Mute("MainMenu");       
+  public void MuteMusic() {
+   GameObject m_Toggle2 = GameObject.FindWithTag("ToggleS");
+   Toggle m_Toggle  = m_Toggle2.GetComponent<Toggle>();
+
+   if (!m_Toggle.isOn)
+   {
+     FindObjectOfType<AudioManager>().Mute("MainMenu"); 
      FindObjectOfType<AudioManager>().Mute("Playing"); 
+     FindObjectOfType<AudioManager>().Mute("Win"); 
+     FindObjectOfType<AudioManager>().Mute("Lost");     
+   }
+   else
+   {
+     FindObjectOfType<AudioManager>().UnMuteMusic("MainMenu"); 
+     FindObjectOfType<AudioManager>().UnMuteGameplay("Playing");
+     FindObjectOfType<AudioManager>().UnMuteSfx("Win"); 
+     FindObjectOfType<AudioManager>().UnMuteSfx("Lost");      
+        }
   }
-  }*/
+
+public void MuteSfx() {
+   GameObject m_Toggle2 = GameObject.FindWithTag("ToggleSfx");
+   Toggle m_Toggle  = m_Toggle2.GetComponent<Toggle>();
+
+   if (!m_Toggle.isOn)
+   {
+     Debug.Log("Sfx Off");
+     FindObjectOfType<AudioManager>().Mute("RectClick"); 
+     FindObjectOfType<AudioManager>().Mute("RoundClick"); 
+     FindObjectOfType<AudioManager>().Mute("BounceNew");    
+     FindObjectOfType<AudioManager>().Mute("Out");
+
+   }
+   else
+   {
+     Debug.Log("Sfx On");
+     FindObjectOfType<AudioManager>().UnMuteSfx("RectClick"); 
+     FindObjectOfType<AudioManager>().UnMuteSfx("RoundClick"); 
+     FindObjectOfType<AudioManager>().UnMuteSfx("BounceNew");    
+     FindObjectOfType<AudioManager>().UnMuteSfx("Out");     
+        }
+  }
+  
+
+  
 
 
 

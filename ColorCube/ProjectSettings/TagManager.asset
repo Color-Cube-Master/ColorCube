@@ -49,6 +49,8 @@ TagManager:
   - ReturnCh_S
   - ReturnCh_T
   - Pause
+  - ToggleS
+  - ToggleSfx
   layers:
   - Default
   - TransparentFX
