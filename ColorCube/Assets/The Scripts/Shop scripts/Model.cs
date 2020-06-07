@@ -7,6 +7,8 @@ public class Model : MonoBehaviour
 {       
     public static string Name;
     public static string Name2;
+    public static string State1;
+    public static string State2;
     public Image Icon;
     public Image[] ImageState;
     public Text priceText;
@@ -55,6 +57,7 @@ public class Model : MonoBehaviour
         switch (shopItem.state)
         {
             case State.Lockit:
+            
                 if (price<=MenuManager.Instance.coincount)
                 {
                     shopItem.state = State.Unlock;
@@ -63,6 +66,7 @@ public class Model : MonoBehaviour
                 }
                 break;
             case State.Unlock:
+            
                 shopItem.state = State.UseIt;
                 MenuManager.Instance.ItemUseitChange(shopItem);
             if (sceneName == "ThemeShopScene")
@@ -71,6 +75,7 @@ public class Model : MonoBehaviour
                 Name2 = shopItem.name;
                 
                 Setup();
+                SaveManager.Save();
 
 
                 break;

@@ -186,7 +186,7 @@ public void ChangeButtonSettings(){
      FindObjectOfType<AudioManager>().Play("RoundClick");
      FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=0;
+       LevelSpawner.FI=0;
          SceneManager.LoadScene("FireBall");
     }
 
@@ -197,7 +197,7 @@ public void SelectF2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=1;
+       LevelSpawner.FI=1;
          SceneManager.LoadScene("FireBall");
     }
 
@@ -208,7 +208,7 @@ public void SelectF2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=2;
+       LevelSpawner.FI=2;
          SceneManager.LoadScene("FireBall");
     }
 
@@ -219,7 +219,7 @@ public void SelectF2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=3;
+       LevelSpawner.FI=3;
          SceneManager.LoadScene("FireBall");
     }
 
@@ -230,7 +230,7 @@ public void SelectF2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=4;
+       LevelSpawner.FI=4;
          SceneManager.LoadScene("FireBall");
     }
      //Laser level selection--------------------------------------------------------------------------------------------------------------------
@@ -242,7 +242,7 @@ public void SelectF2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=0;
+       LevelSpawner.L=0;
          SceneManager.LoadScene("Laser");
     }
 
@@ -253,7 +253,7 @@ public void SelectL2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=1;
+       LevelSpawner.L=1;
          SceneManager.LoadScene("Laser");
     }
 
@@ -264,7 +264,7 @@ public void SelectL2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=2;
+       LevelSpawner.L=2;
          SceneManager.LoadScene("Laser");
     }
 
@@ -275,7 +275,7 @@ public void SelectL2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=3;
+       LevelSpawner.L=3;
          SceneManager.LoadScene("Laser");
     }
 
@@ -286,7 +286,7 @@ public void SelectL2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=4;
+       LevelSpawner.L=4;
          SceneManager.LoadScene("Laser");
     }
     //Slow levels selection------------------------------------------------------------------------------------------------------------------
@@ -298,7 +298,7 @@ public void SelectL2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=0;
+       LevelSpawner.S=0;
          SceneManager.LoadScene("SlowMode");
     }
 
@@ -309,7 +309,7 @@ public void SelectS2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=1;
+       LevelSpawner.S=1;
          SceneManager.LoadScene("SlowMode");
     }
 
@@ -320,7 +320,7 @@ public void SelectS2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=2;
+       LevelSpawner.S=2;
          SceneManager.LoadScene("SlowMode");
     }
 
@@ -331,7 +331,7 @@ public void SelectS2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=3;
+       LevelSpawner.S=3;
          SceneManager.LoadScene("SlowMode");
     }
 
@@ -342,7 +342,7 @@ public void SelectS2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=4;
+       LevelSpawner.S=4;
          SceneManager.LoadScene("SlowMode");
     }
     //Timer levels selection---------------------------------------------------------------------------------------------------------------
@@ -354,7 +354,7 @@ public void SelectS2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=0;
+       LevelSpawner.T=0;
          SceneManager.LoadScene("Timer");
     }
 
@@ -365,7 +365,7 @@ public void SelectT2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=1;
+       LevelSpawner.T=1;
          SceneManager.LoadScene("Timer");
     }
 
@@ -376,7 +376,7 @@ public void SelectT2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=2;
+       LevelSpawner.T=2;
          SceneManager.LoadScene("Timer");
     }
 
@@ -387,7 +387,7 @@ public void SelectT2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=3;
+       LevelSpawner.T=3;
          SceneManager.LoadScene("Timer");
     }
 
@@ -398,7 +398,7 @@ public void SelectT2(){
        FindObjectOfType<AudioManager>().Play("RoundClick");
        FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
-       LevelSpawner.k=4;
+       LevelSpawner.T=4;
          SceneManager.LoadScene("Timer");
     }
 
@@ -596,10 +596,7 @@ public void ChangeButtonSettingsBack(){
         FindObjectOfType<AudioManager>().Play("RectClick");
         //SceneManager.LoadScene("Timer");
         //SceneManager.LoadScene (sceneIndex - 1);
-        if (LevelSpawner.k + 1 <  LevelSpawner.f)
-        LevelSpawner.k ++;
-        else
-        LevelSpawner.k =0;
+        
         SceneManager.LoadScene(LevelSpawner.sceneName);
         
         }

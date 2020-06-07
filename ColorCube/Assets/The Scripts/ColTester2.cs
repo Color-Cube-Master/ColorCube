@@ -83,21 +83,65 @@ public class ColTester2 : MonoBehaviour
                        {
                             FindObjectOfType<AudioManager>().Stop("Playing");
                          SceneManager.LoadScene("You Win");
+                          if (LevelSpawner.B + 1 <  LevelSpawner.f)
+                        LevelSpawner.B ++;
+                        else
+                        LevelSpawner.B =0;
+                        SaveManager.Save();
                         }
-                    else if( SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Prototype Level Complex")
-                    || SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Laser")
-                    || SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("FireBall")
-                    || SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("SlowMode")
-                    || SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Timer") )
-                          {
+                        
+                    else if( SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Prototype Level Complex"))
+                     {
                                FindObjectOfType<AudioManager>().Stop("Playing");
                             SceneManager.LoadScene("You Win");
 
                             
                           }
                           
+                    else if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Laser"))
+                    {
+                            FindObjectOfType<AudioManager>().Stop("Playing");
+                         SceneManager.LoadScene("You Win");
+                          if (LevelSpawner.L + 1 <  LevelSpawner.f)
+                        LevelSpawner.L ++;
+                         else
+                            LevelSpawner.L =0;
+                            SaveManager.Save();
+                        }
+                      else if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("FireBall"))
+                      {
+                           FindObjectOfType<AudioManager>().Stop("Playing");
+                         SceneManager.LoadScene("You Win");
+                         if (LevelSpawner.FI + 1 <  LevelSpawner.f)
+        LevelSpawner.FI ++;
+        else
+        LevelSpawner.FI =0;
+        SaveManager.Save();
+                      }
+                      else if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("SlowMode"))
+                      {
+                           FindObjectOfType<AudioManager>().Stop("Playing");
+                         SceneManager.LoadScene("You Win");
+                           if (LevelSpawner.S + 1 <  LevelSpawner.f)
+        LevelSpawner.S ++;
+        else
+        LevelSpawner.S =0;
+        SaveManager.Save();
+                      }
+                      else if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Timer") )
+                      {
+                           FindObjectOfType<AudioManager>().Stop("Playing");
+                         SceneManager.LoadScene("You Win");
+                         if (LevelSpawner.T + 1 <  LevelSpawner.f)
+        LevelSpawner.T ++;
+        else
+        LevelSpawner.T =0;
+        SaveManager.Save();
+                      }
+                         
                           
                  
+            
             }
 
 

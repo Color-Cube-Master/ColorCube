@@ -7,8 +7,12 @@ public class LevelSpawner : MonoBehaviour
 {
     //Table of Maps(Matrixs)
     public Map[] level;
-   
-    public static int k;
+   public static int k;
+    public static int B;
+    public static int T;
+    public static int L;
+    public static int S;
+    public static int FI;
     public static int r;
     public static int f;
     GameObject Sphere;
@@ -22,15 +26,28 @@ public class LevelSpawner : MonoBehaviour
     public static string sceneName;
 
   private void Awake()
-{
+{   m_Scene = SceneManager.GetActiveScene();
+            
+          sceneName = m_Scene.name;
+          if (sceneName == "Beta")
+          k=B;
+          if (sceneName == "FireBall")
+          k=FI;
+           if (sceneName == "Laser")
+           k=L;
+           if (sceneName == "SlowMode")
+           k=S;
+           if (sceneName == "Timer")
+           k=T;      
+         
     Map.timer = level[k].MyStaticTimeVariableForInspector;
 }
 
     void Start()
-    {         m_Scene = SceneManager.GetActiveScene();
-
-          sceneName = m_Scene.name;
+    {    
        Player = Playername;
+       
+      
 
             SpawnPlayer();
        //DontDestroyOnLoad(Player);
