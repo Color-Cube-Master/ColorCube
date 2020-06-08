@@ -43,6 +43,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450cf2773d2610e4ca0808dc3ecb6ec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Back: {fileID: 0}
+  Retry: {fileID: 0}
+  Next: {fileID: 0}
+  Settings: {fileID: 0}
+  Shop: {fileID: 0}
+  Leaderboard: {fileID: 0}
+  Challenges: {fileID: 0}
+  Play: {fileID: 0}
   NotPressed: {fileID: 21300000, guid: deaf5a308a731364a8fb141e86889b6a, type: 3}
   Pressed: {fileID: 21300000, guid: e82be066e2f6e334b818b1f8f67beddf, type: 3}
+  NotPressedSettings: {fileID: 0}
+  PressedSettings: {fileID: 0}
+  NotPressedShop: {fileID: 0}
+  PressedShop: {fileID: 0}
+  NotPressedLeaderboard_Ch: {fileID: 0}
+  PressedLeaderboard_Ch: {fileID: 0}
+  NotPressedMenu: {fileID: 0}
+  PressedMenu: {fileID: 0}
+  TextForBlock: {fileID: 3307331658201193936, guid: 136a9949524ec524ab3ec0064f2794e9,
+    type: 3}
