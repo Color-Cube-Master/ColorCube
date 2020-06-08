@@ -228,12 +228,7 @@ public void ChangeButtonSettings(){
         
    
       
-      
-        
-      
-     
-      
-   
+/*--------------------------------------------------------------------------------------
     
 
  //FireBall level selection---------------------------------------------------------------------------------------------------------------------
@@ -459,6 +454,7 @@ public void SelectT2(){
        LevelSpawner.T=4;
          SceneManager.LoadScene("Timer");
     }
+--------------------------------------------------------------------------------------*/
 
 //Backs---------------------------------------------------------------------------------------------------------------------------------------
     public void ChangeButtonChallengesBack(){
@@ -676,10 +672,6 @@ public void ChangeButtonSettingsBack(){
 //Plays--------------------------------------------------------------------------------------------------------------------------------------
 public void StartGame() {
     FindObjectOfType<AudioManager>().Play("RectClick");
-    FindObjectOfType<AudioManager>().Stop("MainMenu");       
-    FindObjectOfType<AudioManager>().Play("Playing");                       
-                
-
     SceneManager.LoadScene("BetaSelection");
 }
 

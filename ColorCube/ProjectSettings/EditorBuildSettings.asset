@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: b0fa2b372b5cbb24f92a322c4c5192da
   - enabled: 1
-    path: Assets/Scenes/UI scenes/Challenges selection/BetaSelection.unity
+    path: Assets/Scenes/UI scenes/Level selection/BetaSelection.unity
     guid: ddf24f9e0fe334a4484d6dfdff73ad74
   - enabled: 0
     path: Assets/Scenes/Prototypes/Prototype Level.unity
@@ -66,16 +66,16 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/UI scenes/Challenges selection/FireBallChallenge.unity
+    path: Assets/Scenes/UI scenes/Level selection/FireBallChallenge.unity
     guid: ef8083c970cbfc7408c01a9c76d6f009
   - enabled: 1
-    path: Assets/Scenes/UI scenes/Challenges selection/LaserChallenge.unity
+    path: Assets/Scenes/UI scenes/Level selection/LaserChallenge.unity
     guid: 5a30c941b345717438b2ab8079f36a54
   - enabled: 1
-    path: Assets/Scenes/UI scenes/Challenges selection/SlowMoChallenge.unity
+    path: Assets/Scenes/UI scenes/Level selection/SlowMoChallenge.unity
     guid: b17bfcf1a9722f34b890a315079f04c8
   - enabled: 1
-    path: Assets/Scenes/UI scenes/Challenges selection/TimerChallenge.unity
+    path: Assets/Scenes/UI scenes/Level selection/TimerChallenge.unity
     guid: 5bc83090b3e3f6d4a92e8d23b867b7d5
   - enabled: 1
     path: Assets/Scenes/Challenges mode/FireBall.unity
