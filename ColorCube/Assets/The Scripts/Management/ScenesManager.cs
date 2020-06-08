@@ -621,7 +621,7 @@ public void StartGame() {
     FindObjectOfType<AudioManager>().Stop("MainMenu");       
     FindObjectOfType<AudioManager>().Play("Playing");                       
                 
-
+    //LevelSpawner.B=3;
     SceneManager.LoadScene("Beta");
 }
 

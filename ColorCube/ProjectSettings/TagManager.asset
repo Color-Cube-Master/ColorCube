@@ -51,6 +51,7 @@ TagManager:
   - Pause
   - ToggleS
   - ToggleSfx
+  - BlockedBox
   layers:
   - Default
   - TransparentFX
