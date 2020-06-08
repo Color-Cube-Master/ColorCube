@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 444181532}
   m_Layer: 5
   m_Name: Back button
-  m_TagString: BackInCh
+  m_TagString: BackCh
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -501,7 +501,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: ChangeButtonBackInChallenges
+        m_MethodName: ChangeButtonChallengesBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
