@@ -12,13 +12,14 @@ GameObject:
   - component: {fileID: 2839434153214260919}
   - component: {fileID: 2839434153214260918}
   - component: {fileID: 2839434153214260921}
+  - component: {fileID: 7955553581964675551}
   m_Layer: 0
   m_Name: Blocked box T2
-  m_TagString: Untagged
+  m_TagString: BlockedBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2839434153214260916
 Transform:
   m_ObjectHideFlags: 0
@@ -90,5 +91,17 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0715232, y: 3.502429, z: 1.0547738}
+  m_Center: {x: 0.003071785, y: 1.2512145, z: 0.00436306}
+--- !u!114 &7955553581964675551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2839434153214260920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184b30c6e8a35d4498061f309e7a4bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
