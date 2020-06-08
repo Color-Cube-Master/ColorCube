@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class ScenesManager : MonoBehaviour
 {
@@ -27,7 +28,9 @@ public class ScenesManager : MonoBehaviour
  public Sprite PressedLeaderboard_Ch;
  public Sprite NotPressedMenu;
  public Sprite PressedMenu;
- 
+ Scene m_Scene;
+  string Snm;
+
 
    
  
@@ -47,7 +50,11 @@ public class ScenesManager : MonoBehaviour
 
 
      void Start() {
-     FindObjectOfType<AudioManager>().Play("MainMenu");                       
+       m_Scene = SceneManager.GetActiveScene();
+
+          Snm = m_Scene.name;
+     FindObjectOfType<AudioManager>().Play("MainMenu");
+      
      }
    
 //Changing the buttons sprites on press---------------------------------------------------------------------------------------------------------
@@ -178,6 +185,56 @@ public void ChangeButtonSettings(){
          FindObjectOfType<AudioManager>().Play("RoundClick");
          SceneManager.LoadScene("SlowMoChallenge");
     }
+//Beta level selection---------------------------------------------------------------------------------------------------------------------
+      public void SelectLevel(int i){
+        
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+     FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
+       LevelSpawner.B=i;
+         SceneManager.LoadScene("Beta");}
+//Fireball level selection---------------------------------------------------------------------------------------------------------------------
+          public void SelectLevelFire(int i){
+        
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+     FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
+        LevelSpawner.FI=i;
+         SceneManager.LoadScene("Fireball");}
+ 
+      
+ //Laser level selection---------------------------------------------------------------------------------------------------------------------
+      public void SelectLevelLaser(int i){
+       FindObjectOfType<AudioManager>().Play("RoundClick");
+     FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
+          LevelSpawner.L=i;
+         SceneManager.LoadScene("Laser");}
+  //Slowmotion level selection--------------------------------------------------------------------------------------------------------------------- 
+  public void SelectLevelSlow(int i){
+    FindObjectOfType<AudioManager>().Play("RoundClick");
+     FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
+                LevelSpawner.S=i;
+         SceneManager.LoadScene("SlowMode");}
+//Timer level selection---------------------------------------------------------------------------------------------------------------------
+   public void SelectLevelTimer(int i){
+         FindObjectOfType<AudioManager>().Play("RoundClick");
+     FindObjectOfType<AudioManager>().Play("Playing");
+       FindObjectOfType<AudioManager>().Stop("MainMenu");
+         LevelSpawner.T=i;
+         SceneManager.LoadScene("Timer"); }
+        
+   
+      
+      
+        
+      
+     
+      
+   
+    
+
  //FireBall level selection---------------------------------------------------------------------------------------------------------------------
     public void SelectF1(){
 
@@ -622,7 +679,7 @@ public void StartGame() {
     FindObjectOfType<AudioManager>().Play("Playing");                       
                 
 
-    SceneManager.LoadScene("Beta");
+    SceneManager.LoadScene("BetaSelection");
 }
 
 //Toggles-------------------------------------------------------------------------------------------------------------------------------------

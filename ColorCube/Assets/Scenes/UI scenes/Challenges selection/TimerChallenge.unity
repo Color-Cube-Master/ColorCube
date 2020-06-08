@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -414,8 +414,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: SelectT1
-        m_Mode: 1
+        m_MethodName: SelectLevelTimer
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -544,12 +544,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: SelectT3
-        m_Mode: 1
+        m_MethodName: SelectLevelTimer
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -828,12 +828,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: SelectT5
-        m_Mode: 1
+        m_MethodName: SelectLevelTimer
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1112,12 +1112,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: SelectT2
-        m_Mode: 1
+        m_MethodName: SelectLevelTimer
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1242,12 +1242,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8516478471837031688, guid: b258864b3ce8c1c49b135f2e6e0c1c79,
           type: 3}
-        m_MethodName: SelectT4
-        m_Mode: 1
+        m_MethodName: SelectLevelTimer
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

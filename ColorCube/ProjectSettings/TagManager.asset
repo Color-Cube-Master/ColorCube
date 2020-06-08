@@ -51,6 +51,7 @@ TagManager:
   - Pause
   - ToggleS
   - ToggleSfx
+  - B
   layers:
   - Default
   - TransparentFX
