@@ -129,14 +129,10 @@ h=0;
                     //Spawn BlockedBox
                     GameObject Blocked_bxX = Instantiate(grid.Props.Blocked_box.Blocked_bx) as GameObject;
                     Blocked_bxX.transform.position = new Vector3(grid.Props.Blocked_box.posX ,  0 , grid.Props.Blocked_box.posZ );
-                    //Destroy border to not cover props-----------------------------------
-                   /* GameObject Boundary = GameObject.FindWithTag("Boundary");
-                    if (Boundary.transform.position == Blocked_bxX.transform.position)
-                    Destroy(Boundary); */
 
                     //Spawn CrackedBox
                     GameObject Cracked_bxX = Instantiate(grid.Props.Cracked_box.Cracked_bx) as GameObject;
-                    Cracked_bxX.transform.position = new Vector3(grid.Props.Cracked_box.posX ,  0 , grid.Props.Cracked_box.posZ-0.55f );
+                    Cracked_bxX.transform.position = new Vector3(grid.Props.Cracked_box.posX ,  0 , grid.Props.Cracked_box.posZ );
 
                     //Spawn Bomb
                     GameObject TheBomb = Instantiate(grid.Props.Bomb0.Bomb_) as GameObject;
@@ -188,7 +184,7 @@ h=0;
         }  
 
         //Spawn up boarder
-        void SpawnBoarder_Up(Map grd, int x , int z)
+        void SpawnBoarder_Up(Map grd, int x , int z )
         {
             if ( x < grd.x  &  z == 0)
             {
