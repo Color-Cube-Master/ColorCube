@@ -54,31 +54,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6248639849321141566}
     m_Modifications:
-    - target: {fileID: 2022750125077749239, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
-        type: 3}
-      propertyPath: m_Radius
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2022750125077749239, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2022750125077749239, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2022750125077749239, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1649067921875900942, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
-        type: 3}
-      propertyPath: reciever
-      value: 
-      objectReference: {fileID: 3285395820625741634}
     - target: {fileID: 2894919481442648570, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
         type: 3}
       propertyPath: m_Name
@@ -154,22 +129,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4672523828015848442, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 7426134289709288327, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 8280687777942680115, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884588387345529046, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+    - target: {fileID: 3871922164968683375, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
         type: 3}
       propertyPath: m_TagString
       value: Untagged
@@ -179,12 +139,52 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
-    - target: {fileID: 3871922164968683375, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+    - target: {fileID: 1649067921875900942, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+        type: 3}
+      propertyPath: reciever
+      value: 
+      objectReference: {fileID: 3285395820625741634}
+    - target: {fileID: 1884588387345529046, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
         type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2095955053365028000, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022750125077749239, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2.6928766
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022750125077749239, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -6.9460965e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022750125077749239, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.017939242
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022750125077749239, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.0000000025198752
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280687777942680115, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7426134289709288327, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672523828015848442, guid: 07918a5ead68e9045abc40fc2d5dc1ed,
         type: 3}
       propertyPath: m_TagString
       value: Untagged

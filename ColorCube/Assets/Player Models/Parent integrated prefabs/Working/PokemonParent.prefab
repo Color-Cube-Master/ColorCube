@@ -54,16 +54,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4057438970705477553}
     m_Modifications:
-    - target: {fileID: -7115872149851579130, guid: 7962785b7a5720d4c81b1591bd5cc685,
-        type: 3}
-      propertyPath: m_Radius
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 267932159453891875, guid: 7962785b7a5720d4c81b1591bd5cc685,
-        type: 3}
-      propertyPath: reciever
-      value: 
-      objectReference: {fileID: 250763711257073922}
     - target: {fileID: 188644083191742640, guid: 7962785b7a5720d4c81b1591bd5cc685,
         type: 3}
       propertyPath: m_Name
@@ -72,17 +62,17 @@ PrefabInstance:
     - target: {fileID: 3802563192417776291, guid: 7962785b7a5720d4c81b1591bd5cc685,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0062231
       objectReference: {fileID: 0}
     - target: {fileID: 3802563192417776291, guid: 7962785b7a5720d4c81b1591bd5cc685,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.000018954
       objectReference: {fileID: 0}
     - target: {fileID: 3802563192417776291, guid: 7962785b7a5720d4c81b1591bd5cc685,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.012904
       objectReference: {fileID: 0}
     - target: {fileID: 3802563192417776291, guid: 7962785b7a5720d4c81b1591bd5cc685,
         type: 3}
@@ -127,17 +117,32 @@ PrefabInstance:
     - target: {fileID: 3802563192417776291, guid: 7962785b7a5720d4c81b1591bd5cc685,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.015
+      value: 0.01395135
       objectReference: {fileID: 0}
     - target: {fileID: 3802563192417776291, guid: 7962785b7a5720d4c81b1591bd5cc685,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.015
+      value: 0.01395135
       objectReference: {fileID: 0}
     - target: {fileID: 3802563192417776291, guid: 7962785b7a5720d4c81b1591bd5cc685,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.015
+      value: 0.01395135
+      objectReference: {fileID: 0}
+    - target: {fileID: 267932159453891875, guid: 7962785b7a5720d4c81b1591bd5cc685,
+        type: 3}
+      propertyPath: reciever
+      value: 
+      objectReference: {fileID: 250763711257073922}
+    - target: {fileID: -7115872149851579130, guid: 7962785b7a5720d4c81b1591bd5cc685,
+        type: 3}
+      propertyPath: m_Radius
+      value: 28.567154
+      objectReference: {fileID: 0}
+    - target: {fileID: -7115872149851579130, guid: 7962785b7a5720d4c81b1591bd5cc685,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -1.4328461
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7962785b7a5720d4c81b1591bd5cc685, type: 3}
