@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
-    Scene m_Scene;
-    public static string sceneName;
+  
 
 
  void Awake() {
@@ -15,9 +14,7 @@ public class SaveManager : MonoBehaviour
 
                  }
 public void Start(){
-     m_Scene = SceneManager.GetActiveScene();
-
-          sceneName = m_Scene.name;
+     
           Load();
 }
      public static void Save()

@@ -28,9 +28,8 @@ public class ScenesManager : MonoBehaviour
  public Sprite PressedLeaderboard_Ch;
  public Sprite NotPressedMenu;
  public Sprite PressedMenu;
- Scene m_Scene;
-  string Snm;
-
+ 
+public static int mn;
 
    
  
@@ -50,9 +49,7 @@ public class ScenesManager : MonoBehaviour
 
 
      void Start() {
-       m_Scene = SceneManager.GetActiveScene();
-
-          Snm = m_Scene.name;
+      
      FindObjectOfType<AudioManager>().Play("MainMenu");
       
      }
@@ -188,12 +185,13 @@ public void ChangeButtonSettings(){
     }
 //Beta level selection---------------------------------------------------------------------------------------------------------------------
       public void SelectLevel(int i){
-        
-       FindObjectOfType<AudioManager>().Play("RoundClick");
+        mn=i;
+        if(LevelSpawner.B>=i)
+       {FindObjectOfType<AudioManager>().Play("RoundClick");
      FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
        LevelSpawner.B=i;
-         SceneManager.LoadScene("Beta");}
+         SceneManager.LoadScene("Beta");}}
 //Fireball level selection---------------------------------------------------------------------------------------------------------------------
           public void SelectLevelFire(int i){
         
