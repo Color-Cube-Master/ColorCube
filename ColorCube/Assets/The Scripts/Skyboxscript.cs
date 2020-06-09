@@ -37,6 +37,8 @@ public class Skyboxscript : MonoBehaviour
       RenderSettings.skybox = Crhistmas;
       if (Model.Name == "10- Planets space")
       RenderSettings.skybox = Planets;
+      else
+      RenderSettings.skybox = Moon;
 
     }
 
