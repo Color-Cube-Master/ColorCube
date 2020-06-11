@@ -16,6 +16,7 @@ public class SaveManager : MonoBehaviour
 public void Start(){
      
           Load();
+          
 }
      public static void Save()
      {
@@ -52,6 +53,28 @@ public void Start(){
 
 
 
+
+    }
+    public void Delete(){
+
+      PlayerPrefs.DeleteKey("LevelBetaNumber");
+            PlayerPrefs.DeleteKey("LevelFireBallNumber");
+
+      PlayerPrefs.DeleteKey("LevelLaserNumber");
+
+      PlayerPrefs.DeleteKey("LevelSlowModeNumber");
+
+      PlayerPrefs.DeleteKey("LevelTimerNumber");
+
+      PlayerPrefs.DeleteKey("ThemeName");
+
+      PlayerPrefs.DeleteKey("PlayerName");
+      
+
+      
+
+
+      
 
     }
 }
