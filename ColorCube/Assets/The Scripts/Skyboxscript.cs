@@ -14,6 +14,8 @@ public class Skyboxscript : MonoBehaviour
     public Material Planets;
     public Material Rainbow;
     public Material Water;
+    public Material Default;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +40,7 @@ public class Skyboxscript : MonoBehaviour
       if (Model.Name == "10- Planets space")
       RenderSettings.skybox = Planets;
       else
-      RenderSettings.skybox = Moon;
+      RenderSettings.skybox = Default;
 
     }
 
