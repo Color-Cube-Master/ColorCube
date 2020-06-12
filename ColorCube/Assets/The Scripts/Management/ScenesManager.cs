@@ -185,7 +185,7 @@ public void ChangeButtonSettings(){
     }
 //Beta level selection---------------------------------------------------------------------------------------------------------------------
       public void SelectLevel(int i){
-        mn=i;
+        
         if(LevelSpawner.B>=i)
        {FindObjectOfType<AudioManager>().Play("RoundClick");
      FindObjectOfType<AudioManager>().Play("Playing");
@@ -194,35 +194,40 @@ public void ChangeButtonSettings(){
          SceneManager.LoadScene("Beta");}}
 //Fireball level selection---------------------------------------------------------------------------------------------------------------------
           public void SelectLevelFire(int i){
+            if(LevelSpawner.FI>=i){
         
        FindObjectOfType<AudioManager>().Play("RoundClick");
      FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
         LevelSpawner.FI=i;
-         SceneManager.LoadScene("Fireball");}
+         SceneManager.LoadScene("Fireball");}}
  
       
  //Laser level selection---------------------------------------------------------------------------------------------------------------------
       public void SelectLevelLaser(int i){
+         if(LevelSpawner.L>=i){
        FindObjectOfType<AudioManager>().Play("RoundClick");
      FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
           LevelSpawner.L=i;
-         SceneManager.LoadScene("Laser");}
+         SceneManager.LoadScene("Laser");}}
   //Slowmotion level selection--------------------------------------------------------------------------------------------------------------------- 
   public void SelectLevelSlow(int i){
+     if(LevelSpawner.S>=i){
     FindObjectOfType<AudioManager>().Play("RoundClick");
      FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
                 LevelSpawner.S=i;
-         SceneManager.LoadScene("SlowMode");}
+         SceneManager.LoadScene("SlowMode");}}
 //Timer level selection---------------------------------------------------------------------------------------------------------------------
    public void SelectLevelTimer(int i){
+
+      if(LevelSpawner.T>=i){
          FindObjectOfType<AudioManager>().Play("RoundClick");
      FindObjectOfType<AudioManager>().Play("Playing");
        FindObjectOfType<AudioManager>().Stop("MainMenu");
          LevelSpawner.T=i;
-         SceneManager.LoadScene("Timer"); }
+         SceneManager.LoadScene("Timer"); }}
         
    
       
@@ -589,6 +594,7 @@ public void ChangeButtonSettingsBack(){
          FindObjectOfType<AudioManager>().Stop("Playing");
        FindObjectOfType<AudioManager>().Play("MainMenu");
          SceneManager.LoadScene("FireBallChallenge");
+         SaveManager.Load();
     }
 
     public void ReturnCh_L(){
@@ -599,6 +605,7 @@ public void ChangeButtonSettingsBack(){
          FindObjectOfType<AudioManager>().Stop("Playing");
        FindObjectOfType<AudioManager>().Play("MainMenu");
          SceneManager.LoadScene("LaserChallenge");
+         SaveManager.Load();
     }
 
     public void ReturnCh_S(){
@@ -609,6 +616,7 @@ public void ChangeButtonSettingsBack(){
          FindObjectOfType<AudioManager>().Stop("Playing");
        FindObjectOfType<AudioManager>().Play("MainMenu");
          SceneManager.LoadScene("SlowMoChallenge");
+         SaveManager.Load();
     }
 
     public void ReturnCh_T(){
@@ -619,6 +627,7 @@ public void ChangeButtonSettingsBack(){
         FindObjectOfType<AudioManager>().Stop("Playing");
        FindObjectOfType<AudioManager>().Play("MainMenu");
          SceneManager.LoadScene("TimerChallenge");
+         SaveManager.Load();
     }
 
     //2shops--------------------------------------------------------------------------------------------------------------------------------
