@@ -30,6 +30,12 @@ public class ScenesManager : MonoBehaviour
  public Sprite PressedMenu;
  
 public static int mn;
+public static int IsMuted=0;
+
+public static int IsMutedSFX=0;
+ Scene currentScene;
+ string sceneName;
+ 
 
    
  
@@ -50,10 +56,15 @@ public static int mn;
 
      void Start() {
       
+       currentScene = SceneManager.GetActiveScene ();
+        sceneName = currentScene.name;
      FindObjectOfType<AudioManager>().Play("MainMenu");
+     
+     
+     
       
      }
-   
+     
 //Changing the buttons sprites on press---------------------------------------------------------------------------------------------------------
     public void ChangeButtonNext(){
 
@@ -689,41 +700,36 @@ public void StartGame() {
 
    if (!m_Toggle.isOn)
    {
-     FindObjectOfType<AudioManager>().Mute("MainMenu"); 
-     FindObjectOfType<AudioManager>().Mute("Playing"); 
-     FindObjectOfType<AudioManager>().Mute("Win"); 
-     FindObjectOfType<AudioManager>().Mute("Lost");     
+    m_Toggle.isOn=false;  
+     IsMuted=1;  
+      SaveManager.Save();  
    }
    else
    {
-     FindObjectOfType<AudioManager>().UnMuteMusic("MainMenu"); 
-     FindObjectOfType<AudioManager>().UnMuteGameplay("Playing");
-     FindObjectOfType<AudioManager>().UnMuteSfx("Win"); 
-     FindObjectOfType<AudioManager>().UnMuteSfx("Lost");      
-        }
+      m_Toggle.isOn=true; 
+       IsMuted=0;
+       SaveManager.Save();   }
   }
 
 public void MuteSfx() {
-   GameObject m_Toggle2 = GameObject.FindWithTag("ToggleSfx");
-   Toggle m_Toggle  = m_Toggle2.GetComponent<Toggle>();
+   GameObject sfx_Toggle2 = GameObject.FindWithTag("ToggleSfx");
+   Toggle sfx_Toggle  = sfx_Toggle2.GetComponent<Toggle>();
 
-   if (!m_Toggle.isOn)
+   if (!sfx_Toggle.isOn)
    {
-     Debug.Log("Sfx Off");
-     FindObjectOfType<AudioManager>().Mute("RectClick"); 
-     FindObjectOfType<AudioManager>().Mute("RoundClick"); 
-     FindObjectOfType<AudioManager>().Mute("BounceNew");    
-     FindObjectOfType<AudioManager>().Mute("Out");
+      sfx_Toggle.isOn=false;  
+     IsMutedSFX=1; 
+     
+     
+     SaveManager.Save(); 
 
    }
    else
    {
-     Debug.Log("Sfx On");
-     FindObjectOfType<AudioManager>().UnMuteSfx("RectClick"); 
-     FindObjectOfType<AudioManager>().UnMuteSfx("RoundClick"); 
-     FindObjectOfType<AudioManager>().UnMuteSfx("BounceNew");    
-     FindObjectOfType<AudioManager>().UnMuteSfx("Out");     
-        }
+    sfx_Toggle.isOn=true;  
+     IsMutedSFX=0;  
+        
+      SaveManager.Save();  }
   }
   
 

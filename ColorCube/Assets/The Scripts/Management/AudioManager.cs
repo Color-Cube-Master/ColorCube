@@ -32,6 +32,56 @@ public class AudioManager : MonoBehaviour
 			
 		}
 	}
+	void Update(){
+		if(ScenesManager.IsMuted==1)
+     {
+      
+     Mute("MainMenu"); 
+     Mute("Playing"); 
+     Mute("Win"); 
+     Mute("Lost");
+	 
+     
+     }
+     if(ScenesManager.IsMuted==0){
+       
+       
+     UnMuteMusic("MainMenu"); 
+     UnMuteGameplay("Playing"); 
+     UnMuteMusic("Win"); 
+     UnMuteMusic("Lost");
+       }
+
+	if(ScenesManager.IsMutedSFX==1)
+     {
+      
+     
+     Mute("RectClick"); 
+     Mute("RoundClick"); 
+     Mute("BounceNew");    
+     Mute("Out");
+	 Mute("Wood");
+	 Mute("Boom");
+	 Mute("Metal");
+	 
+     
+     }
+     if(ScenesManager.IsMutedSFX==0){
+       
+       
+     UnMuteSfx("RectClick"); 
+     UnMuteSfx("RoundClick"); 
+     UnMuteMusic("BounceNew");    
+     UnMuteSfx("Out"); 
+	 UnMuteGameplay("Wood");
+	 UnMuteGameplay("Boom");
+	 UnMuteGameplay("Metal"); 
+       
+
+     }
+     
+
+	}
 
 	public void Play(string sound)
 	{
@@ -113,6 +163,7 @@ public void Stop(string sound)
 		s.source.volume = 1f;
 	}
 
+	
 	
 
 

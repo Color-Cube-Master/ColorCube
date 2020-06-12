@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(AudioManager))]
 public class LevelSpawner : MonoBehaviour
 {
     //Table of Maps(Matrixs)
@@ -39,12 +40,14 @@ public class LevelSpawner : MonoBehaviour
            k=S;
            if (sceneName == "Timer")
            k=T;      
+           
          
     Map.timer = level[k].MyStaticTimeVariableForInspector;
 }
 
     void Start()
     {    
+      
        Player = Playername;
       
 
@@ -55,10 +58,13 @@ public class LevelSpawner : MonoBehaviour
     }
      void SpawnPlayer() {
      Instantiate(Player,new Vector3(SpawnPosition.position.x, SpawnPosition.position.y, SpawnPosition.position.z) ,Quaternion.identity /*SpawnPosition.position*/);
+     
      }
     void Update()
-    {
+    { 
 
+      
+      
         //Press enter to move to the next level //Obselete for now.
         if (Input.GetKey(KeyCode.Return))
         { if (sceneName == "Beta")
@@ -74,7 +80,10 @@ public class LevelSpawner : MonoBehaviour
         }
         
     }
-
+void FixedUpdate(){
+    
+ 
+}
 
 
     void SpawnLevel()

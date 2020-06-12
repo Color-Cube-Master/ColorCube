@@ -5,12 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
-  
+  	public static SaveManager instance2;
+
 
 
  void Awake() {
 
-    			DontDestroyOnLoad(gameObject);
+    		if (instance2 != null)
+		{
+			Destroy(gameObject);
+		}
+		else
+		{
+			instance2 = this;
+			DontDestroyOnLoad(gameObject);
+		}
 
                  }
 public void Start(){
@@ -32,7 +41,10 @@ public void Start(){
 
         PlayerPrefs.SetInt("Goldamount",MenuCoins.coincount2);
         PlayerPrefs.SetString("ThemeName",Model.Name);  
-        PlayerPrefs.SetString("PlayerName",Model.Name2);    
+        PlayerPrefs.SetString("PlayerName",Model.Name2);
+        PlayerPrefs.SetInt("MusicOnOFF",ScenesManager.IsMuted);
+        PlayerPrefs.SetInt("SFXOnOFF",ScenesManager.IsMutedSFX);
+
        
     }
     public static void Load()
@@ -49,7 +61,8 @@ public void Start(){
     Model.Name=  PlayerPrefs.GetString("ThemeName");    
     
     Model.Name2 =PlayerPrefs.GetString("PlayerName");
-    
+   ScenesManager.IsMuted= PlayerPrefs.GetInt("MusicOnOFF");
+    ScenesManager.IsMutedSFX=PlayerPrefs.GetInt("SFXOnOFF");
 
 
 
@@ -69,6 +82,10 @@ public void Start(){
       PlayerPrefs.DeleteKey("ThemeName");
 
       PlayerPrefs.DeleteKey("PlayerName");
+      PlayerPrefs.DeleteKey("MusicOnOFF");
+      PlayerPrefs.DeleteKey("SFXOnOFF");
+      ScenesManager.IsMutedSFX=0;
+      ScenesManager.IsMuted=0;
       
 
       
