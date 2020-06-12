@@ -84,9 +84,13 @@ public class ColTester2 : MonoBehaviour
                             FindObjectOfType<AudioManager>().Stop("Playing");
                             SceneManager.LoadScene("You Win");
                         if (LevelSpawner.B + 1 <  LevelSpawner.f)
-                        LevelSpawner.B ++;
+                        {LevelSpawner.B ++;
+                        MenuCoins.coincount2+=MenuCoins.BetaCoin;
+                        MenuCoins.BetaCoin+=50;}
                         else
-                        LevelSpawner.B =0;
+                        {LevelSpawner.B =0;
+                        MenuCoins.coincount2+=MenuCoins.BetaCoin;
+                        MenuCoins.BetaCoin=50;}
                         SaveManager.Save();
                         }
                         
@@ -103,9 +107,13 @@ public class ColTester2 : MonoBehaviour
                             FindObjectOfType<AudioManager>().Stop("Playing");
                          SceneManager.LoadScene("You Win");
                         if (LevelSpawner.L + 1 <  LevelSpawner.f)
-                        LevelSpawner.L ++;
+                        {LevelSpawner.L ++;
+                        MenuCoins.coincount2+=MenuCoins.LaserCoin;
+                        MenuCoins.LaserCoin+=50;}
                          else
-                            LevelSpawner.L =0;
+                            {LevelSpawner.L =0;
+                            MenuCoins.coincount2+=MenuCoins.LaserCoin;
+                            MenuCoins.LaserCoin=100;}
                             SaveManager.Save();
                         }
                       else if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("FireBall"))
@@ -113,9 +121,13 @@ public class ColTester2 : MonoBehaviour
                            FindObjectOfType<AudioManager>().Stop("Playing");
                          SceneManager.LoadScene("You Win");
                          if (LevelSpawner.FI + 1 <  LevelSpawner.f)
-                         LevelSpawner.FI ++;
+                         {LevelSpawner.FI ++;
+                         MenuCoins.coincount2+=MenuCoins.FireBallCoin;
+                         MenuCoins.FireBallCoin+=50;}
                          else
-                        LevelSpawner.FI =0;
+                        {LevelSpawner.FI =0;
+                        MenuCoins.coincount2+=MenuCoins.FireBallCoin;
+                        MenuCoins.FireBallCoin+=100;}
                         SaveManager.Save();
                       }
                       else if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("SlowMode"))
@@ -123,9 +135,13 @@ public class ColTester2 : MonoBehaviour
                            FindObjectOfType<AudioManager>().Stop("Playing");
                          SceneManager.LoadScene("You Win");
                            if (LevelSpawner.S + 1 <  LevelSpawner.f)
-                          LevelSpawner.S ++;
+                          {LevelSpawner.S ++;
+                          MenuCoins.coincount2+=MenuCoins.SlowModeCoin;
+                          MenuCoins.SlowModeCoin+=50;}
                           else
-                          LevelSpawner.S =0;
+                         {  LevelSpawner.S =0;
+                         MenuCoins.coincount2+=MenuCoins.SlowModeCoin;
+                         MenuCoins.SlowModeCoin=100;}
                           SaveManager.Save();
                       }
                       else if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("Timer") )
@@ -133,9 +149,13 @@ public class ColTester2 : MonoBehaviour
                            FindObjectOfType<AudioManager>().Stop("Playing");
                          SceneManager.LoadScene("You Win");
                          if (LevelSpawner.T + 1 <  LevelSpawner.f)
-                        LevelSpawner.T ++;
+                        {LevelSpawner.T ++;
+                        MenuCoins.coincount2+=MenuCoins.TimerCoin;
+                        MenuCoins.TimerCoin+=50;}
                         else
-                        LevelSpawner.T =0;
+                        {LevelSpawner.T =0;
+                        MenuCoins.coincount2+=MenuCoins.TimerCoin;
+                        MenuCoins.TimerCoin=100;}
                         SaveManager.Save();
                       }
                          

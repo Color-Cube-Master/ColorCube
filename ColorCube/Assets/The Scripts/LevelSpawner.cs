@@ -46,7 +46,6 @@ public class LevelSpawner : MonoBehaviour
     void Start()
     {    
        Player = Playername;
-       
       
 
             SpawnPlayer();
