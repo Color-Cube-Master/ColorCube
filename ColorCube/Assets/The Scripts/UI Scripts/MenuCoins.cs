@@ -19,6 +19,7 @@ public class MenuCoins : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     { SaveManager.Load();
+    
      currentScene= SceneManager.GetActiveScene ();
       sceneName= currentScene.name;
       CoinsText.text = coincount2.ToString();

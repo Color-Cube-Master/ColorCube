@@ -5,21 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
-  	public static SaveManager instance2;
-
+  
 
 
  void Awake() {
 
-    		if (instance2 != null)
-		{
-			Destroy(gameObject);
-		}
-		else
-		{
-			instance2 = this;
+    	
+			
 			DontDestroyOnLoad(gameObject);
-		}
+	
 
                  }
 public void Start(){

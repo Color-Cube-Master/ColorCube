@@ -14,33 +14,33 @@ public class Skyboxscript : MonoBehaviour
     public Material Planets;
     public Material Rainbow;
     public Material Water;
-    public Material Default;
+    public Material First;
 
     // Start is called before the first frame update
     void Start()
     {
        if (Model.Name == "1-Moon")
       RenderSettings.skybox = Moon;
-      if (Model.Name == "2- Water")
+      else if (Model.Name == "2- Water")
       RenderSettings.skybox = Water;
-      if (Model.Name == "3- Blue sky")
+      else if (Model.Name == "3- Blue sky")
       RenderSettings.skybox = BlueSky;
-      if (Model.Name == "4- Dark sky with the stars")
+      else if (Model.Name == "4- Dark sky with the stars")
       RenderSettings.skybox = DarkSky;
-      if (Model.Name == "5- Magical")
+      else if (Model.Name == "5- Magical")
       RenderSettings.skybox = Magical;
-      if (Model.Name == "6- Rainbow Sky")
+      else if (Model.Name == "6- Rainbow Sky")
       RenderSettings.skybox = Rainbow;
-      if (Model.Name == "7-Halloween")
+      else if (Model.Name == "7-Halloween")
       RenderSettings.skybox = Halloween;
-      if (Model.Name == "8- Gradient Colors")
+      else if (Model.Name == "8- Gradient Colors")
       RenderSettings.skybox = Gradient;
-      if (Model.Name == "9- Christmas")
+      else if (Model.Name == "9- Christmas")
       RenderSettings.skybox = Crhistmas;
-      if (Model.Name == "10- Planets space")
+      else if (Model.Name == "10- Planets space")
       RenderSettings.skybox = Planets;
-      else
-      RenderSettings.skybox = Default;
+      else{
+      RenderSettings.skybox = First;}
 
     }
 
