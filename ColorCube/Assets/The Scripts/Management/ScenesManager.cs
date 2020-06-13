@@ -58,7 +58,7 @@ public static int IsMutedSFX=0;
       
        currentScene = SceneManager.GetActiveScene ();
         sceneName = currentScene.name;
-     FindObjectOfType<AudioManager>().Play("MainMenu");
+    
      
      
      
@@ -158,6 +158,7 @@ public void ChangeButtonSettings(){
          FindObjectOfType<AudioManager>().Play("RoundClick");
          FindObjectOfType<AudioManager>().Stop("Playing");                       
          SceneManager.LoadScene("Menu");
+         FindObjectOfType<AudioManager>().Play("MainMenu");
      
     }
 
@@ -690,11 +691,13 @@ public void ChangeButtonSettingsBack(){
 //Plays--------------------------------------------------------------------------------------------------------------------------------------
 public void StartGame() {
     FindObjectOfType<AudioManager>().Play("RectClick");
+     
     SceneManager.LoadScene("BetaSelection");
 }
 
 //Toggles-------------------------------------------------------------------------------------------------------------------------------------
   public void MuteMusic() {
+    
    GameObject m_Toggle2 = GameObject.FindWithTag("ToggleS");
    Toggle m_Toggle  = m_Toggle2.GetComponent<Toggle>();
 

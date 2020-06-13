@@ -32,6 +32,9 @@ public class AudioManager : MonoBehaviour
 			
 		}
 	}
+	void Start(){
+		Play("MainMenu");
+	}
 	void Update(){
 		if(ScenesManager.IsMuted==1)
      {
