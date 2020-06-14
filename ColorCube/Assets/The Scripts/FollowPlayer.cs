@@ -8,7 +8,7 @@ public class FollowPlayer : MonoBehaviour
 	public float smoothSpeed = 2f;
 	public Vector3 offset;
 
-	void FixedUpdate ()
+	void Update ()
 	{  GameObject Player = GameObject.FindWithTag("Player");
            Transform PlayerT = Player.transform;
 		Vector3 desiredPosition = PlayerT.position + offset;
