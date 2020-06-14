@@ -743,7 +743,7 @@ MonoBehaviour:
   Planets: {fileID: 2100000, guid: 358fd17e567ae144b8e9ae194ba86e34, type: 2}
   Rainbow: {fileID: 2100000, guid: 8a2dc1c6edced6849b84409710ac29b4, type: 2}
   Water: {fileID: 2100000, guid: d00154496b2e5ed438f1b9bd0cb01792, type: 2}
-  Default: {fileID: 2100000, guid: 2e434b528e3723b40aa13e6c5604f994, type: 2}
+  First: {fileID: 2100000, guid: 2e434b528e3723b40aa13e6c5604f994, type: 2}
 --- !u!1001 &1372072192
 PrefabInstance:
   m_ObjectHideFlags: 0
