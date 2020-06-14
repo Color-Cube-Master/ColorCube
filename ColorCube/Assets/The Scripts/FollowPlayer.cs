@@ -9,7 +9,7 @@ public class FollowPlayer : MonoBehaviour
 	public Vector3 offset;
 
 	void Update ()
-	{  GameObject Player = GameObject.FindWithTag("Player");
+	{  GameObject Player = GameObject.FindWithTag("Player1.0");
            Transform PlayerT = Player.transform;
 		Vector3 desiredPosition = PlayerT.position + offset;
 		Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);

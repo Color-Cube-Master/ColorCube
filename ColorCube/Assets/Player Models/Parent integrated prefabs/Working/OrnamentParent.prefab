@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2617657771268883115}
   m_Layer: 0
   m_Name: OrnamentParent
-  m_TagString: Player
+  m_TagString: Player1.0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,26 +54,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4044003144829940413}
     m_Modifications:
-    - target: {fileID: -7072427105827774649, guid: 3075f7d8ccc02424bb258a5435a3fbbf,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: -7072427105827774649, guid: 3075f7d8ccc02424bb258a5435a3fbbf,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7072427105827774649, guid: 3075f7d8ccc02424bb258a5435a3fbbf,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3737389544733198607, guid: 3075f7d8ccc02424bb258a5435a3fbbf,
-        type: 3}
-      propertyPath: reciever
-      value: 
-      objectReference: {fileID: 2617657771268883115}
     - target: {fileID: 5336462340223389165, guid: 3075f7d8ccc02424bb258a5435a3fbbf,
         type: 3}
       propertyPath: m_Name
@@ -134,6 +114,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7072427105827774649, guid: 3075f7d8ccc02424bb258a5435a3fbbf,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7072427105827774649, guid: 3075f7d8ccc02424bb258a5435a3fbbf,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7072427105827774649, guid: 3075f7d8ccc02424bb258a5435a3fbbf,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3737389544733198607, guid: 3075f7d8ccc02424bb258a5435a3fbbf,
+        type: 3}
+      propertyPath: reciever
+      value: 
+      objectReference: {fileID: 2617657771268883115}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3075f7d8ccc02424bb258a5435a3fbbf, type: 3}
 --- !u!4 &2413933239898848789 stripped

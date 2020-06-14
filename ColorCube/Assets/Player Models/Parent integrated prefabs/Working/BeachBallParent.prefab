@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -6157879378594324448}
   m_Layer: 0
   m_Name: BeachBallParent
-  m_TagString: Player
+  m_TagString: Player1.0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,11 +54,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2071353997176996390}
     m_Modifications:
-    - target: {fileID: 7708233518338669288, guid: 4918e24f1cbf3c14996b132b2a9474ff,
-        type: 3}
-      propertyPath: reciever
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4593248805931135389, guid: 4918e24f1cbf3c14996b132b2a9474ff,
         type: 3}
       propertyPath: m_Name
@@ -118,6 +113,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708233518338669288, guid: 4918e24f1cbf3c14996b132b2a9474ff,
+        type: 3}
+      propertyPath: reciever
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4918e24f1cbf3c14996b132b2a9474ff, type: 3}

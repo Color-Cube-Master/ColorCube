@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -1594622481008291172}
   m_Layer: 0
   m_Name: BaseballParent
-  m_TagString: Player
+  m_TagString: Player1.0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,16 +54,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4313323947844227429}
     m_Modifications:
-    - target: {fileID: -8657186671730708229, guid: 219840ad5d2613a4ca5e0d6fd049386a,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.029
-      objectReference: {fileID: 0}
-    - target: {fileID: 5386888588617446650, guid: 219840ad5d2613a4ca5e0d6fd049386a,
-        type: 3}
-      propertyPath: reciever
-      value: 
-      objectReference: {fileID: -1594622481008291172}
     - target: {fileID: 5678212122779340155, guid: 219840ad5d2613a4ca5e0d6fd049386a,
         type: 3}
       propertyPath: m_Name
@@ -123,6 +113,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386888588617446650, guid: 219840ad5d2613a4ca5e0d6fd049386a,
+        type: 3}
+      propertyPath: reciever
+      value: 
+      objectReference: {fileID: -1594622481008291172}
+    - target: {fileID: -8657186671730708229, guid: 219840ad5d2613a4ca5e0d6fd049386a,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.029
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 219840ad5d2613a4ca5e0d6fd049386a, type: 3}

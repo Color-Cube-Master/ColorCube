@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -8658567932391023059}
   m_Layer: 0
   m_Name: EyeParent
-  m_TagString: Player
+  m_TagString: Player1.0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,11 +54,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3420370523352688628}
     m_Modifications:
-    - target: {fileID: 3470781687890472266, guid: 85ed2f5448e83c24ea27c8b42e96b978,
-        type: 3}
-      propertyPath: reciever
-      value: 
-      objectReference: {fileID: -8658567932391023059}
     - target: {fileID: 4219122287720517976, guid: 85ed2f5448e83c24ea27c8b42e96b978,
         type: 3}
       propertyPath: m_Name
@@ -119,6 +114,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3470781687890472266, guid: 85ed2f5448e83c24ea27c8b42e96b978,
+        type: 3}
+      propertyPath: reciever
+      value: 
+      objectReference: {fileID: -8658567932391023059}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85ed2f5448e83c24ea27c8b42e96b978, type: 3}
 --- !u!4 &151993605418633284 stripped

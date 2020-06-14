@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8522406032106647375}
   m_Layer: 0
   m_Name: CLParent
-  m_TagString: Player
+  m_TagString: Player1.0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,31 +54,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2063648625918470305}
     m_Modifications:
-    - target: {fileID: -7705303612966423352, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
-        type: 3}
-      propertyPath: m_Radius
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: -7705303612966423352, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7705303612966423352, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7705303612966423352, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836815425651905595, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
-        type: 3}
-      propertyPath: reciever
-      value: 
-      objectReference: {fileID: 8522406032106647375}
     - target: {fileID: 1801631253445013833, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
         type: 3}
       propertyPath: m_Name
@@ -153,6 +128,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836815425651905595, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
+        type: 3}
+      propertyPath: reciever
+      value: 
+      objectReference: {fileID: 8522406032106647375}
+    - target: {fileID: -7705303612966423352, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
+        type: 3}
+      propertyPath: m_Radius
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: -7705303612966423352, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7705303612966423352, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7705303612966423352, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f4bb8a08bee3bf43a4a2f7e51e99b12, type: 3}

@@ -52,6 +52,8 @@ TagManager:
   - ToggleS
   - ToggleSfx
   - B
+  - BlockedBox
+  - Player1.0
   layers:
   - Default
   - TransparentFX
