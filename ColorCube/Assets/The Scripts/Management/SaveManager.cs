@@ -78,6 +78,8 @@ public void Start(){
       PlayerPrefs.DeleteKey("PlayerName");
       PlayerPrefs.DeleteKey("MusicOnOFF");
       PlayerPrefs.DeleteKey("SFXOnOFF");
+      //PlayerPrefs.DeleteKey("Goldamount");
+      
       ScenesManager.IsMutedSFX=0;
       ScenesManager.IsMuted=0;
       
