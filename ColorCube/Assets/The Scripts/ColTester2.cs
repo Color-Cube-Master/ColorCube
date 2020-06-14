@@ -86,7 +86,7 @@ public class ColTester2 : MonoBehaviour
                         if (LevelSpawner.B + 1 <  LevelSpawner.f)
                         {LevelSpawner.B ++;
                         MenuCoins.coincount2+=MenuCoins.BetaCoin;
-                        MenuCoins.BetaCoin+=50;}
+                        MenuCoins.BetaCoin+=100;} //Add 100$ with each win
                         else
                         {LevelSpawner.B =0;
                         MenuCoins.coincount2+=MenuCoins.BetaCoin;
@@ -109,7 +109,7 @@ public class ColTester2 : MonoBehaviour
                         if (LevelSpawner.L + 1 <  LevelSpawner.f)
                         {LevelSpawner.L ++;
                         MenuCoins.coincount2+=MenuCoins.LaserCoin;
-                        MenuCoins.LaserCoin+=50;}
+                        MenuCoins.LaserCoin+=500;} //Add 500$ with each win
                          else
                             {LevelSpawner.L =0;
                             MenuCoins.coincount2+=MenuCoins.LaserCoin;
@@ -123,7 +123,7 @@ public class ColTester2 : MonoBehaviour
                          if (LevelSpawner.FI + 1 <  LevelSpawner.f)
                          {LevelSpawner.FI ++;
                          MenuCoins.coincount2+=MenuCoins.FireBallCoin;
-                         MenuCoins.FireBallCoin+=50;}
+                         MenuCoins.FireBallCoin+=500;} 
                          else
                         {LevelSpawner.FI =0;
                         MenuCoins.coincount2+=MenuCoins.FireBallCoin;
@@ -137,7 +137,7 @@ public class ColTester2 : MonoBehaviour
                            if (LevelSpawner.S + 1 <  LevelSpawner.f)
                           {LevelSpawner.S ++;
                           MenuCoins.coincount2+=MenuCoins.SlowModeCoin;
-                          MenuCoins.SlowModeCoin+=50;}
+                          MenuCoins.SlowModeCoin+=400;} //Add 400$ with each win
                           else
                          {  LevelSpawner.S =0;
                          MenuCoins.coincount2+=MenuCoins.SlowModeCoin;
@@ -151,7 +151,7 @@ public class ColTester2 : MonoBehaviour
                          if (LevelSpawner.T + 1 <  LevelSpawner.f)
                         {LevelSpawner.T ++;
                         MenuCoins.coincount2+=MenuCoins.TimerCoin;
-                        MenuCoins.TimerCoin+=50;}
+                        MenuCoins.TimerCoin+=400;}
                         else
                         {LevelSpawner.T =0;
                         MenuCoins.coincount2+=MenuCoins.TimerCoin;
