@@ -116,12 +116,7 @@ h=0;
                     SpawnBoarder_Left(grid,i,j);
                     SpawnBoarder_Right(grid,i,j);
                     SpawnBoarder_Down(grid,i,j);
-                    DespawnSandouk(sandouk , grid, ref r, xlength, k);
-                    
-                    
-                    
-                   
-                    
+                    DespawnSandouk(sandouk , grid, ref r, xlength, k);      
                     
                 
             }

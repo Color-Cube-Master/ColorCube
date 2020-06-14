@@ -69,12 +69,12 @@ public class ColTester : MonoBehaviour
                         SceneManager.LoadScene("You Win");
                     
 
-                    UnityEditor.EditorApplication.isPlaying = false;}
+                    //UnityEditor.EditorApplication.isPlaying = false;}
  
             }
 
 
         }
     }
-}
+}}
 /*update*/

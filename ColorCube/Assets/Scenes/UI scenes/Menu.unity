@@ -2774,16 +2774,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5902163919422808451, guid: 5bad778bf8a15e14b8e3b39e9f5db30a,
-        type: 3}
-      propertyPath: CoinsText
-      value: 
-      objectReference: {fileID: 982326480}
     - target: {fileID: 5914199403273268834, guid: 5bad778bf8a15e14b8e3b39e9f5db30a,
         type: 3}
       propertyPath: m_Name
       value: CoinManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5914199403273268834, guid: 5bad778bf8a15e14b8e3b39e9f5db30a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902163919422808451, guid: 5bad778bf8a15e14b8e3b39e9f5db30a,
+        type: 3}
+      propertyPath: CoinsText
+      value: 
+      objectReference: {fileID: 982326480}
     - target: {fileID: 1430050936374329888, guid: 5bad778bf8a15e14b8e3b39e9f5db30a,
         type: 3}
       propertyPath: m_LocalPosition.x

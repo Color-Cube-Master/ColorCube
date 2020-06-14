@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class MenuCoins : MonoBehaviour
 {
     public Text CoinsText;
+    //public static int coincount2=5000;
     public static int coincount2;
     public static int FireBallCoin;
     public static int LaserCoin;
@@ -18,8 +19,9 @@ public class MenuCoins : MonoBehaviour
         string sceneName;
     // Start is called before the first frame update
     void Start()
-    { SaveManager.Load();
-    
+
+    { 
+     SaveManager.Load(); //Remove to fix misconstion
      currentScene= SceneManager.GetActiveScene ();
       sceneName= currentScene.name;
       CoinsText.text = coincount2.ToString();
