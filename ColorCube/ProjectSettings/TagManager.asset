@@ -54,6 +54,12 @@ TagManager:
   - B
   - BlockedBox
   - Player1.0
+  - Model
+  - Bought
+  - Used
+  - ModelT
+  - BoughtT
+  - UsedT
   layers:
   - Default
   - TransparentFX

@@ -648,7 +648,7 @@ public void ChangeButtonSettingsBack(){
        GameObject Themes2 = GameObject.FindWithTag("Themes");
        Button Themes = Themes2.GetComponent<Button>();
          FindObjectOfType<AudioManager>().Play("RectClick");
-         SceneManager.LoadScene("ThemeShopScene");
+         SceneManager.LoadScene("ThemeShopScene"); 
         
     }
 

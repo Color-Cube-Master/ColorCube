@@ -32,38 +32,39 @@ public class MenuManager : MonoBehaviour
 public static int coincount2;
     public delegate void ItemUseIt(ShopItem shopItem);
     public event ItemUseIt itemusit;
+
+
     private void Awake()
     {   
+        //   SaveManager.LoadStats(Model.ImageState[(int)State.Unlock].gameObject);
 
         _instance = this;
-        InitAllItems();
+
+        // InitAllItems();
 
     }
     private void Start()
     {
+                       
+
         coincount=MenuCoins.coincount2;
         ScoreText.text = coincount.ToString();
         CreateShop();
+
     }
-    void Update()
-    {
-        //Press enter to move to the next level
-        if (Input.GetKey(KeyCode.Return))
-        {
-            SceneManager.LoadScene("Menu"); //Prototype Level Complex
-        }
-        
-    }
-    void InitAllItems()
+   
+    /*void InitAllItems()
     {
         foreach (var item in shopItems)
         {
-            item.initItem();
+           item.initItem();
+ 
         }
-    }
+    }*/
     void CreateShop()
     {
         StartCoroutine(createShop());
+
     }
    
     public void UseCoin(int c)
@@ -88,14 +89,17 @@ public static int coincount2;
     }
 
     IEnumerator createShop()
-    {
+    {            
+
         foreach (var item in shopItems)
         {
-             coincount =MenuCoins.coincount2;
+
+            coincount =MenuCoins.coincount2;
             yield return new WaitForSeconds(0.2f);
             GameObject model = Instantiate(Prefab, content);
             model.GetComponent<Model>().SetItem(item);
-
+             
+ 
         }
      
     }

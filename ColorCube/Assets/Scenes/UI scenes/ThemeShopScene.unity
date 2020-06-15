@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 595613723}
   - component: {fileID: 595613722}
   m_Layer: 5
-  m_Name: Content
+  m_Name: Content2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -770,7 +770,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1567194911}
   m_HandleRect: {fileID: 1567194910}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1101,7 +1101,7 @@ GameObject:
   - component: {fileID: 1602611425}
   - component: {fileID: 1602611424}
   m_Layer: 5
-  m_Name: Price (2)
+  m_Name: Price (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1124,7 +1124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: -5.099984}
+  m_AnchoredPosition: {x: -50, y: -5.1000366}
   m_SizeDelta: {x: 93.2, y: 53}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1602611424
@@ -1552,41 +1552,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1945362764}
-  - component: {fileID: 1945362763}
+  - component: {fileID: 1945362765}
   m_Layer: 0
-  m_Name: MenuManager
+  m_Name: MenuManagerT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1945362763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945362762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: befaf4e9f04ccfa4bb1b5c3c1f30d566, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shopItems:
-  - {fileID: 11400000, guid: 5ca46edad4305f84ca5e41c0f2a2ee0b, type: 2}
-  - {fileID: 11400000, guid: edc11ec2de926f54fae93fca8b4206e2, type: 2}
-  - {fileID: 11400000, guid: d196c624bce1cdd469517964015b5714, type: 2}
-  - {fileID: 11400000, guid: 754dca3d04199984595fc4bae2d15f75, type: 2}
-  - {fileID: 11400000, guid: 3bf9b748291c2104fba9985df1f057fc, type: 2}
-  - {fileID: 11400000, guid: be0b7cb65a4893645bd0107b5173530f, type: 2}
-  - {fileID: 11400000, guid: 39e26ba81a94c1f438fc190bea49e3d6, type: 2}
-  - {fileID: 11400000, guid: 47af911e16f2c1a4398891e7010f1b05, type: 2}
-  - {fileID: 11400000, guid: 44699afa394f8ba49a873ff025c08ce3, type: 2}
-  - {fileID: 11400000, guid: 1fbe6573bccbef543afa8c51101b4d99, type: 2}
-  Prefab: {fileID: 6211533811175325219, guid: 60efc45a04e38874da51d1538d078e87, type: 3}
-  content: {fileID: 595613721}
-  ScoreText: {fileID: 1602611424}
-  coincount: 3000
 --- !u!4 &1945362764
 Transform:
   m_ObjectHideFlags: 0
@@ -1601,3 +1574,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1945362765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945362762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f0ae7be14e7414793026414e30a98d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopItemsT:
+  - {fileID: 11400000, guid: ac3afbd1f304b5b468f07e6d4caff917, type: 2}
+  - {fileID: 11400000, guid: fabc2402a1d4dd2439f972a922f7b201, type: 2}
+  - {fileID: 11400000, guid: 4308c3dfab0462b40ab005af5ffaea2c, type: 2}
+  - {fileID: 11400000, guid: 13cfa01516c78a847988fb1467586f0c, type: 2}
+  - {fileID: 11400000, guid: 7733a9e86b97e914ea40fc124f182680, type: 2}
+  - {fileID: 11400000, guid: 811cee52be640fa48a1ce744f841ae8e, type: 2}
+  - {fileID: 11400000, guid: cbef199bdf0e2994ebece2ad3aee9cc8, type: 2}
+  - {fileID: 11400000, guid: 48daa606f44c36545924b35e7950cb38, type: 2}
+  - {fileID: 11400000, guid: 1876673c5d566a546ad8f18f806b391b, type: 2}
+  - {fileID: 11400000, guid: 64d7c67b35ffb0d408e4cfe01837c341, type: 2}
+  Prefab2: {fileID: 6211533811175325219, guid: 1b3ac10084f3990489a2b35c3fb975a1, type: 3}
+  content2: {fileID: 595613721}
+  ScoreText: {fileID: 1602611424}
+  coincount: 3000

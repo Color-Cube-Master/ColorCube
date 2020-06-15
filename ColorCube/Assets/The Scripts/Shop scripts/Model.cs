@@ -10,7 +10,7 @@ public class Model : MonoBehaviour
     public static string State1;
     public static string State2;
     public Image Icon;
-    public Image[] ImageState;
+    public    Image[] ImageState;
     public Text priceText;
     private int price;
     private ShopItem shopItem;
@@ -18,6 +18,8 @@ public class Model : MonoBehaviour
   string sceneName;
     void Start()
     {
+        
+
          m_Scene = SceneManager.GetActiveScene();
          sceneName = m_Scene.name;
         
@@ -54,6 +56,7 @@ public class Model : MonoBehaviour
 
     public void ChangeState()
     {
+
         switch (shopItem.state)
         {
             case State.Lockit:
@@ -63,14 +66,19 @@ public class Model : MonoBehaviour
                     shopItem.state = State.Unlock;
                     MenuManager.Instance.UseCoin(price);
                     Setup();
+                     //GameObject Bought = GameObject.FindWithTag("Bought");
+                    if(ImageState[(int)State.Unlock].gameObject.activeSelf)
+                        {
+                           // SaveManager.SaveStats(ImageState[(int)State.Unlock].gameObject);
+                            Debug.Log("Ahowa character");
+                        }
                 }
                 break;
             case State.Unlock:
             
                 shopItem.state = State.UseIt;
                 MenuManager.Instance.ItemUseitChange(shopItem);
-            if (sceneName == "ThemeShopScene")
-                Name = shopItem.name;
+            
                 if (sceneName == "ModelShopScene")
                 Name2 = shopItem.name;
                 
@@ -88,11 +96,8 @@ public class Model : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
+
     public void VerifItem(ShopItem _shopitem)
     {
         if (_shopitem!=shopItem && shopItem.state!=State.Lockit)

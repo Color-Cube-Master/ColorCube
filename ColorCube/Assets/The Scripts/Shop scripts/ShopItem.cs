@@ -9,7 +9,7 @@ public class ShopItem : ScriptableObject
     public int Price;
     public State state;
 
-    public void initItem()
+   public void initItem()
     {
         state = State.Lockit;
     }

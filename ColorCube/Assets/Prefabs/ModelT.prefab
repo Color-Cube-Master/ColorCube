@@ -231,10 +231,10 @@ GameObject:
   - component: {fileID: 6211533811175325244}
   - component: {fileID: 6211533811175325245}
   - component: {fileID: 6211533811175325247}
-  - component: {fileID: 208435664}
+  - component: {fileID: -5972115883492498920}
   m_Layer: 5
-  m_Name: Model
-  m_TagString: Model
+  m_Name: ModelT
+  m_TagString: ModelT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -343,8 +343,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 208435664}
-        m_MethodName: ChangeState
+      - m_Target: {fileID: -5972115883492498920}
+        m_MethodName: ChangeState2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -354,7 +354,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &208435664
+--- !u!114 &-5972115883492498920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -363,15 +363,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6211533811175325219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5207b13b8440ce049ad24279ca885896, type: 3}
+  m_Script: {fileID: 11500000, guid: 82d273884d9af1e40944ec612dfd97d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Icon: {fileID: 6211533810545642851}
-  ImageState:
+  Icon2: {fileID: 6211533810545642851}
+  ImageState2:
   - {fileID: 6211533811647948179}
   - {fileID: 6211533811850030690}
   - {fileID: 6211533811749420976}
-  priceText: {fileID: 6211533811876997557}
+  priceText2: {fileID: 6211533811876997557}
 --- !u!1 &6211533811647948177
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 6211533811749420976}
   m_Layer: 5
   m_Name: State0 (2)
-  m_TagString: Used
+  m_TagString: UsedT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 6211533811850030690}
   m_Layer: 5
   m_Name: State0 (1)
-  m_TagString: Bought
+  m_TagString: BoughtT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
