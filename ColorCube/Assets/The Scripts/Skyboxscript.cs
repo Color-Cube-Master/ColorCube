@@ -21,7 +21,7 @@ public class Skyboxscript : MonoBehaviour
     {
        if (ModelT.Name == "Moon")
       RenderSettings.skybox = Moon;
-      else if (ModelT.Name == " Water")
+      else if (ModelT.Name == "Water")
       RenderSettings.skybox = Water;
       else if (ModelT.Name == "Blue sky")
       RenderSettings.skybox = BlueSky;
@@ -29,15 +29,15 @@ public class Skyboxscript : MonoBehaviour
       RenderSettings.skybox = DarkSky;
       else if (ModelT.Name == "Magical")
       RenderSettings.skybox = Magical;
-      else if (ModelT.Name == "Rainbow Sky")
+      else if (ModelT.Name == "Rainbow sky")
       RenderSettings.skybox = Rainbow;
       else if (ModelT.Name == "Halloween")
       RenderSettings.skybox = Halloween;
-      else if (ModelT.Name == "Gradient Colors")
+      else if (ModelT.Name == "Gradiant colors")
       RenderSettings.skybox = Gradient;
       else if (ModelT.Name == "Christmas")
       RenderSettings.skybox = Crhistmas;
-      else if (ModelT.Name == "Planets space")
+      else if (ModelT.Name == "Planets")
       RenderSettings.skybox = Planets;
       else{
       RenderSettings.skybox = First;}
