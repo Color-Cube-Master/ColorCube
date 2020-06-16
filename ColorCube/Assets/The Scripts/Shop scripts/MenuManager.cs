@@ -39,6 +39,7 @@ public static int coincount2;
         //   SaveManager.LoadStats(Model.ImageState[(int)State.Unlock].gameObject);
 
         _instance = this;
+        DontDestroyOnLoad(_instance);
 
         // InitAllItems();
 

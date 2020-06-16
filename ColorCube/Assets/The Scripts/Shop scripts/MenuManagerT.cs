@@ -36,6 +36,7 @@ public static int coincount2;
     {   
 
         _instance2 = this;
+        DontDestroyOnLoad(_instance2);
          
 
       
