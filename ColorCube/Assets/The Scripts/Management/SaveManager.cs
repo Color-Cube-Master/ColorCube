@@ -34,7 +34,7 @@ public void Start(){
         PlayerPrefs.SetInt("LevelTimerNumber", LevelSpawner.T);
 
         PlayerPrefs.SetInt("Goldamount",MenuCoins.coincount2);
-        PlayerPrefs.SetString("ThemeName",Model.Name);  
+        PlayerPrefs.SetString("ThemeName",ModelT.Name);  
         PlayerPrefs.SetString("PlayerName",Model.Name2);
         PlayerPrefs.SetInt("MusicOnOFF",ScenesManager.IsMuted);
         PlayerPrefs.SetInt("SFXOnOFF",ScenesManager.IsMutedSFX);
@@ -66,7 +66,7 @@ public void Start(){
     LevelSpawner.T = PlayerPrefs.GetInt("LevelTimerNumber");
 
     MenuCoins.coincount2= PlayerPrefs.GetInt("Goldamount");
-    Model.Name=  PlayerPrefs.GetString("ThemeName");    
+    ModelT.Name=  PlayerPrefs.GetString("ThemeName");    
     
     Model.Name2 =PlayerPrefs.GetString("PlayerName");
    ScenesManager.IsMuted= PlayerPrefs.GetInt("MusicOnOFF");

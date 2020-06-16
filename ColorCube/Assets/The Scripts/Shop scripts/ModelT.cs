@@ -80,6 +80,7 @@ public class ModelT : MonoBehaviour
                 MenuManagerT.Instance2.ItemUseitChange2(shopItemT);
             if (sceneName == "ThemeShopScene")
                 Name = shopItemT.name;
+                Debug.Log(Name);
                 
                 Setup2();
                 SaveManager.Save();
