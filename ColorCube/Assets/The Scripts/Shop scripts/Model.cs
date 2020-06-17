@@ -54,6 +54,7 @@ public class Model : MonoBehaviour
 
     }
 
+
     public void ChangeState()
     {
 
@@ -66,12 +67,11 @@ public class Model : MonoBehaviour
                     shopItem.state = State.Unlock;
                     MenuManager.Instance.UseCoin(price);
                     Setup();
-                     //GameObject Bought = GameObject.FindWithTag("Bought");
-                    if(ImageState[(int)State.Unlock].gameObject.activeSelf)
-                        {
-                           // SaveManager.SaveStats(ImageState[(int)State.Unlock].gameObject);
+                     //ImageState[(int)State.Unlock].gameObject.activeSelf
+                     // b = GameObject.FindWithTag("Bought");
+                     // SaveManager.SaveStats(ImageState[(int)State.Unlock].gameObject);
                             Debug.Log("Ahowa character");
-                        }
+                        
                 }
                 break;
             case State.Unlock:

@@ -49,8 +49,33 @@ public static int coincount2;
         coincount=MenuCoins.coincount2;
         ScoreText.text = coincount.ToString();
         CreateShop2();
+       LoadStateT();
+             // PlayerPrefs.DeleteKey("StoredThemes");
+
     }
    
+    void SaveStatT(){
+    
+        foreach (var item2 in shopItemsT)
+        {
+           if (item2.state2 == TheState.Unlock2) 
+            { 
+            PlayerPrefs.SetString( "StoredThemes", item2.state2.ToString() );
+            Debug.Log("state saved");}
+        }
+   }
+   void LoadStateT(){
+    
+      foreach (var item2 in shopItemsT)
+        {
+           
+           
+            // PlayerPrefs.GetString("ModelState",Model.State1);
+            item2.state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes") );
+            Debug.Log("state Loaded");
+           
+        }
+     }
     /*void InitAllItems2()
     {
         foreach (var item2 in shopItemsT)
@@ -79,7 +104,7 @@ public static int coincount2;
             coincount -= 100;
             MenuCoins.coincount2=coincount ;
             ScoreText.text = coincount.ToString();
-            
+            SaveStatT();
         }
         
 

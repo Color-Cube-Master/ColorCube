@@ -13,6 +13,7 @@ public class ShopItem : ScriptableObject
     {
         state = State.Lockit;
     }
+
 }
 
 public enum State { Lockit,Unlock,UseIt}

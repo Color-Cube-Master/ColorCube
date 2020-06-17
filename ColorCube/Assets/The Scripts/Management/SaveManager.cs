@@ -41,20 +41,24 @@ public void Start(){
 
        
     }
-    public static void SaveStatsT(GameObject bt ){
+    /*public static void SaveStatsT(bool bt ){
                         PlayerPrefs.SetInt("BoughtT enabled", bt ? -1 : 0);
     }
 
-    public static void SaveStats(GameObject b)
+    public static void SaveStats(bool b)
     {PlayerPrefs.SetInt("Bought enabled", b ? -1 : 0);}
 
+
+
+
+ 
         public static void LoadStatsT(GameObject bt){
                       bt.SetActive (PlayerPrefs.GetInt("BoughtT enabled") != 0) ;
         }
 
         public static void LoadStats(GameObject b) {
           b.SetActive (PlayerPrefs.GetInt("Bought enabled") != 0) ;
-        }
+        }*/
     public static void Load()
     {
     LevelSpawner.B = PlayerPrefs.GetInt("LevelBetaNumber");

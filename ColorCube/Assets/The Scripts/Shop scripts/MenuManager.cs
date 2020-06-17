@@ -25,14 +25,14 @@ public class MenuManager : MonoBehaviour
 
     public GameObject Prefab;
     public Transform content;
-
+private ShopItem item;
     public Text ScoreText;
     public int coincount;
 //the second coincount we'll be using in the menu
 public static int coincount2;
     public delegate void ItemUseIt(ShopItem shopItem);
     public event ItemUseIt itemusit;
-
+public bool unlocked = false;
 
     private void Awake()
     {   
@@ -40,28 +40,54 @@ public static int coincount2;
 
         _instance = this;
         DontDestroyOnLoad(_instance);
-
-        // InitAllItems();
-
+        
+       
     }
+
     private void Start()
     {
-                       
 
         coincount=MenuCoins.coincount2;
         ScoreText.text = coincount.ToString();
         CreateShop();
+       LoadState();
+        // PlayerPrefs.DeleteKey("StoredCharacters");
 
+        
     }
-   
-    /*void InitAllItems()
+ 
+    void SaveState(){
+    
+        foreach (var item in shopItems)
+        {   if(item.state == State.Unlock)
+               {  
+            PlayerPrefs.SetString( "StoredCharacters", item.state.ToString() );
+            Debug.Log("state saved");
+               }
+        }
+   }
+
+   void LoadState(){
+    
+      foreach (var item in shopItems) 
+           
+           { 
+            // PlayerPrefs.GetString("ModelState",Model.State1);
+            item.state = (State)System.Enum.Parse( typeof(State), PlayerPrefs.GetString("StoredCharacters") );
+            Debug.Log("state Loaded");
+           }
+       
+     }
+           
+        
+    void InitAllItems()
     {
         foreach (var item in shopItems)
         {
            item.initItem();
  
         }
-    }*/
+    }
     void CreateShop()
     {
         StartCoroutine(createShop());
@@ -83,7 +109,9 @@ public static int coincount2;
             coincount -= 100;
             MenuCoins.coincount2=coincount ;
             ScoreText.text = coincount.ToString();
-            
+            SaveState(); 
+  
+
         }
         
 
@@ -99,7 +127,7 @@ public static int coincount2;
             yield return new WaitForSeconds(0.2f);
             GameObject model = Instantiate(Prefab, content);
             model.GetComponent<Model>().SetItem(item);
-             
+
  
         }
      
@@ -108,8 +136,10 @@ public static int coincount2;
     {
         if (itemusit!=null)
         {
+
             itemusit(_shopitem);
         }
     }
     
+  
 }
