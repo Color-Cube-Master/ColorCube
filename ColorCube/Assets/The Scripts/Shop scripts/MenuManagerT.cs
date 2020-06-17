@@ -32,6 +32,9 @@ public  class MenuManagerT : MonoBehaviour
 public static int coincount2;
     public delegate void ItemUseIt2(ShopItemT shopItemT);
     public event ItemUseIt2 itemusit2;
+    public static int ModelNumber;
+    public string ModelName;
+      
     private void Awake()
     {   
 
@@ -45,7 +48,7 @@ public static int coincount2;
     }
     private void Start()
     {
-         
+         ModelNumber=0;
         coincount=MenuCoins.coincount2;
         ScoreText.text = coincount.ToString();
         CreateShop2();
@@ -54,19 +57,40 @@ public static int coincount2;
 
     }
    
-    void SaveStatT(){
+    public void SaveStatT(){
     
-        foreach (var item2 in shopItemsT)
+        /*foreach (var item2 in shopItemsT)
         {
            if (item2.state2 == TheState.Unlock2) 
             { 
             PlayerPrefs.SetString( "StoredThemes", item2.state2.ToString() );
             Debug.Log("state saved");}
-        }
+        }*/
+       
+     
+              PlayerPrefs.SetString( "StoredThemes0", shopItemsT[0].state2.ToString() );
+         PlayerPrefs.SetString( "StoredThemes1", shopItemsT[1].state2.ToString() );
+          PlayerPrefs.SetString( "StoredThemes2", shopItemsT[2].state2.ToString() );
+           PlayerPrefs.SetString( "StoredThemes3", shopItemsT[3].state2.ToString() );
+            PlayerPrefs.SetString( "StoredThemes4", shopItemsT[4].state2.ToString() );
+             PlayerPrefs.SetString( "StoredThemes5", shopItemsT[5].state2.ToString() );
+              PlayerPrefs.SetString( "StoredThemes6", shopItemsT[6].state2.ToString() );
+               PlayerPrefs.SetString( "StoredThemes7", shopItemsT[7].state2.ToString() );
+                PlayerPrefs.SetString( "StoredThemes8", shopItemsT[8].state2.ToString() );
+                 PlayerPrefs.SetString( "StoredThemes9", shopItemsT[9].state2.ToString() );
    }
    void LoadStateT(){
-    
-      foreach (var item2 in shopItemsT)
+       shopItemsT[0].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes0") );
+    shopItemsT[1].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes1") );
+    shopItemsT[2].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes2") );
+    shopItemsT[3].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes3") );
+    shopItemsT[4].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes4") );
+    shopItemsT[5].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes5") );
+    shopItemsT[6].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes6") );
+    shopItemsT[7].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes7") );
+    shopItemsT[8].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes8") );
+    shopItemsT[9].state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes9") );
+     /* foreach (var item2 in shopItemsT)
         {
            
            
@@ -74,7 +98,7 @@ public static int coincount2;
             item2.state2 = (TheState)System.Enum.Parse( typeof(TheState), PlayerPrefs.GetString("StoredThemes") );
             Debug.Log("state Loaded");
            
-        }
+        }*/
      }
     /*void InitAllItems2()
     {
@@ -104,7 +128,7 @@ public static int coincount2;
             coincount -= 100;
             MenuCoins.coincount2=coincount ;
             ScoreText.text = coincount.ToString();
-            SaveStatT();
+            //  SaveStatT();
         }
         
 
