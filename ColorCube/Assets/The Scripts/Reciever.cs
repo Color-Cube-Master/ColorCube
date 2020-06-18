@@ -15,6 +15,16 @@ public class Reciever : MonoBehaviour
     public float time;
      Scene m_Scene;
   string sceneName;
+
+
+
+  //Mobile variables---------------------------------------------------------------------------------------------------------------------
+  private Vector3 startTouchPosition, endTouchPosition;
+    private Vector3 startRocketPosition, endRocketPosition;
+    private float MoveTime;
+    private float MoveDuration = 0.1f;
+
+
     void Start()
     {
         m_Scene = SceneManager.GetActiveScene();
@@ -80,8 +90,95 @@ public class Reciever : MonoBehaviour
 
         // Set our position as a fraction of the distance between the markers.
         transform.position = Vector3.Lerp(starpos, endpos, fractionOfJourney*10);
+
+
+        //Mobile Controls--------------------------------------------------------------------------------------------------------------
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+            startTouchPosition = Input.GetTouch(0).position;
+
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
+        {
+            endTouchPosition = Input.GetTouch(0).position;
+
+            if ((endTouchPosition.x < startTouchPosition.x) && transform.position.x > -1f)
+                StartCoroutine(Move("left"));
+
+            if ((endTouchPosition.x > startTouchPosition.x) && transform.position.x < 1f)
+                StartCoroutine(Move("right"));
+
+            if ((endTouchPosition.z < startTouchPosition.z) && transform.position.z > -1f)
+                StartCoroutine(Move("Down"));
+
+            if ((endTouchPosition.z > startTouchPosition.z) && transform.position.z < 1f)
+                StartCoroutine(Move("Up"));
+        }
         
     }
 
+//Mobile move sets---------------------------------------------------------------------------------------------------------
+private IEnumerator Move(string WhereToMove)
+    {
+        switch (WhereToMove)
+        {
+            case "left":
+                MoveTime = 0f;
+                startRocketPosition = transform.position;
+                endRocketPosition = new Vector3
+                    (startRocketPosition.x - 1f, transform.position.y, transform.position.z);
 
+                while (MoveTime < MoveDuration)
+                {
+                    MoveTime += Time.deltaTime;
+                    transform.position = Vector3.Lerp
+                        (startRocketPosition, endRocketPosition, MoveTime / MoveDuration);
+                    yield return null;
+                }
+                break;
+
+            case "right":
+                MoveTime = 0f;
+                startRocketPosition = transform.position;
+                endRocketPosition = new Vector3
+                    (startRocketPosition.x + 1f, transform.position.y, transform.position.z);
+
+                while (MoveTime < MoveDuration)
+                {
+                    MoveTime += Time.deltaTime;
+                    transform.position = Vector3.Lerp
+                        (startRocketPosition, endRocketPosition, MoveTime / MoveDuration);
+                    yield return null;
+                }
+                break;
+                 case "Down":
+                MoveTime = 0f;
+                startRocketPosition = transform.position;
+                endRocketPosition = new Vector3
+                    (startRocketPosition.x , transform.position.y, transform.position.z- 1f);
+
+                while (MoveTime < MoveDuration)
+                {
+                    MoveTime += Time.deltaTime;
+                    transform.position = Vector3.Lerp
+                        (startRocketPosition, endRocketPosition, MoveTime / MoveDuration);
+                    yield return null;
+                }
+                break;
+
+            case "Up":
+                MoveTime = 0f;
+                startRocketPosition = transform.position;
+                endRocketPosition = new Vector3
+                    (startRocketPosition.x , transform.position.y, transform.position.z+ 1f);
+
+                while (MoveTime < MoveDuration)
+                {
+                    MoveTime += Time.deltaTime;
+                    transform.position = Vector3.Lerp
+                        (startRocketPosition, endRocketPosition, MoveTime / MoveDuration);
+                    yield return null;
+                }
+                break;
+        }
+
+    }
 }
